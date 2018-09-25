@@ -1,0 +1,1 @@
+2, 3, 6 are not possibly occur during the execution of weighted quick union with path compression.
