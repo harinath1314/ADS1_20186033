@@ -1,5 +1,5 @@
 // public class Percolation {
-//    public Percolation(int n)                
+//    public Percolation(int n)
 // create n-by-n grid, with all sites blocked
 //    public    void open(int row, int col)
 // open site (row, col) if it is not open already
@@ -70,24 +70,24 @@ class Percolation {
             countofopen += 1;
             if (row - 1 >= 0 && isopen(row - 1, col)) {
                 uf.union((row * dimension) + col, ((row - 1)
-                * dimension) + col);
+                                                   * dimension) + col);
 
 
             }
             if ((row + 1 < dimension) && isopen(row + 1, col)) {
                 uf.union((row * dimension) + col, ((row + 1)
-                * dimension) + col);
+                                                   * dimension) + col);
 
             }
             if (col - 1 >= 0 && isopen(row, col - 1)) {
                 uf.union((row * dimension) + col, ((row) * dimension)
-                    + (col - 1));
+                         + (col - 1));
 
 
             }
             if (col + 1 < dimension && isopen(row, col + 1)) {
                 uf.union((row * dimension)
-                    + col, ((row) * dimension) + (col + 1));
+                         + col, ((row) * dimension) + (col + 1));
 
 
             }
