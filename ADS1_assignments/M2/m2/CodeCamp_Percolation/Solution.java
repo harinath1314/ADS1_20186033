@@ -29,11 +29,11 @@ class Percolation {
      * @param      n    dimension of matrix.
      */
     Percolation(int n) {
-        matrix = new boolean[n*n];
+        matrix = new boolean[n * n];
         countofopen = 0;
         finalrow = new int[n];
         dimension = n;
-        uf = new WeightedQuickUnionUF(n*n+2);
+        uf = new WeightedQuickUnionUF(n * n + 2);
 
 
     }
@@ -45,34 +45,34 @@ class Percolation {
      */
     public void open(int row, int col) {
         if (!isopen(row , col )) {
-            matrix[(row *dimension)+col] = true;
+            matrix[(row * dimension) + col] = true;
             countofopen += 1;
-            if (row - 1 >=0 && isopen(row-1,col) ){
-                uf.union((row*dimension)+col , ((row-1)*dimension)+col);
+            if (row - 1 >= 0 && isopen(row - 1, col) ) {
+                uf.union((row * dimension) + col , ((row - 1) * dimension) + col);
 
-                
-            }
-            if((row+1 < dimension) && isopen(row+1,col)) {
-                uf.union((row*dimension)+col , ((row+1)*dimension)+col);
 
             }
-            if (col - 1 >=0 && isopen(row,col-1) ){
-                uf.union((row*dimension)+col , ((row)*dimension)+(col-1));
+            if ((row + 1 < dimension) && isopen(row + 1, col)) {
+                uf.union((row * dimension) + col , ((row + 1) * dimension) + col);
 
-                
             }
-            if (col + 1 < dimension && isopen(row,col +1) ){
-                uf.union((row*dimension)+col , ((row)*dimension)+(col+1));
+            if (col - 1 >= 0 && isopen(row, col - 1) ) {
+                uf.union((row * dimension) + col , ((row) * dimension) + (col - 1));
 
-                
+
+            }
+            if (col + 1 < dimension && isopen(row, col + 1) ) {
+                uf.union((row * dimension) + col , ((row) * dimension) + (col + 1));
+
+
             }
             if (row == 0) {
-                uf.union(row*dimension+col,dimension*dimension);
-                
+                uf.union(row * dimension + col, dimension * dimension);
+
             }
-            if (row == dimension-1) {
-                uf.union(row*dimension+col,dimension*dimension+1);
-                
+            if (row == dimension - 1) {
+                uf.union(row * dimension + col, dimension * dimension + 1);
+
             }
 
 
@@ -89,7 +89,7 @@ class Percolation {
      * @return     boolean type.
      */
     public boolean isopen(int row, int col) {
-        return matrix[row*dimension+col] == true;
+        return matrix[row * dimension + col] == true;
 
     }
 
@@ -100,7 +100,7 @@ class Percolation {
      * @return     { description_of_the_return_value }
      */
     public boolean percolates() {
-        return uf.connected(dimension*dimension ,dimension*dimension+1);
+        return uf.connected(dimension * dimension , dimension * dimension + 1);
     }
 
 
@@ -118,12 +118,18 @@ class Percolation {
  * class for the solution to find pecolation.
  */
 public final class Solution {
-
+    /**
+     * Constructs the object.
+     */
     private Solution() {
 
 
     }
-
+    /**
+     * { function_description }.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int dim = input.nextInt();
@@ -133,7 +139,7 @@ public final class Solution {
         while (input.hasNextInt()) {
             int row = input.nextInt();
             int col = input.nextInt();
-            p.open(row-1, col-1);
+            p.open(row - 1, col - 1);
         }
         System.out.println(p.percolates());
     }
