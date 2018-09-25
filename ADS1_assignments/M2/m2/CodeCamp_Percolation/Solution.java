@@ -16,23 +16,25 @@ import java.util.Scanner;
 class Percolation {
     /**
      * n-by-n matrix, with all sites blocked
-     * 
+     *
      */
     int [] finalrow;
-    int [][] matrix;
+    boolean[] matrix;
     int countofopen;
     int dimension;
-
+    WeightedQuickUnionUF uf;
     /**
      * Constructs the object.
      *
      * @param      n    dimension of matrix.
      */
     Percolation(int n) {
-        matrix = new int[n][n];
+        matrix = new boolean[n*n];
         countofopen = 0;
         finalrow = new int[n];
         dimension = n;
+        uf = new WeightedQuickUnionUF(n*n+2);
+
 
     }
     /**
@@ -42,9 +44,38 @@ class Percolation {
      * @param      col   The col
      */
     public void open(int row, int col) {
-        if (!isopen(row-1, col-1)) {
-            matrix[row-1][col-1] = 1;
+        if (!isopen(row , col )) {
+            matrix[(row *dimension)+col] = true;
             countofopen += 1;
+            if (row - 1 >=0 && isopen(row-1,col) ){
+                uf.union((row*dimension)+col , ((row-1)*dimension)+col);
+
+                
+            }
+            if((row+1 < dimension) && isopen(row+1,col)) {
+                uf.union((row*dimension)+col , ((row+1)*dimension)+col);
+
+            }
+            if (col - 1 >=0 && isopen(row,col-1) ){
+                uf.union((row*dimension)+col , ((row)*dimension)+(col-1));
+
+                
+            }
+            if (col + 1 < dimension && isopen(row,col +1) ){
+                uf.union((row*dimension)+col , ((row)*dimension)+(col+1));
+
+                
+            }
+            if (row == 0) {
+                uf.union(row*dimension+col,dimension*dimension);
+                
+            }
+            if (row == dimension-1) {
+                uf.union(row*dimension+col,dimension*dimension+1);
+                
+            }
+
+
 
         }
 
@@ -58,33 +89,18 @@ class Percolation {
      * @return     boolean type.
      */
     public boolean isopen(int row, int col) {
-        return matrix[row][col] == 1;
+        return matrix[row*dimension+col] == true;
 
     }
-    /**
-     * is full function to check is block is ful or open.
-     *
-     * @param      row   The row
-     * @param      col   The col
-     *
-     * @return      boolean type.
-     */
-    public boolean isfull(int row, int col) {
-        return matrix[row-1][col-1] == 2;
 
-    }
+
     /**
      * percolates function.
      *
      * @return     { description_of_the_return_value }
      */
     public boolean percolates() {
-        for (int i = 0; i < dimension; i++) {
-            if(isopen(dimension-1,i)){
-               return true; 
-            }
-        }
-        return false;
+        return uf.connected(dimension*dimension ,dimension*dimension+1);
     }
 
 
@@ -117,16 +133,10 @@ public final class Solution {
         while (input.hasNextInt()) {
             int row = input.nextInt();
             int col = input.nextInt();
-            p.open(row, col);
+            p.open(row-1, col-1);
         }
-        // try {
-        //     if (p.countofopen < dim) {
-        //         throw new Exception("does not percolate");
-        //     }
-        // } catch (Exception e) {
-        //     System.out.println(e.getMessage());
-        // }
         System.out.println(p.percolates());
     }
 
 }
+
