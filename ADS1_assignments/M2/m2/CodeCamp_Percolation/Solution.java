@@ -58,7 +58,7 @@ class Percolation {
      * @return     boolean type.
      */
     public boolean isopen(int row, int col) {
-        return matrix[row-1][col-1] == 1;
+        return matrix[row][col] == 1;
 
     }
     /**
