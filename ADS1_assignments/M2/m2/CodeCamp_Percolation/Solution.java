@@ -16,7 +16,9 @@ import java.util.Scanner;
 class Percolation {
     /**
      * n-by-n matrix, with all sites blocked
+     * 
      */
+    int [] finalrow;
     int [][] matrix;
     int countofopen;
 
@@ -28,6 +30,7 @@ class Percolation {
     Percolation(int n) {
         matrix = new int[n][n];
         countofopen = 0;
+        finalrow = new int[n];
 
     }
     /**
@@ -74,7 +77,7 @@ class Percolation {
      * @return     { description_of_the_return_value }
      */
     public boolean percolates() {
-        return true;
+        return false;
     }
 
 
@@ -109,13 +112,13 @@ public final class Solution {
             int col = input.nextInt();
             p.open(row, col);
         }
-        try {
-            if (p.countofopen < dim) {
-                throw new Exception("does not percolate");
-            }
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+        // try {
+        //     if (p.countofopen < dim) {
+        //         throw new Exception("does not percolate");
+        //     }
+        // } catch (Exception e) {
+        //     System.out.println(e.getMessage());
+        // }
         System.out.println(p.percolates());
     }
 
