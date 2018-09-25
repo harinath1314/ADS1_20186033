@@ -21,6 +21,7 @@ class Percolation {
     int [] finalrow;
     int [][] matrix;
     int countofopen;
+    int dimension;
 
     /**
      * Constructs the object.
@@ -31,6 +32,7 @@ class Percolation {
         matrix = new int[n][n];
         countofopen = 0;
         finalrow = new int[n];
+        dimension = n;
 
     }
     /**
@@ -77,6 +79,11 @@ class Percolation {
      * @return     { description_of_the_return_value }
      */
     public boolean percolates() {
+        for (int i = 0; i < dimension; i++) {
+            if(isopen(dimension,i)){
+               return true; 
+            }
+        }
         return false;
     }
 
