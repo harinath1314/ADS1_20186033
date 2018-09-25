@@ -80,7 +80,7 @@ class Percolation {
      */
     public boolean percolates() {
         for (int i = 0; i < dimension; i++) {
-            if(isopen(dimension,i)){
+            if(isopen(dimension-1,i)){
                return true; 
             }
         }
