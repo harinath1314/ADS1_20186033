@@ -42,8 +42,8 @@ class Percolation {
      * @param      col   The col
      */
     public void open(int row, int col) {
-        if (!isopen(row, col)) {
-            matrix[row][col] = 1;
+        if (!isopen(row-1, col-1)) {
+            matrix[row-1][col-1] = 1;
             countofopen += 1;
 
         }
@@ -58,7 +58,7 @@ class Percolation {
      * @return     boolean type.
      */
     public boolean isopen(int row, int col) {
-        return matrix[row][col] == 1;
+        return matrix[row-1][col-1] == 1;
 
     }
     /**
@@ -70,7 +70,7 @@ class Percolation {
      * @return      boolean type.
      */
     public boolean isfull(int row, int col) {
-        return matrix[row][col] == 2;
+        return matrix[row-1][col-1] == 2;
 
     }
     /**
