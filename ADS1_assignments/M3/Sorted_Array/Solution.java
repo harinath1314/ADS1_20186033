@@ -20,7 +20,14 @@ public final class Solution {
         int one = input.nextInt();
         int two = input.nextInt();
         String[] first = input.next().split(",");
-        String[] second = input.next().split(",");
+        String[] second;
+        if(two != 0){
+        second = input.next().split(",");
+
+        }else{
+            second = null;
+
+        }
         String[] oner, twoer;
         if (first.length > second.length) {
             oner = second;
