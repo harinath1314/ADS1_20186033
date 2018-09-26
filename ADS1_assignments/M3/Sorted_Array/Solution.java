@@ -19,15 +19,13 @@ public final class Solution {
         Scanner input = new Scanner(System.in);
         int one = input.nextInt();
         int two = input.nextInt();
-        String[] first = input.next().split(",");
-        String[] second;
-        if(two != 0){
-        second = input.next().split(",");
-
+        String[] first;
+        if (one !=0) {
+        first = input.next().split(",");   
         }else{
-            second = null;
-
+            first = null;
         }
+        String[] second = input.next().split(",");
         String[] oner, twoer;
         if (first.length > second.length) {
             oner = second;
