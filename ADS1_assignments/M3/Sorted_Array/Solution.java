@@ -20,9 +20,9 @@ public final class Solution {
         int one = input.nextInt();
         int two = input.nextInt();
         String[] first;
-        if (one !=0) {
-        first = input.next().split(",");
-        }else{
+        if (one != 0) {
+            first = input.next().split(",");
+        } else {
             first = new String[0];
         }
         String[] second = input.next().split(",");
@@ -38,30 +38,31 @@ public final class Solution {
         int k = oner.length - 1;
         int j = twoer.length - 1;
         int p = sorted.length - 1;
-        if(k!= -1){
+        if (k != -1) {
             for (int i = p; i > 0; i--) {
-            if (Integer.parseInt(oner[k]) > Integer.parseInt(twoer[j])) {
-                sorted[p] = Integer.parseInt(oner[k]);
-                p--;
-                k--;
-            } else {
-                sorted[p] = Integer.parseInt(twoer[j]);
-                p--;
-                j--;
+                if (Integer.parseInt(oner[k]) > Integer.parseInt(twoer[j])) {
+                    sorted[p] = Integer.parseInt(oner[k]);
+                    p--;
+                    k--;
+                } else {
+                    sorted[p] = Integer.parseInt(twoer[j]);
+                    p--;
+                    j--;
+                }
             }
-        }
-        if (Integer.parseInt(
-                    oner[0]) > Integer.parseInt(twoer[0])) {
-            sorted[0] = Integer.parseInt(twoer[0]);
+            if (Integer.parseInt(
+                        oner[0]) > Integer.parseInt(twoer[0])) {
+                sorted[0] = Integer.parseInt(twoer[0]);
+            } else {
+                sorted[0] = Integer.parseInt(oner[0]);
+            }
+            System.out.println(
+                Arrays.toString(sorted).replaceAll("[^0-9,]", ""));
         } else {
-            sorted[0] = Integer.parseInt(oner[0]);
+            System.out.println(Arrays.toString(twoer)
+                               .replaceAll("[^0-9,]", ""));
         }
-        System.out.println(
-            Arrays.toString(sorted).replaceAll("[^0-9,]", ""));
-        }else {
-            System.out.println(Arrays.toString(twoer).replaceAll("[^0-9,]", ""));
-        }
-        
+
 
     }
 }
