@@ -1,7 +1,21 @@
 import java.util.Arrays;
 import java.util.Scanner;
+/**
+ * author harinath.
+ */
 public final class Solution {
-    public static void main(String[] args) {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        //constructor not used
+    }
+    /**
+     * { main function }.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
         int one = input.nextInt();
         int two = input.nextInt();
@@ -15,11 +29,11 @@ public final class Solution {
             oner = first;
             twoer = second;
         }
-        int [] sorted = new int[oner.length + twoer.length];
+        int[] sorted = new int[oner.length + twoer.length];
         int k = oner.length - 1;
         int j = twoer.length - 1;
         int p = sorted.length - 1;
-        for (int i = p; i > 0; i-- ) {
+        for (int i = p; i > 0; i--) {
             if (Integer.parseInt(oner[k]) > Integer.parseInt(twoer[j])) {
                 sorted[p] = Integer.parseInt(oner[k]);
                 p--;
