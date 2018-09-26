@@ -10,6 +10,12 @@ import java.util.Scanner;
  */
 public class Solution {
     /**
+     * Constructs the object of solution.
+     */
+    Solution(){
+
+    }
+    /**
      * main function is here.
      *
      * @param      args  The arguments
@@ -23,7 +29,7 @@ public class Solution {
         }
         Arrays.sort(threesum);
         int count = 0;
-        for (int i = 0; i < arrdim; i++) {
+        for (int i = 0; i < arrdim-2; i++) {
             int j = i + 1;
             int k = arrdim - 1;
             if (threesum[i] + threesum[j] + threesum[k] == 0) {
