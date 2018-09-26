@@ -12,7 +12,7 @@ public class Solution {
     /**
      * Constructs the object of solution.
      */
-    Solution(){
+    private Solution() {
 
     }
     /**
@@ -29,7 +29,7 @@ public class Solution {
         }
         Arrays.sort(threesum);
         int count = 0;
-        for (int i = 0; i < arrdim-2; i++) {
+        for (int i = 0; i < arrdim - 2; i++) {
             int j = i + 1;
             int k = arrdim - 1;
             if (threesum[i] + threesum[j] + threesum[k] == 0) {
@@ -44,6 +44,7 @@ public class Solution {
             }
 
         }
+        System.out.println(count);
 
     }
 }
