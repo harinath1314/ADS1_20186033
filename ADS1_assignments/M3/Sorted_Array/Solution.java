@@ -67,7 +67,7 @@ public final class Solution {
 		// 	}
 
 		// }
-		System.out.println(Arrays.toString(sorted));
+		System.out.println(Arrays.toString(sorted).replaceAll(" ", ""));
 
 	}
 }
