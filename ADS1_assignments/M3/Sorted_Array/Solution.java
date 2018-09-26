@@ -23,11 +23,11 @@ public final class Solution {
         if (one !=0) {
         first = input.next().split(",");
         }else{
-            first = input.next().split("");
+            first = new String[0];
         }
         String[] second = input.next().split(",");
         String[] oner, twoer;
-        if (first.length > second.length) {
+        if (one > two) {
             oner = second;
             twoer = first;
         } else {
