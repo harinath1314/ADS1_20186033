@@ -32,18 +32,18 @@ public final class Solution {
         for (int i = 0; i < arrdim - 2; i++) {
             int j = i + 1;
             int k = arrdim - 1;
-           while(j<k){
-             if (threesum[i] + threesum[j] + threesum[k] == 0) {
-                count++;
-                j++;
-                k--;
-            } else if (threesum[i] + threesum[j] + threesum[k] < 0) {
-                j++;
+            while (j < k) {
+                if (threesum[i] + threesum[j] + threesum[k] == 0) {
+                    count++;
+                    j++;
+                    k--;
+                } else if (threesum[i] + threesum[j] + threesum[k] < 0) {
+                    j++;
 
-            } else {
-                k--;
+                } else {
+                    k--;
+                }
             }
-           }
 
         }
         System.out.println(count);
