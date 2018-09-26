@@ -24,7 +24,7 @@ public final class Solution {
 		int k = oner.length - 1;
 		int j = twoer.length - 1;
 		int p = sorted.length - 1;
-		for (int i = p; i > 0; i-- ) {
+		for (int i = p; i >= 0; i-- ) {
 			if (Integer.parseInt(oner[k]) > Integer.parseInt(twoer[j])) {
 				sorted[p] = Integer.parseInt(oner[k]);
 				p--;
