@@ -10,10 +10,18 @@ public class Solution {
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         input.nextLine();
-        Stack s = new Stack();
         while (input.hasNext()) {
             char[] brac = input.nextLine().toCharArray();
-            for (char each : brac) {
+            System.out.println(isbalanced(brac));
+            
+        }
+
+
+    }
+    public static String isbalanced(char[] brac){
+        Stack s = new Stack();
+
+        for (char each : brac) {
                 if (each == '{' || each == '[' || each == '(') {
                     s.push(each);
                 } else {
@@ -22,25 +30,20 @@ public class Solution {
                         if ((top == '{' && each == '}') || (top == '[' && each == ']') || (top == '(' && each == ')')) {
                             s.pop();
                         } else {
-                            System.out.println("NO");
+                            return"NO";
                         }
                     } else {
-                        System.out.println("NO");
+                        return "NO";
                     }
                 }
             }
             if (s.isempty()) {
-                System.out.println("YES");
+                return "YES";
             } else {
-                System.out.println("NO");
+                return "NO";
             }
-        }
-
 
     }
-    // public static boolean isbalanced(){
-
-    // }
 }
 class Stack {
     char [] brackets;
