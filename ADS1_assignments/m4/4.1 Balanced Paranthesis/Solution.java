@@ -8,14 +8,14 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * class solution object constructor.
      */
     private Solution() {
 
     }
-    /**
+    /**.
      * { function_description }
      *
      * @param      args  The arguments
@@ -53,7 +53,7 @@ public class Solution {
                         || (top == '(' && each == ')')) {
                         s.pop();
                     } else {
-                        return"NO";
+                        return "NO";
                     }
                 } else {
                     return "NO";
@@ -72,17 +72,23 @@ public class Solution {
  * List of class.
  */
 class Stack {
-    char [] brackets;
-    int size;
+    /**
+     * { var_description }.
+     */
+    char[] brackets;
+    /**
+     * .size.
+     */
+    private int size;
     /**
      * Constructs the object.
      */
-    public Stack() {
-        brackets = new char[10];
+    Stack() {
+        brackets = new char[2+2+2+2+2];
         size = 0;
 
     }
-    /**
+    /**.
      * { function_description }
      *
      * @param      bracket  The bracket
@@ -94,7 +100,7 @@ class Stack {
         brackets[size++] = bracket;
 
     }
-    /**
+    /**.
      * .pop function
      *
      * @return     { description_of_the_return_value }
