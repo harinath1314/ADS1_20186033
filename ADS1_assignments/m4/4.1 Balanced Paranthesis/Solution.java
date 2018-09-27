@@ -51,6 +51,9 @@ class Stack {
 
     }
     public void push(char bracket) {
+        if(isfull()){
+            brackets = Arrays.copyOf(brackets,brackets.length*(2));
+        }
         brackets[size++] = bracket;
 
     }
@@ -63,6 +66,9 @@ class Stack {
     }
     public char gettop() {
         return brackets[size - 1];
+    }
+    public boolean isfull(){
+        return size==brackets.length;
     }
 
 }
