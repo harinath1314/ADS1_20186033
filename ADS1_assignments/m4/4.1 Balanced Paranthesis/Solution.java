@@ -75,7 +75,7 @@ class Stack {
     /**
      * { var_description }.
      */
-    char[] brackets;
+    private char[] brackets;
     /**
      * .size.
      */
@@ -84,7 +84,7 @@ class Stack {
      * Constructs the object.
      */
     Stack() {
-        brackets = new char[2+2+2+2+2];
+        brackets = new char[2 + 2 + 2 + 2 + 2];
         size = 0;
 
     }
