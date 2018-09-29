@@ -49,10 +49,10 @@ class AddLargeNumbers {
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
-	static String r ="";
+	static String r = "";
 	public static String digitsToNumber(LinkedList list) {
-			for (Iterator<String> c = list.iterator(); c.hasNext(); System.out.print((c.next())));
-				return r;
+		for (Iterator<String> c = list.iterator(); c.hasNext(); System.out.print((c.next())));
+		return r;
 
 	}
 	/**
