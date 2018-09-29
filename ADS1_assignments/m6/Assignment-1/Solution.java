@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.lang.Iterable;
 
 
+
 // char[] ntd = number.toCharArray();
 
 /**
@@ -48,9 +49,10 @@ class AddLargeNumbers {
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
+	static String r ="";
 	public static String digitsToNumber(LinkedList list) {
-
-		return list.toString();
+			for (Iterator<Integer> c = list.iterator(); c.hasNext(); r+=(c.next()));
+				return r;
 
 	}
 	/**
@@ -148,16 +150,15 @@ class LinkedList<E> implements Iterable<E> {
 		tail = tail.next;
 		size++;
 	}
-	public String toString() {
-		String newS = "";
-		while (head != null) {
-			newS += head;
-			tail = tail.next;
+	// public String toString() {
+	// 	String newS = "";
+	// 	while (head != null) {
+	// 		newS += head;
 
 
-		}
-		return newS;
-	}
+	// 	}
+	// 	return newS;
+	// }
 
 	/**
 	 * iterrator for iteration objects or elements.
