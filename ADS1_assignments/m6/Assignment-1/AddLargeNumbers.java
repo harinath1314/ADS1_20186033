@@ -73,8 +73,13 @@ public final class AddLargeNumbers {
             String[] crazy;
             while(!one.empty() && !two.empty()){
                 crazy = String.valueOf((one.pop()+two.pop())).split("");
+                if(crazy.length == 2){
+                    three.addAtTail(crazy[1]);
+                }else{
+                    three.addAtTail(crazy[0]);
+                }
 
-                three.addAtTail(crazy[0]);
+                
 
             }
             
