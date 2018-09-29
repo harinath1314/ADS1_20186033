@@ -70,7 +70,14 @@ public final class AddLargeNumbers {
             hr.hasNext();
                 two.add(Integer.parseInt(hr.next())));
         // three.add(Integer.parseInt(one.pop())+Integer.parseInt(two.pop()));
-            three.addAtTail(String.valueOf((one.pop()+two.pop())));
+            String[] crazy;
+            while(!one.empty() || !two.empty()){
+                crazy = String.valueOf((one.pop()+two.pop())).split("");
+
+                three.addAtTail(crazy[1]);
+
+            }
+            
 
 
         return three;
