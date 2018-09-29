@@ -14,7 +14,7 @@ class AddLargeNumbers {
     /**
      * for check style.
      */
-    AddLargeNumbers(){
+    private AddLargeNumbers() {
 
     }
     /**
@@ -24,7 +24,7 @@ class AddLargeNumbers {
      *
      * @return     { description_of_the_return_value }
      */
-    public static LinkedList numberToDigits(String number) {
+    public static LinkedList numberToDigits(final String number) {
         LinkedList<String> p = new LinkedList<>();
         String st = number;
         String[] numString = st.split("");
@@ -51,7 +51,7 @@ class AddLargeNumbers {
      * @return     { description_of_the_return_value }
      */
     public static String digitsToNumber(final LinkedList list) {
-        for (Iterator<String> c = list.iterator(); 
+        for (Iterator<String> c = list.iterator();
             c.hasNext();
                 System.out.print((c.next())));
         return r;
@@ -78,7 +78,7 @@ public class Solution {
     /**.
      * for checkstyle.
      */
-    Solution(){
+    private Solution() {
 
     }
     /**
@@ -134,29 +134,37 @@ class LinkedList<E> implements Iterable<E> {
      * @param      <E>   { parameter_description }
      */
     private class Node<E> {
+        /**
+         * variable.
+         */
         private E data;
+        /**
+         * variable.
+         */
         private Node<E> next;
         /**
          * Constructs the object.
          */
-        Node() {}
+        Node(){
+
+        }
         /**
          * Constructs the object for node class.
          *
-         * @param      data  The data
+         * @param      dat  The data
          */
-        Node(E data) {
-            this(data, null);
+        Node(final E dat) {
+            this(dat, null);
         }
         /**
          * Constructs the object overladed.
          *
-         * @param      data  The data
-         * @param      next  The next
+         * @param      dat  The data
+         * @param      nex  The next
          */
-        Node(final E data, final Node<E> next) {
-            this.data = data;
-            this.next = next;
+        Node(final E dat, final Node<E> nex) {
+            this.data = dat;
+            this.next = nex;
         }
 
     }
@@ -237,6 +245,11 @@ class LinkedList<E> implements Iterable<E> {
             current = current.next;
             return data;
         }
+        /**
+         * getter for ceckstyle.
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Node getcurrent() {
             return current;
         }
