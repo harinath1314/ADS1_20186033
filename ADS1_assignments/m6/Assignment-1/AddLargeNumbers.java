@@ -1,3 +1,6 @@
+import java.util.Scanner;
+import java.util.Iterator;
+import java.util.Stack;
 /**
  * Class for adding large numbers.
  */
@@ -56,8 +59,22 @@ public final class AddLargeNumbers {
      *
      * @return     { description_of_the_return_value }
      */
-    // public static LinkedList addLargeNumbers
-    // (LinkedList list1, LinkedList list2) {
+    public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+        Stack<Integer> one = new Stack<Integer>();
+        Stack <Integer>two = new Stack<Integer>();
+        LinkedList three = new LinkedList();
+        for (Iterator<String> pr = list1.iterator();
+            pr.hasNext();
+                one.add(Integer.parseInt(pr.next())));
+        for (Iterator<String> hr = list2.iterator();
+            hr.hasNext();
+                two.add(Integer.parseInt(hr.next())));
+        // three.add(Integer.parseInt(one.pop())+Integer.parseInt(two.pop()));
+            three.addAtTail(one.pop()+two.pop());
 
-    // }
+
+        return three;
+
+    }
 }
+
