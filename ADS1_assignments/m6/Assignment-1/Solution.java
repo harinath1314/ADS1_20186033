@@ -12,6 +12,12 @@ import java.util.Iterator;
  */
 class AddLargeNumbers {
     /**
+     * for check style.
+     */
+    AddLargeNumbers(){
+
+    }
+    /**
      * numbertoDigits converts number to linked lists.
      *
      * @param      number  The number
@@ -37,8 +43,16 @@ class AddLargeNumbers {
      * @return     { description_of_the_return_value }
      */
     static String r = "";
-    public static String digitsToNumber(LinkedList list) {
-        for (Iterator<String> c = list.iterator(); c.hasNext();
+    /**
+     * digits to number are converted here from linked list.
+     *
+     * @param      list  The list
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static String digitsToNumber(final LinkedList list) {
+        for (Iterator<String> c = list.iterator(); 
+            c.hasNext();
                 System.out.print((c.next())));
         return r;
 
@@ -61,7 +75,18 @@ class AddLargeNumbers {
  * the main solution starts from here.
  */
 public class Solution {
-    public static void main(String[] args) {
+    /**.
+     * for checkstyle.
+     */
+    Solution(){
+
+    }
+    /**
+     * this is the main method of problem.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         String p = sc.nextLine();
@@ -74,26 +99,32 @@ public class Solution {
             System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
             break;
 
-            // case "addLargeNumbers":
-            //  pDigits = AddLargeNumbers.numberToDigits(p);
-            //  qDigits = AddLargeNumbers.numberToDigits(q);
-            //  LinkedList result = AddLargeNumbers
-            // .addLargeNumbers(pDigits, qDigits);
-            //  System.out.println(AddLargeNumbers.digitsToNumber(result));
-            //  break;
+        // case "addLargeNumbers":
+        //  pDigits = AddLargeNumbers.numberToDigits(p);
+        //  qDigits = AddLargeNumbers.numberToDigits(q);
+        //  LinkedList result = AddLargeNumbers
+        // .addLargeNumbers(pDigits, qDigits);
+        //  System.out.println(AddLargeNumbers.digitsToNumber(result));
+        //  break;
+        default:
+            break;
         }
     }
 
 }
 
-/**
- * class for linked list
+/**.
+ * class for linked list.
  *
  * @param      <E>   { parameter_description }
  */
 class LinkedList<E> implements Iterable<E> {
 
-
+    /**
+     * getsixe gives size of linked list.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int getsize() {
         return size;
     }
@@ -103,15 +134,27 @@ class LinkedList<E> implements Iterable<E> {
      * @param      <E>   { parameter_description }
      */
     private class Node<E> {
-        E data;
-        Node<E> next;
+        private E data;
+        private Node<E> next;
+        /**
+         * Constructs the object.
+         */
         Node() {}
-
+        /**
+         * Constructs the object for node class.
+         *
+         * @param      data  The data
+         */
         Node(E data) {
             this(data, null);
         }
-
-        Node(E data, Node<E> next) {
+        /**
+         * Constructs the object overladed.
+         *
+         * @param      data  The data
+         * @param      next  The next
+         */
+        Node(final E data, final Node<E> next) {
             this.data = data;
             this.next = next;
         }
@@ -121,6 +164,9 @@ class LinkedList<E> implements Iterable<E> {
      * two private variables for linked list.
      */
     private Node<E> head, tail;
+    /**
+     * int variable for linked list size.
+     */
     private int size;
 
     /**
@@ -128,7 +174,7 @@ class LinkedList<E> implements Iterable<E> {
      *
      * @param      data  The data
      */
-    public void addAtTail(E data) {
+    public void addAtTail(final E data) {
         Node<E> node = new Node<E>();
         node.data = data;
         if (head == null) {
@@ -155,13 +201,16 @@ class LinkedList<E> implements Iterable<E> {
      * @param      <E>   generic type.
      */
     private class MyIterator<E> implements Iterator<E> {
-        Node<E> current;
+        /**
+         * Node for iteration.
+         */
+        private Node<E> current;
         /**
          * Constructs the object for my iterator.
          *
          * @param      first  The first
          */
-        public MyIterator(final Node<E> first) {
+        MyIterator(final Node<E> first) {
             current = first;
         }
         /**
@@ -187,6 +236,9 @@ class LinkedList<E> implements Iterable<E> {
             E data = current.data;
             current = current.next;
             return data;
+        }
+        public Node getcurrent() {
+            return current;
         }
     }
 }
