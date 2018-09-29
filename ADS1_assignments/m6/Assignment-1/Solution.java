@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.lang.Iterable;
 
 
-		// char[] ntd = number.toCharArray();
+// char[] ntd = number.toCharArray();
 
 /**
  * Class for adding large numbers.
@@ -29,7 +29,7 @@ class AddLargeNumbers {
 		String [] numString = st.split("");
 		for (String each : numString) {
 			p.addAtTail(each);
-			
+
 		}
 		return p;
 
@@ -37,8 +37,8 @@ class AddLargeNumbers {
 
 
 
-			
-		
+
+
 
 	}
 	/**
@@ -50,12 +50,7 @@ class AddLargeNumbers {
 	 */
 	public static String digitsToNumber(LinkedList list) {
 
-				String num ="";
-				for (int i = 0 ; i< list.getsize(); i++) {
-					num+= list.iterator();
-					
-				}
-				return num;
+		return list.toString();
 
 	}
 	/**
@@ -88,26 +83,26 @@ public class Solution {
 			System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
 			break;
 
-		// case "addLargeNumbers":
-		// 	pDigits = AddLargeNumbers.numberToDigits(p);
-		// 	qDigits = AddLargeNumbers.numberToDigits(q);
-		// 	LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-		// 	System.out.println(AddLargeNumbers.digitsToNumber(result));
-		// 	break;
+			// case "addLargeNumbers":
+			// 	pDigits = AddLargeNumbers.numberToDigits(p);
+			// 	qDigits = AddLargeNumbers.numberToDigits(q);
+			// 	LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+			// 	System.out.println(AddLargeNumbers.digitsToNumber(result));
+			// 	break;
 		}
 	}
 
 }
 
 /**
- * class for linked list 
+ * class for linked list
  *
  * @param      <E>   { parameter_description }
  */
 class LinkedList<E> implements Iterable<E> {
 
 
-	public int getsize(){
+	public int getsize() {
 		return size;
 	}
 	/**
@@ -142,14 +137,8 @@ class LinkedList<E> implements Iterable<E> {
 	 * @param      data  The data
 	 */
 	public void addAtTail(E data) {
-		// Node<E> thead = head;
-		// while (thead != null &&  thead.next != null)
-		// 	thead = thead.next;
-		// thead.next = new Node<E>(data);
 		Node<E> node = new Node<E>();
 		node.data = data;
-		// node.next = head;
-
 		if (head == null) {
 			head = node;
 			tail = node;
@@ -159,7 +148,17 @@ class LinkedList<E> implements Iterable<E> {
 		tail = tail.next;
 		size++;
 	}
-	
+	public String toString() {
+		String newS = "";
+		while (head != null) {
+			newS += head;
+			tail = tail.next;
+
+
+		}
+		return newS;
+	}
+
 	/**
 	 * iterrator for iteration objects or elements.
 	 *
