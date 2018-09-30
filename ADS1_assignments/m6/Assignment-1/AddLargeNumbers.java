@@ -71,22 +71,34 @@ public final class AddLargeNumbers {
                 two.add(Integer.parseInt(hr.next())));
         // three.add(Integer.parseInt(one.pop())+Integer.parseInt(two.pop()));
             String[] crazy;
+        String carry="0";
             while(!one.empty() && !two.empty()){
-                crazy = String.valueOf((one.pop()+two.pop())).split("");
+                crazy = String.valueOf((one.pop()+two.pop())+Integer.parseInt(carry)).split("");
                 if(crazy.length == 2){
-                    three.addAtHead(crazy[1]+1);
+                    three.addAtHead(crazy[1]);
+                    carry= crazy[0];
+
                 }else{
                     three.addAtHead(crazy[0]);
+                    carry=String.valueOf(0);
                 }
-
-                
-
             }
-            
+            while(!one.empty()){
+                three.addAtHead(String.valueOf(one.pop()+Integer.parseInt(carry)));
+                carry = "0";
+            }
+            while(!two.empty()){
+                three.addAtHead(String.valueOf(two.pop()+Integer.parseInt(carry)));
+                carry = "0";
+            }
 
+            if(!carry.equals("0")){
+                three.addAtHead(carry);
+            }
 
         return three;
 
     }
+
 }
 
