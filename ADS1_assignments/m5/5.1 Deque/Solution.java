@@ -193,7 +193,7 @@ final class Solution {
                     d.popLeft();
                     System.out.println(d.print());
                 } else {
-                    System.out.println("Deck has no elements");
+                    System.out.println("Deck is empty");
                 }
                 break;
             case "popRight":
@@ -201,7 +201,7 @@ final class Solution {
                     d.popRight();
                     System.out.println(d.print());
                 } else {
-                    System.out.println("Deck has no elements");
+                    System.out.println("Deck is empty");
                 }
                 break;
             case "size":
