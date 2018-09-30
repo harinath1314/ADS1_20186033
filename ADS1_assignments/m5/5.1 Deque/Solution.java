@@ -122,7 +122,7 @@ class Deque {
      *
      * @return     is int type.
      */
-    int size() {
+    int getnoE() {
         return noE;
     }
 
@@ -166,7 +166,7 @@ final class Solution {
     private Solution() {
         //function.
     }
-    
+
     /**
      * main.
      *
@@ -174,7 +174,8 @@ final class Solution {
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = Integer.parseInt(sc.next());
+        int n = Integer.parseInt(sc.nextLine());
+        // System.out.println();
         Deque d = new Deque();
         for (int i = 0; i < n; i++) {
             String[] input = sc.nextLine().split(" ");
@@ -204,10 +205,10 @@ final class Solution {
                 }
                 break;
             case "size":
-                System.out.println(d.size());
+                System.out.println(d.getnoE());
                 break;
             case "isEmpty":
-                System.out.println(d.isEmpty());
+                System.out.println(d.getnoE());
                 break;
             default:
                 break;
