@@ -132,6 +132,24 @@ class LinkedList<E> implements Iterable<E> {
         tail = tail.next;
         size++;
     }
+    /**
+     * Adds an at head.
+     *
+     * @param      data  The data
+     */
+    public void addAtHead(E data) {
+        Node<E> node = new Node<E>();
+        node.data = data;
+        node.next = head;
+
+        if (head == null) {
+            head = node;
+            tail = node;
+            return;
+        }
+
+        head = node;
+    }
 
     /**
      * iterrator for iteration objects or elements.
