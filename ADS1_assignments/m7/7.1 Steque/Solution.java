@@ -31,7 +31,7 @@ public final class Solution {
         for (i = 0; i < noOperations; i++) {
             Stqueue<String> test = new Stqueue<>();
             String hari = input.nextLine();
-            while (hari.length()!=0) {
+            while (hari.length() != 0) {
                 String[] operation = (hari).split(" ");
 
                 switch (operation[0]) {
@@ -59,12 +59,12 @@ public final class Solution {
                 default:
                     break;
                 }
-                if(input.hasNext()){
+                if (input.hasNext()) {
                     hari = input.nextLine();
-                }else{
+                } else {
                     break;
                 }
-                
+
             }
             System.out.println();
         }
