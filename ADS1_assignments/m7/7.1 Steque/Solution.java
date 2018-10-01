@@ -206,10 +206,10 @@ class Stqueue<E> {
                 System.out.print(temp.data + ", ");
                 temp = temp.next;
             }
-            System.out.print(temp.data+"\n");
-            // System.out.println();
+            System.out.print(temp.data);
+            System.out.println();
         } else {
-            System.out.println("Steque is empty.\n");
+            System.out.println("Steque is empty.");
         }
     }
 
