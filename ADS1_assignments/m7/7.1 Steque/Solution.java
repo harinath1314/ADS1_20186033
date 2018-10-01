@@ -32,7 +32,7 @@ public final class Solution {
             Stqueue<String> test = new Stqueue<>();
 
 
-            while (!input.nextLine().equals("\n")) {
+            while (input.hasNext()) {
                 String[] operation = (input.nextLine()).split(" ");
 
                 switch (operation[0]) {
