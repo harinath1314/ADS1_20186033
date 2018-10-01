@@ -6,77 +6,93 @@
 
 
 import java.util.Scanner;
-import java.util.Iterator;
+// import java.util.Iterator;
 /**
  * class of Solution.
  */
 public final class Solution {
     /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
+    /**
      * the main method starts here.
      *
      * @param      args  The arguments to be passed in main.
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
         int noOperations = input.nextInt();
         System.out.println();
         String[] operation = input.nextLine().split(" ");
         int i = 0;
         Stqueue<String> test = new Stqueue<>();
-        while (i < noOperations) {
-            while (input.hasNext()) {
+            for (i = 0; i < noOperations; i++) {
+                
+            
+            while (input.hasNextLine()) {
                 switch (operation[0]) {
                 case "push":
                     test.push(operation[1]);
+                    System.out.println("why like this");
+                    System.out.println("god");
                     break;
                 case "pop":
                     System.out.println(test.pop());
                     break;
                 case "dequeue":
-                System.out.println(test.dequeue());
+                    System.out.println(test.dequeue());
                     break;
                 default:
                     break;
                 }
-                i++;
-                System.out.println();
+
             }
+            System.out.println("hi roja");
         }
     }
 }
 /**
- * Class for steque.
+ * Class for stqueue.
  * this behaves as a stack and queue.
+ *
+ * @param      <E>   { parameter_description }
  */
 class Stqueue<E> {
     /**
      * Constructs the object.
      */
-    Stqueue(){
+    Stqueue() {
 
     }
     /**
-     * inner Class for node.
+     * Class for node.
+     *
+     * @param      <E>
      */
     private class Node<E> {
         /**
          * data which will be appended.
          */
-        E data;
+        private E data;
         /**
          * next carries the next object address.
          */
-        Node<E> next;
+        private Node<E> next;
         /**
          * Constructs the object.
          */
-        Node () {}
+        Node() {
+
+        }
         /**
          * Constructs the object with data as arg.
          *
-         * @param      data  The data
+         * @param      dat  The data
          */
-        Node (E data) {
+        Node (final E dat) {
             // this(data, null);
             this.data = null;
         }
@@ -86,7 +102,7 @@ class Stqueue<E> {
          * @param      dat   The data to be stored.
          * @param      nex   The next address.
          */
-        Node(E dat, Node nex) {
+        Node(final E dat, final Node nex) {
             this.data = dat;
             this.next = nex;
         }
@@ -98,9 +114,11 @@ class Stqueue<E> {
 
 
     /**
-     * push method for Stqueue.
+     * push function gives add method.
+     *
+     * @param      data  The data
      */
-    public void push(E data) {
+    public void push(final E data) {
         Node<E> node = new Node<E>();
 
         node.data = data;
