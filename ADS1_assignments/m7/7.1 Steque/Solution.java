@@ -60,6 +60,7 @@ public final class Solution {
                     break;
                 }
                 megastar = input.hasNext();
+                System.out.println(megastar);
 
             }
             System.out.println();
