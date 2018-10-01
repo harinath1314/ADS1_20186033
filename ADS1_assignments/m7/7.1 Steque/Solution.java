@@ -29,11 +29,10 @@ public final class Solution {
         // System.out.println();
         int i = 0;
         for (i = 0; i < noOperations; i++) {
-
-
-            while (input.hasNextLine()) {
             Stqueue<String> test = new Stqueue<>();
-                
+
+
+            while (!input.nextLine().equals("\n")) {
                 String[] operation = (input.nextLine()).split(" ");
 
                 switch (operation[0]) {
