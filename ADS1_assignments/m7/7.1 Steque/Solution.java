@@ -49,6 +49,7 @@ public final class Solution {
                     } else {
                         System.out.println("Stqueue is empty");
                     }
+                    break;
                 case "dequeue":
                     System.out.println(test.dequeue());
                     break;
