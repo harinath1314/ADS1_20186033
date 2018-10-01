@@ -209,7 +209,7 @@ class Stqueue<E> {
             System.out.print(temp.data);
             System.out.println();
         } else {
-            System.out.println("Steque is empty.");
+            System.out.println("Steque is empty.\n");
         }
     }
 
