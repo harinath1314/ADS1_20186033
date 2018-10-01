@@ -30,7 +30,7 @@ public final class Solution {
         int i = 0;
         for (i = 0; i < noOperations; i++) {
             Stqueue<String> test = new Stqueue<>();
-            boolean megastar = input.hasNext("\n");
+            boolean megastar = input.hasNext("");
             // System.out.println(megastar);
             while (!megastar) {
                 String[] operation = (input.nextLine()).split(" ");
@@ -60,7 +60,7 @@ public final class Solution {
                 default:
                     break;
                 }
-                megastar = input.hasNext("\n");
+                megastar = input.hasNext("");
                 // System.out.println(megastar);
 
             }
