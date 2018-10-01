@@ -47,7 +47,7 @@ public final class Solution {
                         break;
 
                     } else {
-                        System.out.println("Steque is empty");
+                        System.out.println("Steque is empty.");
                     }
                     break;
                 case "dequeue":
