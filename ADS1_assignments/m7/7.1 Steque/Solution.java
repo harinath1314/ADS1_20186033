@@ -29,10 +29,11 @@ public final class Solution {
         // System.out.println();
         int i = 0;
         for (i = 0; i < noOperations; i++) {
-            Stqueue<String> test = new Stqueue<>();
 
 
             while (input.hasNextLine()) {
+            Stqueue<String> test = new Stqueue<>();
+                
                 String[] operation = (input.nextLine()).split(" ");
 
                 switch (operation[0]) {
@@ -104,7 +105,7 @@ class Stqueue<E> {
          *
          * @param      dat  The data
          */
-        Node (final E dat) {
+        Node(final E dat) {
             // this(data, null);
             this.data = null;
         }
@@ -183,7 +184,7 @@ class Stqueue<E> {
      *
      * @param      data  The data
      */
-    public void enqueue(E data) {
+    public void enqueue(final E data) {
         Node<E> node = new Node<E>();
         node.data = data;
         node.next  = null;
