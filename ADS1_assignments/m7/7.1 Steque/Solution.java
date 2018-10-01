@@ -131,6 +131,8 @@ class Stqueue<E> {
 
     /**
      * push function gives add method.
+     * push has a constant complecity of O(1) for all three cases.
+     * that is for best , Normal and Worst.
      *
      * @param      data  The data
      */
@@ -150,6 +152,7 @@ class Stqueue<E> {
     }
     /**
      * pop function returns the top most stack elements.
+     * pop has a constant complecity of O(1) for all three cases.
      *
      * @return     { description_of_the_return_value }
      */
@@ -160,6 +163,9 @@ class Stqueue<E> {
     }
     /**
      * dequeue function returns the last element of stqueue.
+     * dequeue has a  complecity of O(1) for best cases.
+     * dequeue has a complecity of O(N) for NOrmal cases.
+     * dequeue has a complecity of O(N) for Worst cases.
      *
      * @return     E type of data is returned.
      */
@@ -178,12 +184,14 @@ class Stqueue<E> {
      * Determines if empty.
      *
      * @return     True if empty, False otherwise.
+     * 
      */
     boolean isEmpty() {
         return main == null;
     }
     /**
-     * enqurue method.
+     * enqueue method.
+     * enqueue has a constant complecity of O(1) for all three cases.
      *
      * @param      data  The data
      */
@@ -202,6 +210,9 @@ class Stqueue<E> {
     }
     /**
      * print function.
+     * this method has complexity of O(1) at best case;
+     * O(N) for normal case;
+     * O(N) for worst case;
      */
     public void print() {
         if (!isEmpty()) {
@@ -218,6 +229,9 @@ class Stqueue<E> {
     }
 
 }
+
+
+
 
 
 
