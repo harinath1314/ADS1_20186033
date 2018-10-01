@@ -32,7 +32,7 @@ public final class Solution {
             Stqueue<String> test = new Stqueue<>();
 
 
-            while (input.hasNext()) {
+            while (!input.nextLine().equals("")) {
                 String[] operation = (input.nextLine()).split(" ");
 
                 switch (operation[0]) {
@@ -206,8 +206,8 @@ class Stqueue<E> {
                 System.out.print(temp.data + ", ");
                 temp = temp.next;
             }
-            System.out.print(temp.data);
-            System.out.println();
+            System.out.println(temp.data);
+
         } else {
             System.out.println("Steque is empty.");
         }
