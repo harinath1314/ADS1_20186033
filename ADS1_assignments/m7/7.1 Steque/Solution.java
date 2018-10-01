@@ -30,10 +30,9 @@ public final class Solution {
         int i = 0;
         for (i = 0; i < noOperations; i++) {
             Stqueue<String> test = new Stqueue<>();
-            // boolean megastar = input.hasNext("");
-            // System.out.println(megastar);
-            while (input.next() != "") {
-                String[] operation = (input.nextLine()).split(" ");
+            String hari = input.nextLine();
+            while (hari.length()!=0) {
+                String[] operation = (hari).split(" ");
 
                 switch (operation[0]) {
                 case "push":
@@ -60,9 +59,12 @@ public final class Solution {
                 default:
                     break;
                 }
-                // megastar = input.hasNext("");
-                // System.out.println(megastar);
-
+                if(input.hasNext()){
+                    hari = input.nextLine();
+                }else{
+                    break;
+                }
+                
             }
             System.out.println();
         }
