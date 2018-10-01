@@ -28,9 +28,9 @@ public final class Solution {
         int noOperations = Integer.parseInt(input.nextLine());
         // System.out.println();
         int i = 0;
-        Stqueue<String> test = new Stqueue<>();
         for (i = 0; i < noOperations; i++) {
-
+        Stqueue<String> test = new Stqueue<>();
+                
 
             while (input.hasNextLine()) {
                 String[] operation = (input.nextLine()).split(" ");
@@ -38,8 +38,8 @@ public final class Solution {
                 switch (operation[0]) {
                 case "push":
                     test.push(operation[1]);
-                    System.out.println("why like this");
-                    System.out.println("god");
+
+                    System.out.println();
                     break;
                 case "pop":
                     if (!test.isEmpty()) {
