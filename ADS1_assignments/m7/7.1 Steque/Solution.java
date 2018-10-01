@@ -30,7 +30,7 @@ public final class Solution {
         int i = 0;
         for (i = 0; i < noOperations; i++) {
         Stqueue<String> test = new Stqueue<>();
-                
+
 
             while (input.hasNextLine()) {
                 String[] operation = (input.nextLine()).split(" ");
@@ -39,7 +39,7 @@ public final class Solution {
                 case "push":
                     test.push(operation[1]);
 
-                    System.out.println();
+                    System.out.println(test);
                     break;
                 case "pop":
                     if (!test.isEmpty()) {
