@@ -24,14 +24,15 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
-        int noOperations = input.nextInt();
-        System.out.println();
+        // int noOperations = input.nextInt();
+        int noOperations = Integer.parseInt(input.nextLine());
+        // System.out.println();
         String[] operation = input.nextLine().split(" ");
         int i = 0;
         Stqueue<String> test = new Stqueue<>();
-            for (i = 0; i < noOperations; i++) {
-                
-            
+        for (i = 0; i < noOperations; i++) {
+
+
             while (input.hasNextLine()) {
                 switch (operation[0]) {
                 case "push":
@@ -40,8 +41,13 @@ public final class Solution {
                     System.out.println("god");
                     break;
                 case "pop":
+                    if (!test.isEmpty()) {
                     System.out.println(test.pop());
                     break;
+                        
+                    }else{
+                        System.out.println("Stqueue is empty");
+                    }
                 case "dequeue":
                     System.out.println(test.dequeue());
                     break;
@@ -157,6 +163,14 @@ class Stqueue<E> {
         refer.next = null;
         link = refer;
         return data;
+    }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
+    boolean isEmpty() {
+        return main == null;
     }
 
 }
