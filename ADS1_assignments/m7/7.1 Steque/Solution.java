@@ -184,7 +184,7 @@ class Stqueue<E> {
      * Determines if empty.
      *
      * @return     True if empty, False otherwise.
-     * 
+     *
      */
     boolean isEmpty() {
         return main == null;
