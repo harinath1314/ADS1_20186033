@@ -29,7 +29,7 @@ public final class Solution {
         // System.out.println();
         int i = 0;
         for (i = 0; i < noOperations; i++) {
-        Stqueue<String> test = new Stqueue<>();
+            Stqueue<String> test = new Stqueue<>();
 
 
             while (input.hasNextLine()) {
@@ -38,12 +38,12 @@ public final class Solution {
                 switch (operation[0]) {
                 case "push":
                     test.push(operation[1]);
-
-                    System.out.println(test);
+                    test.print();
                     break;
                 case "pop":
                     if (!test.isEmpty()) {
-                        System.out.println(test.pop());
+                        test.pop();
+                        test.print();
                         break;
 
                     } else {
@@ -51,14 +51,18 @@ public final class Solution {
                     }
                     break;
                 case "dequeue":
-                    System.out.println(test.dequeue());
+                    test.dequeue();
+                    test.print();
                     break;
+                case"enqueue":
+                    test.enqueue(operation[1]);
+                    test.print();
                 default:
                     break;
                 }
 
             }
-            System.out.println("hi roja");
+            System.out.println();
         }
     }
 }
@@ -173,6 +177,40 @@ class Stqueue<E> {
      */
     boolean isEmpty() {
         return main == null;
+    }
+    /**
+     * enqurue method.
+     *
+     * @param      data  The data
+     */
+    public void enqueue(E data) {
+        Node<E> node = new Node<E>();
+        node.data = data;
+        node.next  = null;
+        if (main == null) {
+            main = node;
+            link = node;
+        } else {
+            link.next = node;
+            link = node;
+        }
+
+    }
+    /**
+     * print function.
+     */
+    public void print() {
+        if (!isEmpty()) {
+            Node<E> temp = main;
+            while (temp.next != null) {
+                System.out.print(temp.data + ", ");
+                temp = temp.next;
+            }
+            System.out.print(temp.data);
+            System.out.println();
+        } else {
+            System.out.println("Steque is empty.");
+        }
     }
 
 }
