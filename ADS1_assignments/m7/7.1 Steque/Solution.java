@@ -27,13 +27,14 @@ public final class Solution {
         // int noOperations = input.nextInt();
         int noOperations = Integer.parseInt(input.nextLine());
         // System.out.println();
-        String[] operation = input.nextLine().split(" ");
         int i = 0;
         Stqueue<String> test = new Stqueue<>();
         for (i = 0; i < noOperations; i++) {
 
 
             while (input.hasNextLine()) {
+                String[] operation = (input.nextLine()).split(" ");
+
                 switch (operation[0]) {
                 case "push":
                     test.push(operation[1]);
@@ -42,10 +43,10 @@ public final class Solution {
                     break;
                 case "pop":
                     if (!test.isEmpty()) {
-                    System.out.println(test.pop());
-                    break;
-                        
-                    }else{
+                        System.out.println(test.pop());
+                        break;
+
+                    } else {
                         System.out.println("Stqueue is empty");
                     }
                 case "dequeue":
