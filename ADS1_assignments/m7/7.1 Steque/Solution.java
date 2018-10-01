@@ -31,6 +31,7 @@ public final class Solution {
         for (i = 0; i < noOperations; i++) {
             Stqueue<String> test = new Stqueue<>();
             boolean megastar = input.hasNext();
+            System.out.println(megastar);
             while (megastar) {
                 String[] operation = (input.nextLine()).split(" ");
 
