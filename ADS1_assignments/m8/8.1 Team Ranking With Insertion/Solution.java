@@ -34,9 +34,9 @@ public final class Solution {
         for (int j = 0; j < i; j++) {
             for (int k = j + 1; k < i; k++) {
                 if (teams[k].getwins() < teams[j].getwins()) {
-                    Selection temp = teams[j];
-                    teams[j] = teams[k];
-                    teams[k] = temp;
+                    Selection temp = teams[k];
+                    teams[k] = teams[j];
+                    teams[j] = temp;
 
 
                 }
