@@ -33,7 +33,7 @@ public final class Solution {
 
         for (int j = 0; j < i; j++) {
             for (int k = j + 1; k < i; k++) {
-                if (teams[k].getwins() < teams[j].getwins()) {
+                if (teams[k].getwins() > teams[j].getwins()) {
                     Selection temp = teams[k];
                     teams[k] = teams[j];
                     teams[j] = temp;
