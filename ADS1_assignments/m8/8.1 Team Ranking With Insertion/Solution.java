@@ -9,13 +9,20 @@ import java.util.Arrays;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution(){
+
+    }
     /**
      * main method starts from here.
      *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
+        Selection s =new Selection();
         Selection[] teams = new Selection[14];
         Scanner input = new Scanner(System.in);
         int i = 0;
@@ -35,6 +42,8 @@ public class Solution {
                 }      
             }
         }
+        s.toString(teams);
+
     }
 }
 
@@ -42,6 +51,12 @@ public class Solution {
  * Class for selection.
  */
 class Selection {
+    /**
+     * Constructs the object.
+     */
+    public Selection(){
+
+    }
     /**
      * String teamname;.
      */
