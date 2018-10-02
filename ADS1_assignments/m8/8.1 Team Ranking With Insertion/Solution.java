@@ -13,7 +13,7 @@ public final class Solution {
     /**
      * Constructs the object.
      */
-    private Solution(){
+    private Solution() {
 
     }
     /**
@@ -42,10 +42,18 @@ public final class Solution {
                 }else if (teams[k].getwins() == teams[j].getwins()) {
 
                     if (teams[k].getloses() < teams[j].getloses()) {
-                    Selection temp = teams[k];
-                    teams[k] = teams[j];
-                    teams[j] = temp;
-                }
+                        Selection temp = teams[k];
+                        teams[k] = teams[j];
+                        teams[j] = temp;
+                    } else if (teams[k].getloses() == teams[j].getloses()) {
+                        if (teams[k].getdraws() > teams[j].getdraws()) {
+                            Selection temp = teams[k];
+                            teams[k] = teams[j];
+                            teams[j] = temp;
+
+                        }
+
+                    }
                 }
 
             }
@@ -131,7 +139,7 @@ class Selection {
      */
     public void toString(Selection[] teams, int i) {
         int j;
-        for (j = 0; j < i-1; j++) {
+        for (j = 0; j < i - 1; j++) {
             System.out.print(teams[j].getteam() + ",");
         }
         System.out.print(teams[j].getteam());
