@@ -122,8 +122,10 @@ class Selection {
      * @return     String representation of the object.
      */
     public void toString(Selection[] teams, int i) {
-        for (int j = 0; j < i; j++) {
+        int j;
+        for (j = 0; j < i-1; j++) {
             System.out.print(teams[j].getteam() + ",");
         }
+        System.out.print(teams[j].getteam());
     }
 }
