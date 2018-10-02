@@ -4,7 +4,6 @@
  * date: 2/10/18.
  */
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * Class for tournament.
  */
@@ -92,7 +91,7 @@ class Selection implements Comparable<Selection> {
         }
         if (this.getLoss() < that.getLoss()) {
             return 1;
-        } else if (this.getLoss() < that.getLoss()) {
+        } else if (this.getLoss() > that.getLoss()) {
             return -1;
         }
         if (this.getDraws() > that.getDraws()) {
