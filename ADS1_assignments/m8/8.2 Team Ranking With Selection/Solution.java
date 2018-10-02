@@ -39,7 +39,7 @@ class Selection implements Comparable<Selection> {
      * @param      draw  The draw
      */
     Selection(final String name, final int win,
-        final int loss, final int draw) {
+              final int loss, final int draw) {
         this.teamName = name;
         this.wins = win;
         this.losses = loss;
@@ -122,7 +122,7 @@ class SelectionSort {
      */
     SelectionSort() {
         this.size = 0;
-        this.teamlist = new Selection[2+2+2+2+2+2+2+2+2+2];
+        this.teamlist = new Selection[2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2];
     }
     /**
      * size method.
@@ -143,9 +143,10 @@ class SelectionSort {
     /**
      * sorting of elements using insertion sort.
      * time complexity is N^2 for worst case;
-     * for best case it is n iterations and zero swaps since it is a sorted array.
+     * for best case it is n iterations and zero swaps since
+     * it is a sorted array.
      */
-     public void insertionsort() {
+    public void insertionsort() {
         for (int i = 0; i < size; i++) {
             for (int j = i; j > 0; j--) {
                 if (teamlist[j].compareTo(teamlist[j - 1]) == 1) {
@@ -177,7 +178,7 @@ class SelectionSort {
         int k = 0;
         String str = "";
         int h = 0;
-        while(k < size - 1){
+        while (k < size - 1) {
             str += teamlist[k].getName() + ",";
             k++;
         }
