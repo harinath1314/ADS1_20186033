@@ -39,7 +39,15 @@ public final class Solution {
                     teams[j] = temp;
 
 
+                }else if (teams[k].getwins() == teams[j].getwins()) {
+
+                    if (teams[k].getloses() < teams[j].getloses()) {
+                    Selection temp = teams[k];
+                    teams[k] = teams[j];
+                    teams[j] = temp;
                 }
+                }
+
             }
         }
         s.toString(teams, i);
