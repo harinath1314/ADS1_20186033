@@ -85,7 +85,7 @@ class Selection implements Comparable<Selection> {
      * @return  integer.
      */
     public int compareTo(final Selection that) {
-        if (this.getWins() < that.getWins()) {
+        if (this.getWins() > that.getWins()) {
             return 1;
         } else if (this.getWins() < that.getWins()) {
             return -1;
@@ -97,7 +97,7 @@ class Selection implements Comparable<Selection> {
         }
         if (this.getDraws() > that.getDraws()) {
             return 1;
-        } else if (this.getDraws() > that.getDraws()) {
+        } else if (this.getDraws() < that.getDraws()) {
             return -1;
         }
         return 0;
@@ -146,7 +146,7 @@ class SelectionSort {
      * for best case it is n iterations and zero swaps since it is a sorted array.
      */
      public void insertionsort() {
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < 14; i++) {
             for (int j = i; j > 0; j--) {
                 if (teamlist[j].compareTo(teamlist[j - 1]) == 1) {
                     swap(teamlist, j, j - 1);
