@@ -22,7 +22,7 @@ public final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Selection s =new Selection();
+        Selection s = new Selection();
         Selection[] teams = new Selection[14];
         Scanner input = new Scanner(System.in);
         int i = 0;
@@ -32,17 +32,17 @@ public final class Solution {
         }
 
         for (int j = 0; j < i; j++) {
-            for (int k = j+1; k < i; k++) {
-                if(teams[k].getwins() < teams[j].getwins()){
+            for (int k = j + 1; k < i; k++) {
+                if (teams[k].getwins() < teams[j].getwins()) {
                     Selection temp = teams[j];
                     teams[j] = teams[k];
                     teams[k] = temp;
 
 
-                }      
+                }
             }
         }
-        s.toString(teams);
+        s.toString(teams, i);
 
     }
 }
@@ -54,7 +54,7 @@ class Selection {
     /**
      * Constructs the object.
      */
-    public Selection(){
+    public Selection() {
 
     }
     /**
@@ -121,9 +121,9 @@ class Selection {
      *
      * @return     String representation of the object.
      */
-    public void toString(Selection[] teams){
-        for (int i =0; i<teams.length; i++) {
-            System.out.print(teams[i].getteam()+",");
+    public void toString(Selection[] teams, int i) {
+        for (int j = 0; j < i; j++) {
+            System.out.print(teams[j].getteam() + ",");
         }
     }
 }
