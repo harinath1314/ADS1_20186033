@@ -5,7 +5,6 @@
  */
 
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * Class for solution.
  */
@@ -23,7 +22,7 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Selection s = new Selection();
-        Selection[] teams = new Selection[14];
+        Selection[] teams = new Selection[2 + 2 + 2 + 2 + 2 + 2];
         Scanner input = new Scanner(System.in);
         int i = 0;
         while (input.hasNextLine()) {
@@ -39,7 +38,7 @@ public final class Solution {
                     teams[j] = temp;
 
 
-                }else if (teams[k].getwins() == teams[j].getwins()) {
+                } else if (teams[k].getwins() == teams[j].getwins()) {
 
                     if (teams[k].getloses() < teams[j].getloses()) {
                         Selection temp = teams[k];
@@ -70,7 +69,7 @@ class Selection {
     /**
      * Constructs the object.
      */
-    public Selection() {
+    Selection() {
 
     }
     /**
@@ -90,14 +89,16 @@ class Selection {
      */
     private int draws;
     /**
-     * Constructs the object for Selelction class.
+     * Constructs the object for selection class.
+     *
+     * @param      data  The data
      */
     Selection(final String data) {
         String[] details = data.split(",");
         this.teamname = details[0];
         this.wins = Integer.parseInt(details[1]);
         this.loses = Integer.parseInt(details[2]);
-        this.draws = Integer.parseInt(details[3]);
+        this.draws = Integer.parseInt(details[2 + 1]);
     }
 
     /**
@@ -133,11 +134,12 @@ class Selection {
         return draws;
     }
     /**
-     * Returns a string representation of the object.
+     * output format to be printed.
      *
-     * @return     String representation of the object.
+     * @param      teams  The teams
+     * @param      i      { parameter_description }
      */
-    public void toString(Selection[] teams, int i) {
+    public void toString(final Selection[] teams, final  int i) {
         int j;
         for (j = 0; j < i - 1; j++) {
             System.out.print(teams[j].getteam() + ",");
