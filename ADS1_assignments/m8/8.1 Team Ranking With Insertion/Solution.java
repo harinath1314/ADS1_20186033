@@ -23,9 +23,9 @@ public class Solution {
             String teamDetails = input.nextLine();
             teams[i++] = (new Selection(teamDetails));
         }
-        int min =0;
-        for (int j = 0; j < teams.length; j++) {
-            for (int k = j+1; k < teams.length; k++) {
+
+        for (int j = 0; j < i; j++) {
+            for (int k = j+1; k < i; k++) {
                 if(teams[k].getwins() < teams[j].getwins()){
                     Selection temp = teams[j];
                     teams[j] = teams[k];
@@ -37,6 +37,7 @@ public class Solution {
         }
     }
 }
+
 /**
  * Class for selection.
  */
