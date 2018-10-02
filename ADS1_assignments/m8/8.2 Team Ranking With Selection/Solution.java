@@ -92,7 +92,7 @@ class Selection implements Comparable<Selection> {
         }
         if (this.getLoss() < that.getLoss()) {
             return 1;
-        } else if (this.getLoss() > that.getLoss()) {
+        } else if (this.getLoss() < that.getLoss()) {
             return -1;
         }
         if (this.getDraws() > that.getDraws()) {
@@ -146,7 +146,7 @@ class SelectionSort {
      * for best case it is n iterations and zero swaps since it is a sorted array.
      */
      public void insertionsort() {
-        for (int i = 0; i < 14; i++) {
+        for (int i = 0; i < size; i++) {
             for (int j = i; j > 0; j--) {
                 if (teamlist[j].compareTo(teamlist[j - 1]) == 1) {
                     swap(teamlist, j, j - 1);
