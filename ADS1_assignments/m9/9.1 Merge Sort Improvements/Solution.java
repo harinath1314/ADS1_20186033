@@ -68,6 +68,7 @@ class Mergesort {
 	 * @param      middle  The middle
 	 */
 	Mergesort(final String data) {
+		b=new int[a.length];
 		this.a = data.split(",");
 		for (int i = 0; i < a.length; i++) {
 			b[i] = Integer.parseInt(a[i]);
