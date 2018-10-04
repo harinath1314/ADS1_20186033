@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m9/9.1 Merge Sort Improvements/Solution.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m9/9.1 Merge Sort Improvements/Solution.java:32: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m9/9.1 Merge Sort Improvements/Solution.java:33: Line is longer than 80 characters (found 91). [LineLength]
+Audit done.
+Checkstyle ends with 3 errors.
