@@ -30,10 +30,13 @@ public final class Solution {
 				}
 				break;
 			case"reverse":
-				list.reverse();
-				System.out.println(list.print());
+				try {
+					list.reverse();
+					System.out.println(list.print());
 
-
+				} catch (Exception a ) {
+					System.out.println(a.getMessage());
+				}
 				break;
 			case"delete":
 				break;
@@ -136,8 +139,9 @@ class LinkedList {
 		return main;
 	}
 
-	public void reverse() {
-		main = reverseHelper(main);
+	public void reverse() throws Exception {
+		if (size == 0) throw new Exception("No elements to reverse.");
+			main = reverseHelper(main);
 	}
 
 	public Node reverseHelper(Node main) {
@@ -160,9 +164,9 @@ class LinkedList {
 				str += Integer.toString(temp.data) + ", ";
 				temp = temp.next;
 			}
-			return "[" + str.substring(0, str.length() - 2) + "]";
+			return   str.substring(0, str.length() - 2) ;
 		}
-		return "[]";
+		return "";
 
 	}
 }
