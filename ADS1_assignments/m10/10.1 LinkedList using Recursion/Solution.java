@@ -11,7 +11,7 @@ public final class Solution {
     /**
      * Constructs the object for checkstyle.
      */
-    private Solution(){
+    private Solution() {
 
     }
     /**
@@ -19,7 +19,7 @@ public final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         LinkedList list = new LinkedList();
         Scanner input = new Scanner(System.in);
         while (input.hasNext()) {
@@ -139,14 +139,19 @@ class LinkedList {
      *
      * @return     { description_of_the_return_value }
      */
-    public Node inserthelper(final Node main,  int count, final int element) {
+    public Node inserthelper(final Node main, int count, final int element) {
         if (count == 0) {
             return new Node(element, main);
         }
-        main.next = inserthelper(main.next, count--, element);
+        // int cou  = count;
+        main.next = inserthelper(main.next, count-1, element);
         return main;
     }
-
+    /**
+     * reverse the hellper.
+     *
+     * @throws     Exception  { exception_description }
+     */
     public void reverse() throws Exception {
         if (size == 0) {
             throw new Exception("No elements to reverse.");
