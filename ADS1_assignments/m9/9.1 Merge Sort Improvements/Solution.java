@@ -16,7 +16,7 @@ class Merge {
      * Constructs the object.
      */
     Merge() {
-    
+
     }
     /**
      * {Method to merge two arrays}.
@@ -28,9 +28,11 @@ class Merge {
      * @param      hi     The higher value
      */
     public void merge(final Comparable[] array, final Comparable[] aux,
-        final int lo, final int mid, final int hi) {
-        assert isSorted(array, lo, mid) : "Test whether the array is already in order";
-        assert isSorted(array, mid + 1, hi) : "Test whether the array is already in order";
+                      final int lo, final int mid, final int hi) {
+        assert isSorted(array, lo, mid) : 
+        "Test whether the array is already in order";
+        assert isSorted(array, mid + 1, hi) : 
+        "Test whether the array is already in order";
         int i = lo;
         int j = mid + 1;
         for (int k = lo; k <= hi; k++) {
@@ -55,7 +57,7 @@ class Merge {
      * @param      hi     The higher value
      */
     public void sort(final Comparable[] array, final Comparable[] aux,
-        final int lo, final int hi) {
+                     final int lo, final int hi) {
         if (hi <= lo + x) {
             insertionSort(aux, lo, hi);
             System.out.println("Insertion sort method invoked...");
@@ -93,7 +95,7 @@ class Merge {
      * @param      hi    The higher value
      */
     public void insertionSort(final Comparable[] a,
-        final int lo, final int hi) {
+                              final int lo, final int hi) {
         for (int i = lo; i <= hi; i++) {
             for (int j = i; j > lo && less(a[j], a[j - 1]); j--) {
                 exchange(a, j, j - 1);
@@ -108,7 +110,7 @@ class Merge {
      * @param      j     {Integer j}
      */
     public void exchange(final Comparable[] a,
-        final int i, final int j) {
+                         final int i, final int j) {
         Comparable swap = a[i];
         a[i] = a[j];
         a[j] = swap;
@@ -144,7 +146,7 @@ class Merge {
      * @return     True if sorted, False otherwise.
      */
     public boolean isSorted(final Comparable[] a,
-        final int lo, final int hi) {
+                            final int lo, final int hi) {
         for (int i = lo + 1; i <= hi; i++) {
             if (less(a[i], a[i - 1])) {
                 return false;
