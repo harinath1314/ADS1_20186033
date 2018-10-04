@@ -133,19 +133,19 @@ class LinkedList {
     /**
      * helper function for insertAt.
      *
-     * @param      main     The main
+     * @param      m     The main
      * @param      count    The count
      * @param      element  The element
      *
      * @return     { description_of_the_return_value }
      */
-    public Node inserthelper(final Node main, int count, final int element) {
+    public Node inserthelper(final Node m, final int count, final int element) {
         if (count == 0) {
-            return new Node(element, main);
+            return new Node(element, m);
         }
         int cou  = count;
-        main.next = inserthelper(main.next, cou - 1, element);
-        return main;
+        m.next = inserthelper(m.next, cou - 1, element);
+        return m;
     }
     /**
      * reverse the hellper.
@@ -161,17 +161,17 @@ class LinkedList {
     /**
      * reverse the list.
      *
-     * @param      main  The main
+     * @param      m  The main
      *
      * @return     { description_of_the_return_value }
      */
-    public Node reverseHelper(final Node main) {
-        if (main == null || main.next == null) {
-            return main;
+    public Node reverseHelper(final Node m) {
+        if (m == null || m.next == null) {
+            return m;
         }
-        Node nhead = reverseHelper(main.next);
-        main.next.next = main;
-        main.next = null;
+        Node nhead = reverseHelper(m.next);
+        m.next.next = m;
+        m.next = null;
         return nhead;
     }
     /**
