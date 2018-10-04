@@ -122,7 +122,7 @@ class LinkedList {
      * @throws     Exception  { exception_description }
      */
     public void insertAt(final int index, final int element) throws Exception {
-        if (index > size) {
+        if (index > size || index < 0) {
             throw new Exception(
                 "Can’t insert at this position.");
 
