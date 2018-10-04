@@ -29,10 +29,10 @@ class Merge {
      */
     public void merge(final Comparable[] array, final Comparable[] aux,
                       final int lo, final int mid, final int hi) {
-        assert isSorted(array, lo, mid) : 
-        "Test whether the array is already in order";
-        assert isSorted(array, mid + 1, hi) : 
-        "Test whether the array is already in order";
+        assert isSorted(array, lo, mid)
+        : "Test whether the array is already in order";
+        assert isSorted(array, mid + 1, hi)
+        : "Test whether the array is already in order";
         int i = lo;
         int j = mid + 1;
         for (int k = lo; k <= hi; k++) {
