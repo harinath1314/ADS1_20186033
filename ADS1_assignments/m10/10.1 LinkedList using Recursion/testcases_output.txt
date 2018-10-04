@@ -30,7 +30,7 @@ Your Output:
 7, 5
 7, 9, 5
 5, 9, 7
-Can’t insert at this position
+Can’t insert at this position.
 null
 5, 9, 17, 7
 5, 9, 27, 17, 7

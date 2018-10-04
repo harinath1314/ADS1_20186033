@@ -1,8 +1,6 @@
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m10/10.1 LinkedList using Recursion/Solution.java:142:41: 'main' hides a field. [HiddenField]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m10/10.1 LinkedList using Recursion/Solution.java:142:47: Parameter count should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m10/10.1 LinkedList using Recursion/Solution.java:147:50: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m10/10.1 LinkedList using Recursion/Solution.java:147:51: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m10/10.1 LinkedList using Recursion/Solution.java:168:42: 'main' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 3 errors.
