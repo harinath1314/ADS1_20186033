@@ -124,7 +124,7 @@ class LinkedList {
     public void insertAt(final int index, final int element) throws Exception {
         if (index > size || index < 0) {
             throw new Exception(
-                "Can’t insert at this position.");
+                "Can't insert at this position.");
 
         }
         main = inserthelper(main, index, element);
