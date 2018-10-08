@@ -20,12 +20,12 @@ class Minheap {
             if (2 * i + 1 < array.length && 2 * i + 2 < array.length) {
                 if (array[i].compareTo(array[2 * i + 1]) > 0
                         || array[i].compareTo(array[2 * i + 2]) > 0) {
-                    return (0 > 1);
+                    return false;
                 }
             }
 
         }
-        return (1 > 0);
+        return true;
     }
 }
 
