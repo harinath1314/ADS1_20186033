@@ -245,10 +245,10 @@ class Sorting {
             // for (int i = 0; i< bc; i++) {
                 int busy = 0;
                 for (int j = a.length-1; j > 0; j--) {
-                    if(busy == bc){
+                    if(busy == st){
                         break;
                     }
-                    else if (a[j].getreservation().equals("BC") && (a[j].getsub3marks() != 0)) {
+                    else if (a[j].getreservation().equals("ST") && (a[j].getsub3marks() != 0)) {
                         a[j].settotal(0);
 
                         System.out.println(a[j].getname()+","+ a[j].gettotalmarks()+","+a[j].getreservation());
@@ -263,7 +263,7 @@ class Sorting {
                     if(busysc == sc){
                         break;
                     }
-                    else if (a[j].getreservation().equals("ST") && (a[j].getsub3marks() != 0)){
+                    else if (a[j].getreservation().equals("SC") && (a[j].getsub3marks() != 0)){
                         a[j].settotal(0);
 
                         System.out.println(a[j].getname()+","+ a[j].gettotalmarks()+","+a[j].getreservation());
@@ -273,10 +273,10 @@ class Sorting {
                 }
             int busyst = 0;
                 for (int j = a.length-1; j > 0; j--) {
-                    if(busyst == st){
+                    if(busyst == bc){
                         break;
                     }
-                    else if (a[j].getreservation().equals("SC") && (a[j].getsub3marks() != 0)){
+                    else if (a[j].getreservation().equals("BC") && (a[j].getsub3marks() != 0)){
                         a[j].settotal(0);
 
                         System.out.println(a[j].getname()+","+ a[j].gettotalmarks()+","+a[j].getreservation());
