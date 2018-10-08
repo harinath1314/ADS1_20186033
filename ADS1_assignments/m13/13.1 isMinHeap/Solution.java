@@ -52,7 +52,7 @@ public final class Solution {
         int nooftestcases = sc.nextInt();
         Minheap m = new Minheap();
         sc.nextLine();
-        while (sc.hasNext()) {
+        while (sc.hasNextLine()) {
             String line = sc.nextLine();
             if (line.length() == 0||line.length() == 0) {
                 System.out.println("false");
