@@ -190,7 +190,7 @@ class Sorting {
     private static boolean less(String v, String w) {
         int one = Integer.parseInt(v.replaceAll("-",""));
         int two = Integer.parseInt(w.replaceAll("-",""));
-        return one < two;
+        return one > two;
 
 
 
