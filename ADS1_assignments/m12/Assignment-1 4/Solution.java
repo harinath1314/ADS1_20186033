@@ -188,7 +188,15 @@ class Sorting {
     }
     //ihere is the greatness.
     private static boolean less(String v, String w) {
-        return (!v.equals(w));
+        int one = Integer.parseInt(v.replaceAll("-",""));
+        int two = Integer.parseInt(w.replaceAll("-",""));
+        return one < two;
+
+
+
+
+
+
     }
 
     // exchange a[i] and a[j]
@@ -282,6 +290,9 @@ class Sorting {
                         System.out.println(a[j].getname()+","+ a[j].gettotalmarks()+","+a[j].getreservation());
                         busyst++;
                     }
+
+                }
+                if((bc+sc+st) != posts) {
 
                 }
     }
