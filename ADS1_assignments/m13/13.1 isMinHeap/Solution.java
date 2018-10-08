@@ -54,7 +54,7 @@ public final class Solution {
         sc.nextLine();
         while (sc.hasNext()) {
             String line = sc.nextLine();
-            if (line.length() == 0) {
+            if (line.length() == 0||line.length() == 0) {
                 System.out.println("false");
             } else {
                 String[] input = line.split(",");
