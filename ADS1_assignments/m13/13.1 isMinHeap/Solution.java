@@ -4,7 +4,6 @@
  * date : 08/11/18.
  */
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * Class for minheap.
  */
@@ -54,7 +53,7 @@ public final class Solution {
         sc.nextLine();
         while (sc.hasNextLine()) {
             String line = sc.nextLine();
-            if (line.length() == 0||line.length() == 0) {
+            if (line.length() == 0 || line.length() == 0) {
                 System.out.println("false");
             } else {
                 String[] input = line.split(",");
