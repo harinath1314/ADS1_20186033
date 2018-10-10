@@ -12,7 +12,7 @@ public final class Solution {
   /**
    * Constructs the object for checkstyle..
    */
-  Solution(){
+  private Solution(){
 
   }
   /**
@@ -77,7 +77,7 @@ public final class Solution {
 class SymbolTable<Key extends Comparable<Key>, Value> {
   /**
    * keys array to store key.
-   * 
+   *
    */
   private Key[] keys;
   /**
