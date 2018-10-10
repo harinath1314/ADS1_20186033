@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m15/15.1 BinarySearchSymbolTable/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m15/15.1 BinarySearchSymbolTable/Solution.java:11:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m15/15.1 BinarySearchSymbolTable/Solution.java:20: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m15/15.1 BinarySearchSymbolTable/Solution.java:71:3: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m15/15.1 BinarySearchSymbolTable/Solution.java:72:3: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m15/15.1 BinarySearchSymbolTable/Solution.java:73:3: Missing a Javadoc comment. [JavadocVariable]
+Audit done.
+Checkstyle ends with 6 errors.
