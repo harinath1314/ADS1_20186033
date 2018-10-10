@@ -25,8 +25,6 @@ public final class Solution {
     String[] input = sc.nextLine().split(" ");
     SymbolTable<String, Integer> st = new SymbolTable<String,
     Integer>(input.length);
-    // SymbolTable<String, Integer> st = new
-    // SymbolTable<String, Integer>(input.length);
     for (int i = 0; i < input.length; i++) {
       st.put(input[i], i);
     }
@@ -43,28 +41,20 @@ public final class Solution {
         st.keys();
         break;
       default:
-
         if (operation[0].equals("contains")) {
           System.out.println(st.contains(operation[1]));
-
         }
         if (operation[0].equals("get")) {
           System.out.println(st.get(operation[1]));
-
         }
         if (operation[0].equals("floor")) {
           System.out.println(st.floor(operation[1]));
-
         }
         if (operation[0].equals("rank")) {
           System.out.println(st.rank(operation[1]));
-
         }
         break;
-
       }
-
-
     }
   }
 }
