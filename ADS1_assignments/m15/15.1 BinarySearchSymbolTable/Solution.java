@@ -10,6 +10,12 @@ import java.util.Scanner;
  */
 public final class Solution {
   /**
+   * Constructs the object for checkstyle..
+   */
+  Solution(){
+
+  }
+  /**
    * main.
    *
    * @param      args  The arguments
@@ -17,7 +23,8 @@ public final class Solution {
   public static void main(final String[] args) {
     Scanner sc = new Scanner(System.in);
     String[] input = sc.nextLine().split(" ");
-    SymbolTable<String, Integer> st = new SymbolTable<String, Integer>(input.length);
+    SymbolTable<String, Integer> st = new SymbolTable<String,
+    Integer>(input.length);
     // SymbolTable<String, Integer> st = new
     // SymbolTable<String, Integer>(input.length);
     for (int i = 0; i < input.length; i++) {
@@ -68,8 +75,18 @@ public final class Solution {
 * @param      <Value>  The value
 */
 class SymbolTable<Key extends Comparable<Key>, Value> {
+  /**
+   * keys array to store key.
+   * 
+   */
   private Key[] keys;
+  /**
+   * values array to store value os corresonding keys.
+   */
   private Value[] values;
+  /**
+   * size of array.
+   */
   private int size;
   /**
    * Constructs the object.
@@ -82,7 +99,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     size = 0;
   }
   /**
-   *
+   *complexity of put method is N.
    *
    * @param      key    The key
    * @param      value  The value
@@ -107,6 +124,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
   }
   /**
    * contains.
+   * complexity is O(1).
    *
    * @param      key   The key
    *
@@ -117,6 +135,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
   }
   /**
    * gets function.
+   * complexity is N.
    *
    * @param      key   The key
    *
@@ -133,7 +152,9 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     return null;
   }
   /**
-   * rank has a complexity of N.
+   * rank method.
+   * complexity is N.
+   *
    *
    * @param      key   The key
    *
@@ -164,6 +185,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
   }
   /**
    * deletes key from the keys array.
+   * complexity of delete is N.
    *
    * @param      key   The key
    */
