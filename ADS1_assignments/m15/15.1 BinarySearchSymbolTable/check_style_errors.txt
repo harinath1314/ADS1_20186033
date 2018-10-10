@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m15/15.1 BinarySearchSymbolTable/Solution.java:15:21: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 1 errors.

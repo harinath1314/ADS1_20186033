@@ -12,7 +12,7 @@ public final class Solution {
   /**
    * Constructs the object for checkstyle..
    */
-  private Solution(){
+  private Solution() {
 
   }
   /**
@@ -104,7 +104,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
    * @param      key    The key
    * @param      value  The value
    */
-  void put(final Key key, final Value value) {
+  public void put(final Key key, final Value value) {
     if (value == null) {
       delete(key);
       return;
@@ -130,7 +130,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
    *
    * @return     { description_of_the_return_value }
    */
-  boolean contains(final Key key) {
+  public boolean contains(final Key key) {
     return get(key) != null;
   }
   /**
@@ -141,7 +141,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
    *
    * @return     { description_of_the_return_value }
    */
-  Value get(final Key key) {
+  public Value get(final Key key) {
     if (size == 0) {
       return null;
     }
@@ -160,7 +160,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
    *
    * @return     is a integer.
    */
-  int rank(final Key key) {
+  public int rank(final Key key) {
     int low = 0, high = size - 1;
     while (low <= high) {
       int mid = low + (high - low) / 2;
@@ -180,7 +180,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
    *
    * @return     the key having max value.
    */
-  Key max() {
+  public Key max() {
     return keys[size - 1];
   }
   /**
@@ -189,7 +189,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
    *
    * @param      key   The key
    */
-  void delete(final Key key) {
+  public void delete(final Key key) {
     if (size == 0) {
       return;
     }
@@ -209,13 +209,13 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
   /**
    * deletes min ranked  value.
    */
-  void deleteMin() {
+  public void deleteMin() {
     delete(keys[0]);
   }
   /**
    * prints all values.
    */
-  void keys() {
+  public void keys() {
     for (int i = 0; i < size; i++) {
       if (values[i] != null) {
         System.out.println(keys[i] + " " + values[i]);
@@ -223,13 +223,14 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     }
   }
   /**
-   * floor.
+   * floor method.
+   * coplexity is O(1).
    *
    * @param      key   The key
    *
    * @return     floor values.
    */
-  Key floor(final Key key) {
+  public Key floor(final Key key) {
     int i = rank(key);
     if (i < size && key.compareTo(keys[i]) == 0) {
       return keys[i];
