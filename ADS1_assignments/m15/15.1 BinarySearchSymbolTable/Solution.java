@@ -81,7 +81,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
   /**
    * Constructs the object.
    *
-   * @param      n     { parameter_description }
+   * @param      n     size of array.
    */
   SymbolTable(final int n) {
     keys = (Key[]) new Comparable[n];
@@ -118,7 +118,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
    *
    * @param      key   The key
    *
-   * @return     { description_of_the_return_value }
+   * @return     boolean.
    */
   public boolean contains(final Key key) {
     return get(key) != null;
@@ -129,7 +129,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
    *
    * @param      key   The key
    *
-   * @return     { description_of_the_return_value }
+   * @return     value of the corresponding key.
    */
   public Value get(final Key key) {
     if (size == 0) {
