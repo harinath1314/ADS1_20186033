@@ -30,7 +30,7 @@ public final class Solution {
                 bst.put(new Book(tokens[1], tokens[2],
                                  Double.parseDouble(tokens[2 + 1])),
                         Integer.parseInt(tokens[2 + 2]));
-                System.out.println("hi mamam how are you");
+                // System.out.println("hi mamam how are you");
                 break;
             case"get":
                 System.out.println(bst.get((new Book(tokens[1],
@@ -229,7 +229,7 @@ class Bst {
      */
     private Node gethelp(final Node x, final Book book) {
         if (x == null) {
-            return null;
+            return x;
         }
         int cmp = book.compareTo(x.key);
         if (cmp < 0) {

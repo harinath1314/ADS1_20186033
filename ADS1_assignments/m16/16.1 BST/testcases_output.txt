@@ -1,9 +1,7 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 1
 Your Output: 
-hi mamam how are you
-hi mamam how are you
 1
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -13,13 +11,8 @@ Expected Output:
 7
 2
 Your Output: 
-hi mamam how are you
-hi mamam how are you
-hi mamam how are you
 1
-hi mamam how are you
 1
-hi mamam how are you
 1
 1
 ----------------------------------------
@@ -28,11 +21,6 @@ Expected Output:
 null
 7
 Your Output: 
-hi mamam how are you
-hi mamam how are you
-hi mamam how are you
 1
-hi mamam how are you
-hi mamam how are you
 1
 ----------------------------------------
