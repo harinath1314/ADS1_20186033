@@ -14,9 +14,9 @@ eric
 2
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
-	at Bst.helpingnature(Solution.java:130)
-	at Bst.helpingnature(Solution.java:135)
-	at Bst.put(Solution.java:121)
+	at Bst.helpingnature(Solution.java:133)
+	at Bst.helpingnature(Solution.java:138)
+	at Bst.put(Solution.java:124)
 	at Solution.main(Solution.java:35)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -38,9 +38,9 @@ Viswas
 2
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
-	at Bst.helpingnature(Solution.java:130)
-	at Bst.helpingnature(Solution.java:135)
-	at Bst.put(Solution.java:121)
+	at Bst.helpingnature(Solution.java:133)
+	at Bst.helpingnature(Solution.java:138)
+	at Bst.put(Solution.java:124)
 	at Solution.main(Solution.java:35)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -60,8 +60,8 @@ Viswas
 2
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
-	at Bst.helpingnature(Solution.java:130)
-	at Bst.helpingnature(Solution.java:135)
-	at Bst.put(Solution.java:121)
+	at Bst.helpingnature(Solution.java:133)
+	at Bst.helpingnature(Solution.java:138)
+	at Bst.put(Solution.java:124)
 	at Solution.main(Solution.java:35)
 ----------------------------------------
