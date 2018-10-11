@@ -21,9 +21,8 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
-        while (input.hasNextLine()) {
         Bst bst = new Bst();
-            
+        while (input.hasNextLine()) {
             String[] tokens = input.nextLine().split(",");
 
             switch (tokens[0]) {
@@ -31,6 +30,7 @@ public final class Solution {
                 bst.put(new Book(tokens[1], tokens[2],
                                  Double.parseDouble(tokens[2 + 1])),
                         Integer.parseInt(tokens[2 + 2]));
+                System.out.println("hi mamam how are you");
                 break;
             case"get":
                 System.out.println(bst.get((new Book(tokens[1],
