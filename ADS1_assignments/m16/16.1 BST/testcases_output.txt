@@ -1,8 +1,11 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 1
 Your Output: 
-1
+Exception in thread "main" java.lang.NullPointerException
+	at Bst$Node.access$300(Solution.java:126)
+	at Bst.get(Solution.java:219)
+	at Solution.main(Solution.java:36)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -11,16 +14,18 @@ Expected Output:
 7
 2
 Your Output: 
-1
-1
-1
-1
+Exception in thread "main" java.lang.NullPointerException
+	at Bst$Node.access$300(Solution.java:126)
+	at Bst.get(Solution.java:219)
+	at Solution.main(Solution.java:36)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 null
 7
 Your Output: 
-1
-1
+Exception in thread "main" java.lang.NullPointerException
+	at Bst$Node.access$300(Solution.java:126)
+	at Bst.get(Solution.java:219)
+	at Solution.main(Solution.java:36)
 ----------------------------------------

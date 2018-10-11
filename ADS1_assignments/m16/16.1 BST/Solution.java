@@ -21,8 +21,9 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
-        Bst bst = new Bst();
         while (input.hasNextLine()) {
+        Bst bst = new Bst();
+            
             String[] tokens = input.nextLine().split(",");
 
             switch (tokens[0]) {
@@ -166,6 +167,8 @@ class Bst {
     }
     /**
      * put method.
+     * complexity of put method in average is log N
+     * complexity of put method in worst case is N.
      *
      * @param      book    The book
      * @param      volume  The volume
@@ -204,6 +207,9 @@ class Bst {
     }
     /**
      * get method.
+     * complexity of get method in average is log N
+     * complexity of get method in worst case is N.
+     * 
      *
      * @param      book  The book
      *
