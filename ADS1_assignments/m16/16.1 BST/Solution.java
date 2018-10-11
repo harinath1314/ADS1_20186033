@@ -210,7 +210,7 @@ class Bst {
      * @return     { description_of_the_return_value }
      */
     public Integer get(final Book book) {
-        return gethelp(root, book).value;
+        return (gethelp(root, book)).value;
 
     }
     /**
