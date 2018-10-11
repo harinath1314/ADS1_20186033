@@ -24,7 +24,12 @@ public final class Solution{
 		Bst bst = new Bst();
 		while (input.hasNextLine()) {
 			String[] tokens = input.nextLine().split(",");
-			// System.out.println(tokens[0]);
+			System.out.println(tokens[0]);
+			System.out.println(tokens[1]);
+			System.out.println(tokens[2]);
+			System.out.println(tokens[3]);
+			System.out.println(tokens[4]);
+
 			switch (tokens[0]) {
 			case"put":
 				bst.put((new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3]))) , Integer.parseInt(tokens[2 + 2]));

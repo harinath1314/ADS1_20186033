@@ -2,12 +2,22 @@
 Expected Output: 
 1
 Your Output: 
+put
+Algorithms
+Bob Sedgewick
+6000.0
+1
+put
+Python
+eric
+5000
+2
 Exception in thread "main" java.lang.NullPointerException
-	at Bst$Node.access$000(Solution.java:96)
-	at Bst.helpingnature(Solution.java:125)
+	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:130)
-	at Bst.put(Solution.java:116)
-	at Solution.main(Solution.java:30)
+	at Bst.helpingnature(Solution.java:135)
+	at Bst.put(Solution.java:121)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -16,22 +26,42 @@ Expected Output:
 7
 2
 Your Output: 
+put
+Harry
+JK
+600.0
+1
+put
+IT
+Viswas
+400.0
+2
 Exception in thread "main" java.lang.NullPointerException
-	at Bst$Node.access$000(Solution.java:96)
-	at Bst.helpingnature(Solution.java:125)
+	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:130)
-	at Bst.put(Solution.java:116)
-	at Solution.main(Solution.java:30)
+	at Bst.helpingnature(Solution.java:135)
+	at Bst.put(Solution.java:121)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 null
 7
 Your Output: 
+put
+Harry
+JK
+600.0
+1
+put
+IT
+Viswas
+400.0
+2
 Exception in thread "main" java.lang.NullPointerException
-	at Bst$Node.access$000(Solution.java:96)
-	at Bst.helpingnature(Solution.java:125)
+	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:130)
-	at Bst.put(Solution.java:116)
-	at Solution.main(Solution.java:30)
+	at Bst.helpingnature(Solution.java:135)
+	at Bst.put(Solution.java:121)
+	at Solution.main(Solution.java:35)
 ----------------------------------------
