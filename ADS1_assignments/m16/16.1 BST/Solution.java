@@ -252,10 +252,10 @@ class Bst {
         }
         int cmp = book.compareTo(x.key);
         if (cmp < 0) {
-            gethelp(x.left, book);
+           return  gethelp(x.left, book);
 
         } else if (cmp > 0) {
-            gethelp(x.right, book);
+           return  gethelp(x.right, book);
 
         }
         return x.value;

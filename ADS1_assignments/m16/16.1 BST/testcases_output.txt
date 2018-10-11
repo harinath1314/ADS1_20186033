@@ -4,23 +4,23 @@ Expected Output:
 Your Output: 
 1
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 6
 5
 7
 2
 Your Output: 
-1
-1
-1
-1
+6
+5
+7
+2
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 null
 7
 Your Output: 
-1
-1
+null
+7
 ----------------------------------------
