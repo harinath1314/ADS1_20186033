@@ -127,7 +127,7 @@ class Bst {
 
 	private Node helpingnature(Node x, Book book, Integer volume) {
 
-		if (root == null) {
+		if (x == null) {
 			return new Node(book, volume);
 		}
 		int cmp = book.compareTo(x.key);
