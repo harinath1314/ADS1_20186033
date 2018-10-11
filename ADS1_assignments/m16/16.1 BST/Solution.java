@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Solution class.
  */
-public final class Solution {
+public final class Solution{
 	/**
 	 * Constructs the object for checkstyle.
 	 */
@@ -27,10 +27,10 @@ public final class Solution {
 			System.out.println(tokens[0]);
 			switch (tokens[0]) {
 			case"put":
-				bst.put((Comparable)(new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3]))) , Integer.parseInt(tokens[2 + 2]));
+				bst.put((new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3]))) , Integer.parseInt(tokens[2 + 2]));
 				break;
 			case"get":
-				System.out.println(bst.get((Comparable)(new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3])))));
+				System.out.println(bst.get((new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3])))));
 				break;
 			default:
 				break;
@@ -90,17 +90,17 @@ class Book {
 /**
  * Class for Binary Search Table.
  */
-class Bst<Key extends Comparable<Key>, Value> {
+class Bst {
 
 
 	private class Node {
 
-		private Key key;
-		private Value value;
+		private Book key;
+		private Integer value;
 		private Node left;
 		private Node right;
 
-		Node(Key book, Value volume) {
+		Node(Book book, Integer volume) {
 			this.key = book;
 			this.value = volume;
 
@@ -112,21 +112,21 @@ class Bst<Key extends Comparable<Key>, Value> {
 		this.root = null;
 	}
 
-	public void put(Key book, Value volume) {
+	public void put(Book book, Integer volume) {
 		root = helpingnature(root, book, volume);
 
 	}
 
-	private Node helpingnature(Node x, Key book, Value volume) {
+	private Node helpingnature(Node x, Book book, Integer volume) {
 
 		if (root == null) {
 			return new Node(book, volume);
 		}
-		int compare = book.compareTo(x.key);
-		if (compare < 0) {
+		int cmp = book.compareTo(x.key);
+		if (cmp < 0) {
 			x.left = helpingnature(x.left, book, volume);
 
-		} else if (compare > 0) {
+		} else if (cmp > 0) {
 			x.right = helpingnature(x.right, book, volume);
 
 		} else {
@@ -136,20 +136,20 @@ class Bst<Key extends Comparable<Key>, Value> {
 
 	}
 
-	public Value get(Key book) {
+	public Integer get(Book book) {
 		return gethelp(root, book).value;
 
 	}
 
-	private Node gethelp(Node x , Key book) {
+	private Node gethelp(Node x , Book book) {
 		if (x == null) {
 			return null;
 		}
-		int compare = book.compareTo(x.key);
-		if (compare < 0) {
+		int cmp = book.compareTo(x.key);
+		if (cmp < 0) {
 			x.left = gethelp(x.left, book);
 
-		} else if (compare > 0) {
+		} else if (cmp > 0) {
 			x.right = gethelp(x.right, book);
 
 		}

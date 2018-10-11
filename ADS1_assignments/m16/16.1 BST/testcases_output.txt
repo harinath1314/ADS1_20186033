@@ -3,7 +3,12 @@ Expected Output:
 1
 Your Output: 
 put
-Exception in thread "main" java.lang.ClassCastException: Book cannot be cast to java.base/java.lang.Comparable
+put
+Exception in thread "main" java.lang.NullPointerException
+	at Bst$Node.access$000(Solution.java:96)
+	at Bst.helpingnature(Solution.java:125)
+	at Bst.helpingnature(Solution.java:130)
+	at Bst.put(Solution.java:116)
 	at Solution.main(Solution.java:30)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -14,7 +19,12 @@ Expected Output:
 2
 Your Output: 
 put
-Exception in thread "main" java.lang.ClassCastException: Book cannot be cast to java.base/java.lang.Comparable
+put
+Exception in thread "main" java.lang.NullPointerException
+	at Bst$Node.access$000(Solution.java:96)
+	at Bst.helpingnature(Solution.java:125)
+	at Bst.helpingnature(Solution.java:130)
+	at Bst.put(Solution.java:116)
 	at Solution.main(Solution.java:30)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -23,6 +33,11 @@ null
 7
 Your Output: 
 put
-Exception in thread "main" java.lang.ClassCastException: Book cannot be cast to java.base/java.lang.Comparable
+put
+Exception in thread "main" java.lang.NullPointerException
+	at Bst$Node.access$000(Solution.java:96)
+	at Bst.helpingnature(Solution.java:125)
+	at Bst.helpingnature(Solution.java:130)
+	at Bst.put(Solution.java:116)
 	at Solution.main(Solution.java:30)
 ----------------------------------------
