@@ -2,14 +2,6 @@
 Expected Output: 
 1
 Your Output: 
-put
-Algorithms
-Bob Sedgewick
-6000.0
-put
-Python
-eric
-5000
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:133)
@@ -24,14 +16,6 @@ Expected Output:
 7
 2
 Your Output: 
-put
-Harry
-JK
-600.0
-put
-IT
-Viswas
-400.0
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:133)
@@ -44,14 +28,6 @@ Expected Output:
 null
 7
 Your Output: 
-put
-Harry
-JK
-600.0
-put
-IT
-Viswas
-400.0
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:133)
