@@ -28,7 +28,7 @@ public final class Solution {
 			System.out.println(tokens[1]);
 			System.out.println(tokens[2]);
 			System.out.println(tokens[3]);
-			System.out.println(tokens[4]);
+			// System.out.println(tokens[4]);
 
 			switch (tokens[0]) {
 			case"put":

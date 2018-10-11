@@ -2,7 +2,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:11:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:22:33: Parameter args should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:30:51: '3' is a magic number. [MagicNumber]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:31:51: '4' is a magic number. [MagicNumber]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:35: Line is longer than 80 characters (found 141). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:35:106: ',' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:38: Line is longer than 80 characters (found 125). [LineLength]
@@ -37,4 +36,4 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:152:36: ',' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:152:39: Parameter book should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 37 errors.
+Checkstyle ends with 36 errors.

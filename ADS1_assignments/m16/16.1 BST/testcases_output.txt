@@ -6,12 +6,10 @@ put
 Algorithms
 Bob Sedgewick
 6000.0
-1
 put
 Python
 eric
 5000
-2
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:133)
@@ -30,12 +28,10 @@ put
 Harry
 JK
 600.0
-1
 put
 IT
 Viswas
 400.0
-2
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:133)
@@ -52,12 +48,10 @@ put
 Harry
 JK
 600.0
-1
 put
 IT
 Viswas
 400.0
-2
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:101)
 	at Bst.helpingnature(Solution.java:133)
