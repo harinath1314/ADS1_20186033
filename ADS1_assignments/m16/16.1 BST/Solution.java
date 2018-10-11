@@ -29,7 +29,7 @@ public final class Solution {
 				bst.put((Comparable)(new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3]))) , Integer.parseInt(tokens[2 + 2]));
 				break;
 			case"get":
-				bst.get((Comparable)(new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3]))));
+				System.out.println(bst.get((Comparable)(new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3])))));
 				break;
 			default:
 				break;
