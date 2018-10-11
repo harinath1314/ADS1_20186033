@@ -34,7 +34,7 @@ public final class Solution {
                 break;
             case"get":
                 System.out.println(bst.get((new Book(tokens[1],
-                                                     tokens[2], Double.parseDouble(tokens[2 + 1])))));
+                tokens[2], Double.parseDouble(tokens[2 + 1])))));
                 break;
             default:
                 break;
