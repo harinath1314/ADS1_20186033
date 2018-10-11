@@ -28,7 +28,7 @@ public final class Solution {
             switch (tokens[0]) {
             case"put":
                 bst.put(new Book(tokens[1], tokens[2],
-                                 Double.parseDouble(tokens[2 + 1])) ,
+                                 Double.parseDouble(tokens[2 + 1])),
                         Integer.parseInt(tokens[2 + 2]));
                 break;
             case"get":
@@ -221,7 +221,7 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node gethelp(final Node x , final Book book) {
+    private Node gethelp(final Node x, final Book book) {
         if (x == null) {
             return null;
         }
