@@ -32,7 +32,7 @@ public final class Solution {
 
 			switch (tokens[0]) {
 			case"put":
-				bst.put((new Book(tokens[1], tokens[2], Double.parseDouble(tokens[2 + 1]))) , Integer.parseInt(tokens[2 + 2]));
+				bst.put(new Book(tokens[1], tokens[2], Double.parseDouble(tokens[2 + 1])) , Integer.parseInt(tokens[2 + 2]));
 				break;
 			case"get":
 				System.out.println(bst.get((new Book(tokens[1], tokens[2], Double.parseDouble(tokens[3])))));
