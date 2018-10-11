@@ -1,4 +1,4 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:212: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m16/16.1 BST/Solution.java:37: Line is longer than 80 characters (found 102). [LineLength]
 Audit done.
 Checkstyle ends with 1 errors.

@@ -22,7 +22,7 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
         Bst bst = new Bst();
-        while (input.hasNextLine()) {
+        while (input.hasNext()) {
             String[] tokens = input.nextLine().split(",");
 
             switch (tokens[0]) {
@@ -34,7 +34,7 @@ public final class Solution {
                 break;
             case"get":
                 System.out.println(bst.get((new Book(tokens[1],
-                     tokens[2], Double.parseDouble(tokens[2 + 1])))));
+                                                     tokens[2], Double.parseDouble(tokens[2 + 1])))));
                 break;
             default:
                 break;
@@ -109,7 +109,26 @@ class Book {
      * @return     integer.
      */
     public int compareTo(final Book that) {
-        return this.name.compareTo(that.name);
+
+        if (this.getname().compareTo(that.getname()) > 0) {
+            return 1;
+        } else if (this.getname().compareTo(that.getname()) < 0) {
+            return -1;
+        } else {
+            if (this.getauthor().compareTo(that.getauthor()) > 0) {
+                return 1;
+            } else if (this.getauthor().compareTo(that.getauthor()) < 0) {
+                return -1;
+            } else {
+                if (this.getprice() > that.getprice()) {
+                    return 1;
+                } else if (this.getprice() < that.getprice()) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            }
+        }
     }
 
 
@@ -209,7 +228,7 @@ class Bst {
      * get method.
      * complexity of get method in average is log N
      * complexity of get method in worst case is N.
-     * 
+     *
      *
      * @param      book  The book
      *
