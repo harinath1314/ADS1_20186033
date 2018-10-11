@@ -235,7 +235,7 @@ class Bst {
      * @return     { description_of_the_return_value }
      */
     public Integer get(final Book book) {
-        return (gethelp(root, book)).value;
+        return (gethelp(root, book));
 
     }
     /**
@@ -246,19 +246,19 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node gethelp(final Node x, final Book book) {
+    private Integer gethelp(final Node x, final Book book) {
         if (x == null) {
-            return x;
+            return null;
         }
         int cmp = book.compareTo(x.key);
         if (cmp < 0) {
-            x.left = gethelp(x.left, book);
+            gethelp(x.left, book);
 
         } else if (cmp > 0) {
-            x.right = gethelp(x.right, book);
+            gethelp(x.right, book);
 
         }
-        return x;
+        return x.value;
     }
 
 }
