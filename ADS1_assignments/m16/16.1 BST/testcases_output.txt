@@ -2,8 +2,6 @@
 Expected Output: 
 1
 Your Output: 
-put
-put
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:96)
 	at Bst.helpingnature(Solution.java:125)
@@ -18,8 +16,6 @@ Expected Output:
 7
 2
 Your Output: 
-put
-put
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:96)
 	at Bst.helpingnature(Solution.java:125)
@@ -32,8 +28,6 @@ Expected Output:
 null
 7
 Your Output: 
-put
-put
 Exception in thread "main" java.lang.NullPointerException
 	at Bst$Node.access$000(Solution.java:96)
 	at Bst.helpingnature(Solution.java:125)
