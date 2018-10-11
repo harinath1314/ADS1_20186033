@@ -23,7 +23,7 @@ public final class Solution {
 		Scanner input = new Scanner(System.in);
 		Bst bst = new Bst();
 		while (input.hasNextLine()) {
-			String[] tokens = input.nextLine().split(" ");
+			String[] tokens = input.nextLine().split(",");
 			System.out.println(tokens[0]);
 			switch (tokens[0]) {
 			case"put":

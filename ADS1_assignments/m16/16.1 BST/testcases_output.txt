@@ -2,9 +2,9 @@
 Expected Output: 
 1
 Your Output: 
-put,Algorithms,Bob
-put,Python,eric,5000,2
-get,Algorithms,Bob
+put
+Exception in thread "main" java.lang.ClassCastException: Book cannot be cast to java.base/java.lang.Comparable
+	at Solution.main(Solution.java:30)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -13,26 +13,16 @@ Expected Output:
 7
 2
 Your Output: 
-put,Harry,JK,600.0,1
-put,IT,Viswas,400.0,2
-put,Street,Kiran,800.0,6
-get,Street,Kiran,800.0
-put,Hello,Ajay,200.0,5
-get,Hello,Ajay,200.0
-put,Hello,Ajay,200.0,7
-get,Hello,Ajay,200.0
-get,IT,Viswas,400.0
+put
+Exception in thread "main" java.lang.ClassCastException: Book cannot be cast to java.base/java.lang.Comparable
+	at Solution.main(Solution.java:30)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 null
 7
 Your Output: 
-put,Harry,JK,600.0,1
-put,IT,Viswas,400.0,2
-put,Street,Kiran,800.0,6
-get,Hello,Ajay,200.0
-put,Hello,Ajay,200.0,5
-put,Hello,Ajay,200.0,7
-get,Hello,Ajay,200.0
+put
+Exception in thread "main" java.lang.ClassCastException: Book cannot be cast to java.base/java.lang.Comparable
+	at Solution.main(Solution.java:30)
 ----------------------------------------
