@@ -1,17 +1,2 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:53:8: Unused @param tag for 'comparator'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:55:57: Expected @param tag for 'comparators'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:64:8: Unused @param tag for 'comparator'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:66:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:66:40: Expected @param tag for 'comparators'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:177:8: Unused @param tag for 'k'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:179:33: Expected @param tag for 'ka'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:189:8: Unused @param tag for 'k'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:191:33: Expected @param tag for 'ka'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:412: Class Solution should be declared as final. [FinalClass]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:423:8: Unused @param tag for 'n'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:428: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:428:68: Expected @param tag for 'p'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:454:22: '500' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 14 errors.

@@ -50,7 +50,7 @@ class MinPQ<Key> implements Iterable<Key> {
      * using the given comparator.
      *
      * @param  initCapacity the initial capacity of this priority queue
-     * @param  comparator the order in which to compare the keys
+     * @param  comparators the order in which to compare the keys
      */
     MinPQ(final int initCapacity, final Comparator<Key> comparators) {
         this.comparator = comparators;
@@ -61,9 +61,9 @@ class MinPQ<Key> implements Iterable<Key> {
     /**
      * Initializes an empty priority queue using the given comparator.
      *
-     * @param  comparator the order in which to compare the keys
+     * @param  comparators the order in which to compare the keys
      */
-    public MinPQ(final Comparator<Key> comparators) {
+    MinPQ(final Comparator<Key> comparators) {
         this(1, comparators);
     }
 
@@ -174,7 +174,7 @@ class MinPQ<Key> implements Iterable<Key> {
     /**
      * Swim method.
      *
-     * @param      k     { parameter_description }
+     * @param      ka     { parameter_description }
      */
     private void swim(final int ka) {
         int k = ka;
@@ -186,7 +186,7 @@ class MinPQ<Key> implements Iterable<Key> {
     /**
      * sink method.
      *
-     * @param      k     { parameter_description }
+     * @param      ka     { parameter_description }
      */
     private void sink(final int ka) {
         int k = ka;
@@ -409,7 +409,7 @@ class CubeSum implements Comparable<CubeSum> {
 /**
  * Solution class and the main method is here.
  */
-class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -420,12 +420,13 @@ class Solution {
      * taxinumber method.
      *
      * @param      list  The list
-     * @param      n     { parameter_description }
+     * @param      p     { parameter_description }
      * @param      m     { parameter_description }
      *
      * @return     { description_of_the_return_value }
      */
-    static int taxinumber(final ArrayList<CubeSum> list, final int p, final int m) {
+    static int taxinumber(final ArrayList<CubeSum> list,
+                          final int p, final int m) {
         int i = 0;
         int n = p;
         int res = 0;
@@ -451,7 +452,7 @@ class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        int fivhun = 500;
+        final int fivhun = 500;
         int num = fivhun;
         Scanner sc = new Scanner(System.in);
         ArrayList<CubeSum> cubelist = new ArrayList<CubeSum>();
