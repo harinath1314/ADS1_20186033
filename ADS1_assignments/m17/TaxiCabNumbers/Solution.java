@@ -68,6 +68,7 @@ class MinPQ<Key> implements Iterable<Key> {
     }
 
     /**
+     *complexity is NlogN
      * Initializes a priority queue from the array of keys.
      * <p>
      * Takes time proportional to the number of keys,
@@ -92,8 +93,8 @@ class MinPQ<Key> implements Iterable<Key> {
     /**
      * Returns true if this priority queue is empty.
      *
-     * @return {@code true} if this priority queue is empty;
-     *         {@code false} otherwise
+     * @return { true} if this priority queue is empty;
+     *         { false} otherwise
      */
     public boolean isEmpty() {
         return n == 0;
@@ -137,6 +138,7 @@ class MinPQ<Key> implements Iterable<Key> {
     }
 
     /**
+     *complexity is logN.
      * Adds a new key to this priority queue.
      *
      * @param  x the key to add to this priority queue
@@ -151,6 +153,8 @@ class MinPQ<Key> implements Iterable<Key> {
     }
 
     /**
+     *complexity is logN.
+     *
      * Removes and returns a smallest key on this priority queue.
      *
      * @return a smallest key on this priority queue
@@ -172,6 +176,8 @@ class MinPQ<Key> implements Iterable<Key> {
         return min;
     }
     /**
+     *complexity is logN.
+     *
      * Swim method.
      *
      * @param      ka     { parameter_description }
@@ -184,6 +190,8 @@ class MinPQ<Key> implements Iterable<Key> {
         }
     }
     /**
+     *complexity is logN.
+     *
      * sink method.
      *
      * @param      ka     { parameter_description }
@@ -231,6 +239,8 @@ class MinPQ<Key> implements Iterable<Key> {
     }
 
     /**
+     *complexity is logN
+     *
      * Determines if minimum heap.
      *
      * @return     True if minimum heap, False otherwise.
@@ -378,6 +388,7 @@ class CubeSum implements Comparable<CubeSum> {
     }
     /**
      * compareTo method.
+     * complexity is O(1).
      *
      * @param      that  The that
      *
@@ -417,6 +428,8 @@ public final class Solution {
 
     }
     /**
+     *complexity is N.
+     *
      * taxinumber method.
      *
      * @param      list  The list
@@ -448,6 +461,7 @@ public final class Solution {
     }
     /**
      * main method starts here.
+     * complexity of the main function is N.
      *
      * @param      args  The arguments
      */
