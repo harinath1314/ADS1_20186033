@@ -75,5 +75,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:278:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:284:29: Parameter args should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:286:17: '12' is a magic number. [MagicNumber]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m17/TaxiCabNumbers/Solution.java:300: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 76 errors.
+Checkstyle ends with 77 errors.

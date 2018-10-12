@@ -288,17 +288,17 @@ public final class Solution {
         // initialize priority queue
         MinPQ<CubeSum> pq = new MinPQ<CubeSum>();
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                pq.insert(new CubeSum(i, j));
-            }
+            // for (int j = 1; j <= n; j++) {
+                pq.insert(new CubeSum(i, i));
+            // }
         }
 
         // find smallest sum, print it out, and update
         while (!pq.isEmpty()) {
             CubeSum s = pq.delMin();
             System.out.println(s);
-            // if (s.j < n)
-            //     pq.insert(new CubeSum(s.i, s.j + 1));
+            if (s.j < n)
+                pq.insert(new CubeSum(s.i, s.j + 1));
         }
         Scanner inputint = new Scanner(System.in);
         int nin = inputint.nextInt();
