@@ -283,12 +283,12 @@ public final class Solution {
      */
     public static void main(String[] args) {
 
-        int n = 5;
+        int n = 12;
 
         // initialize priority queue
         MinPQ<CubeSum> pq = new MinPQ<CubeSum>();
-        for (int i = 0; i <= n; i++) {
-            for (int j = 0; j <= n; j++) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
                 pq.insert(new CubeSum(i, j));
             }
         }
