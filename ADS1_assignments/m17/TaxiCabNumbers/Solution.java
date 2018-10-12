@@ -2,6 +2,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 /**
  * Class for minimum pq.
@@ -283,26 +284,35 @@ public final class Solution {
      */
     public static void main(String[] args) {
 
-        int n = 12;
+        int n = 3;
+            ArrayList cubeslist = new ArrayList();
+
+        // int size = 0;
 
         // initialize priority queue
         MinPQ<CubeSum> pq = new MinPQ<CubeSum>();
         for (int i = 1; i <= n; i++) {
             // for (int j = 1; j <= n; j++) {
-                pq.insert(new CubeSum(i, i));
+            pq.insert(new CubeSum(i, i));
             // }
         }
 
         // find smallest sum, print it out, and update
         while (!pq.isEmpty()) {
             CubeSum s = pq.delMin();
-            System.out.println(s);
+            // System.out.println(s);
+            cubeslist.add(s);
+
             if (s.j < n)
                 pq.insert(new CubeSum(s.i, s.j + 1));
         }
         Scanner inputint = new Scanner(System.in);
         int nin = inputint.nextInt();
         int m = inputint.nextInt();
+        for (Object s : cubeslist) {
+            System.out.println(s);
+            
+        }
 
 
 
