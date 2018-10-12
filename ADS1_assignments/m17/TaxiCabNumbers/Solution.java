@@ -452,7 +452,7 @@ public final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        final int fivhun = 521;
+        final int fivhun = 522;
         int num = fivhun;
         Scanner sc = new Scanner(System.in);
         ArrayList<CubeSum> cubelist = new ArrayList<CubeSum>();
