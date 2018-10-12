@@ -1,7 +1,7 @@
 /**
  * Solution of Taxi numbers problem.
  * aythor hainatha reddy
- * date : 12:10:18.b
+ * date : 12:10:18.
  */
 import java.util.Comparator;
 import java.util.Iterator;
@@ -427,12 +427,12 @@ public final class Solution {
      */
     static int taxinumber(final ArrayList<CubeSum> list,
                           final int p, final int m) {
-        int i = 0;
+        int i = 1;
         int n = p;
         int res = 0;
-        while (n != 0 && i < list.size() - m + 1) {
+        while (n != 1 && i < list.size() - m + 1) {
             ArrayList<CubeSum> sublist = new ArrayList<CubeSum>(
-                list.subList(i++, i + m - 1));
+                list.subList(i++, i + (m - 1)));
             HashSet<Integer> set = new HashSet<Integer>();
             for (CubeSum each : sublist) {
                 set.add(each.getsum());

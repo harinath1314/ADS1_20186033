@@ -1,26 +1,26 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 1729
 Your Output: 
-1729
+0
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 4673088
 Your Output: 
-4673088
+4624776
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 86488136
 Your Output: 
-86488136
+86368464
 ----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 87539319
 Your Output: 
-87539319
+0
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
