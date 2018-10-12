@@ -1,18 +1,28 @@
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Scanner;
 import java.util.ArrayList;
-
+import java.util.List;
+import java.util.HashSet;
+import java.util.Scanner;
 /**
  * Class for minimum pq.
  *
  * @param      <Key>  The key
  */
 class MinPQ<Key> implements Iterable<Key> {
-    private Key[] pq;                    // store items at indices 1 to n
-    private int n;                       // number of items on priority queue
-    private Comparator<Key> comparator;  // optional comparator
+    /**
+     * key array to store elements.
+     */
+    private Key[] pq; 
+    /**
+     * variable int .
+     */
+    private int n; 
+    /**
+     * comparator.
+     */
+    private Comparator<Key> comparator;  
 
     /**
      * Initializes an empty priority queue with the given initial capacity.
@@ -258,6 +268,15 @@ class CubeSum implements Comparable<CubeSum> {
         this.i = i;
         this.j = j;
     }
+    int geti() {
+        return this.i;
+    }
+    int getj() {
+        return this.j;
+    }
+    int getsum() {
+        return this.sum;
+    }
 
     public int compareTo(CubeSum that) {
         if (this.sum < that.sum) return -1;
@@ -276,47 +295,44 @@ class CubeSum implements Comparable<CubeSum> {
 /**
  * Solution class and the main method is here.
  */
-public final class Solution {
-    /**
-     * main method starts here.
-     *
-     * @param      args  The arguments
-     */
+class Solution {
+    static int taxinumber(ArrayList<CubeSum> list, int n, int m) {
+        int i = 0;
+        int res = 0;
+        while (n != 0 && i < list.size() - m + 1) {
+            ArrayList<CubeSum> sublist = new ArrayList<CubeSum>(list.subList(i++, i + m - 1));
+            HashSet<Integer> set = new HashSet<Integer>();
+            for (CubeSum each : sublist) {
+                set.add(each.getsum());
+            }
+            System.out.println(set);
+            if (set.size() == 1) {
+                res = sublist.get(0).getsum();
+                n--;
+            }
+
+        }
+        return res;
+    }
     public static void main(String[] args) {
-
-        int n = 3;
-            ArrayList cubeslist = new ArrayList();
-
-        // int size = 0;
-
+        int num = 500;
+        Scanner sc = new Scanner(System.in);
+        ArrayList<CubeSum> cubelist = new ArrayList<CubeSum>();
         // initialize priority queue
         MinPQ<CubeSum> pq = new MinPQ<CubeSum>();
-        for (int i = 1; i <= n; i++) {
-            // for (int j = 1; j <= n; j++) {
+        for (int i = 1; i <= num; i++) {
             pq.insert(new CubeSum(i, i));
-            // }
         }
 
         // find smallest sum, print it out, and update
         while (!pq.isEmpty()) {
             CubeSum s = pq.delMin();
-            // System.out.println(s);
-            cubeslist.add(s);
-
-            if (s.j < n)
-                pq.insert(new CubeSum(s.i, s.j + 1));
+            cubelist.add(s);
+            if (s.getj() < num)
+                pq.insert(new CubeSum(s.geti(), s.getj() + 1));
         }
-        Scanner inputint = new Scanner(System.in);
-        int nin = inputint.nextInt();
-        int m = inputint.nextInt();
-        for (Object s : cubeslist) {
-            System.out.println(s);
-            
-        }
-
-
-
-
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        System.out.println(taxinumber(cubelist, n, m));
     }
-
 }
