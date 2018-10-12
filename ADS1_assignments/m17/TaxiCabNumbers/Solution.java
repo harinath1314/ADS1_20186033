@@ -305,7 +305,7 @@ class Solution {
             for (CubeSum each : sublist) {
                 set.add(each.getsum());
             }
-            System.out.println(set);
+            // System.out.println(set);
             if (set.size() == 1) {
                 res = sublist.get(0).getsum();
                 n--;
