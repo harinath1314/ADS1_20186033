@@ -7,7 +7,6 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.HashSet;
 import java.util.Scanner;
 /**
@@ -34,7 +33,7 @@ class MinPQ<Key> implements Iterable<Key> {
      *
      * @param  initCapacity the initial capacity of this priority queue
      */
-    public MinPQ(int initCapacity) {
+    MinPQ(final int initCapacity) {
         pq = (Key[]) new Object[initCapacity + 1];
         n = 0;
     }
@@ -42,7 +41,7 @@ class MinPQ<Key> implements Iterable<Key> {
     /**
      * Initializes an empty priority queue.
      */
-    public MinPQ() {
+    MinPQ() {
         this(1);
     }
 
@@ -53,8 +52,8 @@ class MinPQ<Key> implements Iterable<Key> {
      * @param  initCapacity the initial capacity of this priority queue
      * @param  comparator the order in which to compare the keys
      */
-    public MinPQ(final int initCapacity, Comparator<Key> comparator) {
-        this.comparator = comparator;
+    MinPQ(final int initCapacity, final Comparator<Key> comparators) {
+        this.comparator = comparators;
         pq = (Key[]) new Object[initCapacity + 1];
         n = 0;
     }
@@ -64,8 +63,8 @@ class MinPQ<Key> implements Iterable<Key> {
      *
      * @param  comparator the order in which to compare the keys
      */
-    public MinPQ(Comparator<Key> comparator) {
-        this(1, comparator);
+    public MinPQ(final Comparator<Key> comparators) {
+        this(1, comparators);
     }
 
     /**
@@ -76,7 +75,7 @@ class MinPQ<Key> implements Iterable<Key> {
      *
      * @param  keys the array of keys
      */
-    public MinPQ(final Key[] keys) {
+    MinPQ(final Key[] keys) {
         n = keys.length;
         pq = (Key[]) new Object[keys.length + 1];
         for (int i = 0; i < n; i++) {
@@ -117,8 +116,8 @@ class MinPQ<Key> implements Iterable<Key> {
      */
     public Key min() {
         if (isEmpty()) {
-            throw new NoSuchElementException
-            ("Priority queue underflow");
+            throw new NoSuchElementException(
+                "Priority queue underflow");
         }
         return pq[1];
     }
@@ -159,14 +158,14 @@ class MinPQ<Key> implements Iterable<Key> {
      */
     public Key delMin() {
         if (isEmpty()) {
-            throw new NoSuchElementException
-            ("Priority queue underflow");
+            throw new NoSuchElementException(
+                "Priority queue underflow");
         }
         Key min = pq[1];
         exch(1, n--);
         sink(1);
         pq[n + 1] = null;   // to avoid loiterig and help with garbage collec
-        if ((n > 0) && (n == (pq.length - 1) / 4)) {
+        if ((n > 0) && (n == (pq.length - 1) / (2 + 2))) {
             resize(pq.length / 2);
         }
         assert isMinHeap();
@@ -177,7 +176,8 @@ class MinPQ<Key> implements Iterable<Key> {
      *
      * @param      k     { parameter_description }
      */
-    private void swim(int k) {
+    private void swim(final int ka) {
+        int k = ka;
         while (k > 1 && greater(k / 2, k)) {
             exch(k, k / 2);
             k = k / 2;
@@ -188,7 +188,8 @@ class MinPQ<Key> implements Iterable<Key> {
      *
      * @param      k     { parameter_description }
      */
-    private void sink(int k) {
+    private void sink(final int ka) {
+        int k = ka;
         while (2 * k <= n) {
             int j = 2 * k;
             if (j < n && greater(j, j + 1)) {
@@ -284,7 +285,7 @@ class MinPQ<Key> implements Iterable<Key> {
         /**
          * Constructs the object.
          */
-        public HeapIterator() {
+        HeapIterator() {
             if (comparator == null) {
                 copy = new MinPQ<Key>(size());
             } else {
@@ -300,18 +301,24 @@ class MinPQ<Key> implements Iterable<Key> {
          *
          * @return     True if has next, False otherwise.
          */
-        public boolean hasNext()  { return !copy.isEmpty();   }
+        public boolean hasNext() {
+            return !copy.isEmpty();
+        }
         /**
          * remove method.
          */
-        public void remove()  { throw new UnsupportedOperationException(); }
+        public void remove()  {
+            throw new UnsupportedOperationException();
+        }
         /**
          * next method.
          *
          * @return     { description_of_the_return_value }
          */
         public Key next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
             return copy.delMin();
         }
     }
@@ -329,21 +336,21 @@ class CubeSum implements Comparable<CubeSum> {
     /**
      * int i variable.
      */
-    public final int i;
+    private  final int i;
     /**
      * int j varibale.
      */
-    public final int j;
+    private final int j;
     /**
      * Constructs the object.
      *
-     * @param      i     { parameter_description }
-     * @param      j     { parameter_description }
+     * @param      in     { parameter_description }
+     * @param      ja    { parameter_description }
      */
-    public CubeSum(final int i, final int j) {
-        this.sum = i * i * i + j * j * j;
-        this.i = i;
-        this.j = j;
+    CubeSum(final int in, final int ja) {
+        this.sum = in * in * in + ja * ja * ja;
+        this.i = in;
+        this.j = ja;
     }
     /**
      * geti method.
@@ -377,8 +384,13 @@ class CubeSum implements Comparable<CubeSum> {
      * @return     { description_of_the_return_value }
      */
     public int compareTo(final CubeSum that) {
-        if (this.sum < that.sum) return -1;
-        if (this.sum > that.sum) return +1;
+        if (this.sum < that.sum) {
+            return -1;
+        }
+        if (this.sum > that.sum) {
+            return +1;
+        }
+
         return 0;
     }
     /**
@@ -399,6 +411,12 @@ class CubeSum implements Comparable<CubeSum> {
  */
 class Solution {
     /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
+    /**
      * taxinumber method.
      *
      * @param      list  The list
@@ -407,12 +425,13 @@ class Solution {
      *
      * @return     { description_of_the_return_value }
      */
-    static int taxinumber(final ArrayList<CubeSum> list, int n, final int m) {
+    static int taxinumber(final ArrayList<CubeSum> list, final int p, final int m) {
         int i = 0;
+        int n = p;
         int res = 0;
         while (n != 0 && i < list.size() - m + 1) {
-            ArrayList<CubeSum> sublist = new ArrayList<CubeSum>
-            (list.subList(i++, i + m - 1));
+            ArrayList<CubeSum> sublist = new ArrayList<CubeSum>(
+                list.subList(i++, i + m - 1));
             HashSet<Integer> set = new HashSet<Integer>();
             for (CubeSum each : sublist) {
                 set.add(each.getsum());
@@ -432,7 +451,8 @@ class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        int num = 500;
+        int fivhun = 500;
+        int num = fivhun;
         Scanner sc = new Scanner(System.in);
         ArrayList<CubeSum> cubelist = new ArrayList<CubeSum>();
         MinPQ<CubeSum> pq = new MinPQ<CubeSum>();
@@ -442,8 +462,9 @@ class Solution {
         while (!pq.isEmpty()) {
             CubeSum s = pq.delMin();
             cubelist.add(s);
-            if (s.getj() < num)
+            if (s.getj() < num) {
                 pq.insert(new CubeSum(s.geti(), s.getj() + 1));
+            }
         }
         int n = sc.nextInt();
         int m = sc.nextInt();
