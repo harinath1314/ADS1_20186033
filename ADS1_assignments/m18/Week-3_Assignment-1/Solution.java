@@ -175,7 +175,7 @@ class MaxPQ<Key> implements Iterable<Key> {
     /***************************************************************************
      * Helper functions for compares and swaps.
      ***************************************************************************/
-    private boolean less(int i, int j) {
+    public boolean less(int i, int j) {
         if (comparator == null) {
             return ((Comparable<Key>) pq[i]).compareTo(pq[j]) < 0;
         } else {
@@ -515,9 +515,11 @@ public final class Solution {
             MaxPQ mapq = new MaxPQ();
             MinPQ  mipq = new MinPQ();
             while (j < noStocks) {
-                String stock = input.nextLine();
-                mapq.insert(stock);
-                mipq.insert(stock);
+                String company = input.nextLine();
+                Stock comp = new Stock(company);
+
+                mapq.insert(comp);
+                mipq.insert(comp);
                 j++;
 
             }
@@ -538,6 +540,25 @@ public final class Solution {
 
         }
     }
+}
+
+class Stock{
+
+    private String stockname;
+    private Double changevalue;
+
+    Stock(String stocksavail){
+        String[] stockdata = stocksavail.split(",");
+        this.stockname = stockdata[0];
+        this.changevalue = Double.parseDouble(stockdata[1]);
+    }
+
+    public String getname(){
+        return stockname;
+    }
+    public Double getvalue(){
+        return changevalue;
+    } 
 }
 
 
