@@ -512,8 +512,8 @@ public final class Solution {
         int noStocks = Integer.parseInt(input.nextLine());
         for (int i = 0; i < 6; i++) {
             int j = 0;
-            MaxPQ mapq = new MaxPQ();
-            MinPQ  mipq = new MinPQ();
+            MaxPQ<Stock> mapq = new MaxPQ();
+            MinPQ<Stock>  mipq = new MinPQ();
             while (j < noStocks) {
                 String company = input.nextLine();
                 Stock comp = new Stock(company);
