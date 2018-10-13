@@ -7,6 +7,7 @@ import java.util.Scanner;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.Arrays;
 
 
 /**
@@ -428,7 +429,6 @@ class MinPQ<Key> implements Iterable<Key> {
             return comparator.compare(pq[i], pq[j]) > 0;
         }
     }
-
     public void exch(int i, int j) {
         Key swap = pq[i];
         pq[i] = pq[j];
@@ -485,31 +485,9 @@ class MinPQ<Key> implements Iterable<Key> {
         }
     }
 
-    // public String toString(){
-    //     return min;
-    // }
-
-    // public int compareTo(Key one, Key two){
-    //     String[] first = one.split(",");
-    //     String[] second = two.split(",");
-    //     if(Integer.parseInt(first[1]) > Integer.parseInt(second[1])){
-    //         return 1;
-    //     }
-    //     else if (Integer.parseInt(first[1]) < Integer.parseInt(second[1])){
-    //         return -1;
-    //     }
-    //     return 0;
-
-
-    // }
-
 
 }
-/**
- *==============================================================================================================
- *====================================================================================================================================================
- * ====================================================================================================================================================
- */
+
 
 
 /**
@@ -538,7 +516,8 @@ public final class Solution {
             MinPQ<Stock>  mipq = new MinPQ<Stock>();
             while (j < noStocks) {
                 String company = input.nextLine();
-                Stock comp = new Stock(company);
+                String[] companysplit = company.split(",");
+                Stock comp = new Stock(companysplit[0], companysplit[1]);
 
                 mapq.insert(comp);
                 mipq.insert(comp);
@@ -550,14 +529,14 @@ public final class Solution {
             System.out.println(s.toString());
                 
             }
-            System.out.println("-------");
+            System.out.println();
 
             for (int y =0 ; y < 5; y++) {
                 Stock p = mipq.delMin();
             System.out.println(p.toString());
                 
             }
-            System.out.println("-------");
+            System.out.println();
 
 
 
@@ -569,18 +548,17 @@ public final class Solution {
 class Stock implements Comparable<Stock>{
 
     private String stockname;
-    private Double changevalue;
+    private float changevalue;
 
-    Stock(String stocksavail){
-        String[] stockdata = stocksavail.split(",");
-        this.stockname = stockdata[0];
-        this.changevalue = Double.parseDouble(stockdata[1]);
+    Stock(String name, String change ){
+        this.stockname = name;
+        this.changevalue = Float.parseFloat(change);
     }
 
     public String getname(){
         return stockname;
     }
-    public Double getvalue(){
+    public float getvalue(){
         return changevalue;
     }
 

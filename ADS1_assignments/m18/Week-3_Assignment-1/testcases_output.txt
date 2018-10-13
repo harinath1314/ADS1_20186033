@@ -77,73 +77,72 @@ Merck Ltd 4.83
 ICRA 2.84
 Oracle Fin 0.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv 0.64
 Lakshmi Machine 0.7
 TTK Prestige 2.15
 Eicher Motors 1.6
--------
+
 MRF 3.48
 Merck Ltd 5.83
 ICRA 4.84
 Oracle Fin 1.52
 HEG Ltd 2.61
--------
+
 Merck Ltd 5.83
 Bajaj Finserv 5.64
 Lakshmi Machine 1.7
 TTK Prestige 0.15
 Eicher Motors 0.6
--------
+
 MRF 1.48
 Merck Ltd 1.83
 ICRA 3.84
 Oracle Fin 0.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 1.83
 Bajaj Finserv 4.64
 Lakshmi Machine 3.7
 TTK Prestige 2.15
 Eicher Motors 1.6
--------
+
 MRF 3.48
 Merck Ltd 4.83
 ICRA -2.84
 Oracle Fin -0.52
 HEG Ltd -1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv -0.64
 Lakshmi Machine -0.7
 TTK Prestige -2.15
 Eicher Motors -1.6
--------
+
 MRF 0.48
 Merck Ltd 4.83
 ICRA 2.84
 Oracle Fin 0.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv 0.64
 Lakshmi Machine 0.7
 TTK Prestige 2.15
 Eicher Motors 1.6
--------
+
 MRF 1.48
 Merck Ltd 3.83
 ICRA 5.84
 Oracle Fin 1.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 3.83
 Bajaj Finserv 3.64
 Lakshmi Machine 4.7
 TTK Prestige 3.15
 Eicher Motors -1.6
--------
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -224,73 +223,72 @@ Ceat 0.23
 Fine Organic Industries Ltd. 2.29
 Chola Inv Fin 1.47
 NIIT Tech 0.21
--------
+
 Ceat 0.23
 Nalwa Sons Invst -0.06
 Endurance Technologies Ltd. 0.1
 Vinati Organics 4.03
 Jubilant Food 0.08
--------
+
 Larsen & Toubro 4.08
 Ceat -0.06
 Fine Organic Industries Ltd. 1.29
 Chola Inv Fin 2.47
 NIIT Tech 3.21
--------
+
 Ceat -0.06
 Nalwa Sons Invst -0.06
 Endurance Technologies Ltd. 1.1
 Vinati Organics 3.03
 Jubilant Food 4.08
--------
+
 Larsen & Toubro 1.11
 Ceat 0.23
 Fine Organic Industries Ltd. 3.29
 Chola Inv Fin 4.47
 NIIT Tech 0.21
--------
+
 Ceat 0.23
 Nalwa Sons Invst -0.06
 Endurance Technologies Ltd. 1.1
 Vinati Organics 4.03
 Jubilant Food 4.08
--------
+
 Larsen & Toubro -4.11
 Ceat 1.23
 Fine Organic Industries Ltd. 3.29
 Chola Inv Fin 3.47
 NIIT Tech 0.34
--------
+
 Ceat 1.23
 Nalwa Sons Invst -0.1
 Endurance Technologies Ltd. -0.1
 Vinati Organics 1.03
 Jubilant Food 0.08
--------
+
 Larsen & Toubro 3.11
 Ceat 1.23
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 NIIT Tech 1.21
--------
+
 Ceat 1.23
 Nalwa Sons Invst -2.06
 Endurance Technologies Ltd. 1.1
 Vinati Organics 1.03
 Jubilant Food 2.08
--------
+
 Larsen & Toubro 5.11
 Ceat -1.23
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 1.47
 NIIT Tech 0.21
--------
+
 Ceat -1.23
 Nalwa Sons Invst 4.06
 Endurance Technologies Ltd. 4.1
 Vinati Organics 1.03
 Jubilant Food 5.08
--------
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -376,73 +374,72 @@ Merck Ltd 4.83
 ICRA 2.84
 Oracle Fin 0.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv 0.64
 Lakshmi Machine 0.7
 TTK Prestige 2.15
 Eicher Motors 1.6
--------
+
 MRF 3.48
 Merck Ltd 5.83
 ICRA 4.84
 Oracle Fin 1.52
 HEG Ltd 2.61
--------
+
 Merck Ltd 5.83
 Bajaj Finserv 5.64
 Lakshmi Machine 1.7
 TTK Prestige 0.15
 Eicher Motors 0.6
--------
+
 MRF 1.48
 Merck Ltd 1.83
 ICRA 3.84
 Oracle Fin 0.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 1.83
 Bajaj Finserv 4.64
 Lakshmi Machine 3.7
 TTK Prestige 2.15
 Eicher Motors 1.6
--------
+
 MRF 3.48
 Merck Ltd 4.83
 ICRA -2.84
 Oracle Fin -0.52
 HEG Ltd -1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv -0.64
 Lakshmi Machine -0.7
 TTK Prestige -2.15
 Eicher Motors -1.6
--------
+
 MRF 0.48
 Merck Ltd 4.83
 ICRA 2.84
 Oracle Fin 0.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv 0.64
 Lakshmi Machine 0.7
 TTK Prestige 2.15
 Eicher Motors 1.6
--------
+
 MRF 1.48
 Merck Ltd 3.83
 ICRA 5.84
 Oracle Fin 1.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 3.83
 Bajaj Finserv 3.64
 Lakshmi Machine 4.7
 TTK Prestige 3.15
 Eicher Motors -1.6
--------
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -528,73 +525,72 @@ Ceat 0.23
 Fine Organic Industries Ltd. 2.29
 Chola Inv Fin 1.47
 NIIT Tech 0.21
--------
+
 Ceat 0.23
 Nalwa Sons Invst -0.06
 Endurance Technologies Ltd. 0.1
 Vinati Organics 4.03
 Jubilant Food 0.08
--------
+
 Larsen & Toubro 4.08
 Ceat -0.06
 Fine Organic Industries Ltd. 1.29
 Chola Inv Fin 2.47
 NIIT Tech 3.21
--------
+
 Ceat -0.06
 Nalwa Sons Invst -0.06
 Endurance Technologies Ltd. 1.1
 Vinati Organics 3.03
 Jubilant Food 4.08
--------
+
 Larsen & Toubro 1.11
 Ceat 0.23
 Fine Organic Industries Ltd. 3.29
 Chola Inv Fin 4.47
 NIIT Tech 0.21
--------
+
 Ceat 0.23
 Nalwa Sons Invst -0.06
 Endurance Technologies Ltd. 1.1
 Vinati Organics 4.03
 Jubilant Food 4.08
--------
+
 Larsen & Toubro -4.11
 Ceat 1.23
 Fine Organic Industries Ltd. 3.29
 Chola Inv Fin 3.47
 NIIT Tech 0.34
--------
+
 Ceat 1.23
 Nalwa Sons Invst -0.1
 Endurance Technologies Ltd. -0.1
 Vinati Organics 1.03
 Jubilant Food 0.08
--------
+
 Larsen & Toubro 3.11
 Ceat 1.23
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 NIIT Tech 1.21
--------
+
 Ceat 1.23
 Nalwa Sons Invst -2.06
 Endurance Technologies Ltd. 1.1
 Vinati Organics 1.03
 Jubilant Food 2.08
--------
+
 Larsen & Toubro 5.11
 Ceat -1.23
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 1.47
 NIIT Tech 0.21
--------
+
 Ceat -1.23
 Nalwa Sons Invst 4.06
 Endurance Technologies Ltd. 4.1
 Vinati Organics 1.03
 Jubilant Food 5.08
--------
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -695,71 +691,70 @@ Merck Ltd 4.83
 ICRA 2.15
 Oracle Fin 0.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv 0.64
 Lakshmi Machine 0.7
 TTK Prestige 2.15
 Eicher Motors 1.6
--------
+
 MRF 3.48
 Merck Ltd -5.83
 ICRA 4.0
 Oracle Fin 1.52
 HEG Ltd 2.61
--------
+
 Merck Ltd -5.83
 Bajaj Finserv 5.64
 Lakshmi Machine 1.75
 TTK Prestige 0.0
 Eicher Motors 0.0
--------
+
 MRF 1.48
 Merck Ltd -1.61
 ICRA 3.84
 Oracle Fin -1.61
 HEG Ltd -1.61
--------
+
 Merck Ltd -1.61
 Bajaj Finserv -4.64
 Lakshmi Machine 3.7
 TTK Prestige 2.15
 Eicher Motors -1.6
--------
+
 MRF 3.48
 Merck Ltd 4.83
 ICRA -2.84
 Oracle Fin -0.52
 HEG Ltd -1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv -0.64
 Lakshmi Machine -0.7
 TTK Prestige -2.15
 Eicher Motors -1.6
--------
+
 MRF 0.48
 Merck Ltd 4.83
 ICRA 2.84
 Oracle Fin 0.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 4.83
 Bajaj Finserv 0.64
 Lakshmi Machine 0.7
 TTK Prestige 2.15
 Eicher Motors 1.6
--------
+
 MRF 1.48
 Merck Ltd 3.83
 ICRA 5.84
 Oracle Fin 1.52
 HEG Ltd 1.61
--------
+
 Merck Ltd 3.83
 Bajaj Finserv 3.64
 Lakshmi Machine 4.7
 TTK Prestige 3.15
 Eicher Motors -1.6
--------
 ----------------------------------------
