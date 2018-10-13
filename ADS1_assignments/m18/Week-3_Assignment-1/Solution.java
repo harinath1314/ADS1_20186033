@@ -401,14 +401,14 @@ class MinPQ<Key> implements Iterable<Key> {
      * Helper functions to restore the heap invariant.
      ***************************************************************************/
 
-    private void swim(int k) {
+    public void swim(int k) {
         while (k > 1 && greater(k / 2, k)) {
             exch(k, k / 2);
             k = k / 2;
         }
     }
 
-    private void sink(int k) {
+    public void sink(int k) {
         while (2 * k <= n) {
             int j = 2 * k;
             if (j < n && greater(j, j + 1)) j++;
@@ -421,27 +421,28 @@ class MinPQ<Key> implements Iterable<Key> {
     /***************************************************************************
      * Helper functions for compares and swaps.
      ***************************************************************************/
-    private boolean greater(int i, int j) {
+    public boolean greater(int i, int j) {
         if (comparator == null) {
+            System.out.println(pq[i].toString());
             return ((Comparable<Key>) pq[i]).compareTo(pq[j]) > 0;
         } else {
             return comparator.compare(pq[i], pq[j]) > 0;
         }
     }
 
-    private void exch(int i, int j) {
+    public void exch(int i, int j) {
         Key swap = pq[i];
         pq[i] = pq[j];
         pq[j] = swap;
     }
 
     // is pq[1..N] a min heap?
-    private boolean isMinHeap() {
+    public boolean isMinHeap() {
         return isMinHeap(1);
     }
 
     // is subtree of pq[1..n] rooted at k a min heap?
-    private boolean isMinHeap(int k) {
+    public boolean isMinHeap(int k) {
         if (k > n) return true;
         int left = 2 * k;
         int right = 2 * k + 1;
