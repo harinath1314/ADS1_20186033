@@ -72,77 +72,77 @@ Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
-Stock@3f3afe78
-Stock@7f63425a
-Stock@36d64342
-Stock@39ba5a14
-Stock@511baa65
+MRF 0.48
+Merck Ltd 4.83
+ICRA 2.84
+Oracle Fin 0.52
+HEG Ltd 1.61
 -------
-Stock@7f63425a
-Stock@340f438e
-Stock@30c7da1e
-Stock@5b464ce8
-Stock@57829d67
+Merck Ltd 4.83
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
+TTK Prestige 2.15
+Eicher Motors 1.6
 -------
-Stock@19dfb72a
-Stock@17c68925
-Stock@7e0ea639
-Stock@3d24753a
-Stock@59a6e353
+MRF 3.48
+Merck Ltd 5.83
+ICRA 4.84
+Oracle Fin 1.52
+HEG Ltd 2.61
 -------
-Stock@17c68925
-Stock@7a0ac6e3
-Stock@71be98f5
-Stock@6fadae5d
-Stock@17f6480
+Merck Ltd 5.83
+Bajaj Finserv 5.64
+Lakshmi Machine 1.7
+TTK Prestige 0.15
+Eicher Motors 0.6
 -------
-Stock@2d6e8792
-Stock@2812cbfa
-Stock@2acf57e3
-Stock@506e6d5e
-Stock@96532d6
+MRF 1.48
+Merck Ltd 1.83
+ICRA 3.84
+Oracle Fin 0.52
+HEG Ltd 1.61
 -------
-Stock@2812cbfa
-Stock@3796751b
-Stock@67b64c45
-Stock@4411d970
-Stock@6442b0a6
+Merck Ltd 1.83
+Bajaj Finserv 4.64
+Lakshmi Machine 3.7
+TTK Prestige 2.15
+Eicher Motors 1.6
 -------
-Stock@60f82f98
-Stock@35f983a6
-Stock@7f690630
-Stock@edf4efb
-Stock@2f7a2457
+MRF 3.48
+Merck Ltd 4.83
+ICRA -2.84
+Oracle Fin -0.52
+HEG Ltd -1.61
 -------
-Stock@35f983a6
-Stock@566776ad
-Stock@6108b2d7
-Stock@1554909b
-Stock@6bf256fa
+Merck Ltd 4.83
+Bajaj Finserv -0.64
+Lakshmi Machine -0.7
+TTK Prestige -2.15
+Eicher Motors -1.6
 -------
-Stock@6cd8737
-Stock@22f71333
-Stock@13969fbe
-Stock@6aaa5eb0
-Stock@3498ed
+MRF 0.48
+Merck Ltd 4.83
+ICRA 2.84
+Oracle Fin 0.52
+HEG Ltd 1.61
 -------
-Stock@22f71333
-Stock@1a407d53
-Stock@3d8c7aca
-Stock@5ebec15
-Stock@21bcffb5
+Merck Ltd 4.83
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
+TTK Prestige 2.15
+Eicher Motors 1.6
 -------
-Stock@380fb434
-Stock@668bc3d5
-Stock@3cda1055
-Stock@7a5d012c
-Stock@3fb6a447
+MRF 1.48
+Merck Ltd 3.83
+ICRA 5.84
+Oracle Fin 1.52
+HEG Ltd 1.61
 -------
-Stock@668bc3d5
-Stock@79b4d0f
-Stock@6b2fad11
-Stock@79698539
-Stock@73f792cf
+Merck Ltd 3.83
+Bajaj Finserv 3.64
+Lakshmi Machine 4.7
+TTK Prestige 3.15
+Eicher Motors -1.6
 -------
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -219,77 +219,77 @@ Fine Organic Industries Ltd. 0.29
 Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
-Stock@3f3afe78
-Stock@7f63425a
-Stock@36d64342
-Stock@39ba5a14
-Stock@511baa65
+Larsen & Toubro 4.11
+Ceat 0.23
+Fine Organic Industries Ltd. 2.29
+Chola Inv Fin 1.47
+NIIT Tech 0.21
 -------
-Stock@7f63425a
-Stock@340f438e
-Stock@30c7da1e
-Stock@5b464ce8
-Stock@57829d67
+Ceat 0.23
+Nalwa Sons Invst -0.06
+Endurance Technologies Ltd. 0.1
+Vinati Organics 4.03
+Jubilant Food 0.08
 -------
-Stock@19dfb72a
-Stock@17c68925
-Stock@7e0ea639
-Stock@3d24753a
-Stock@59a6e353
+Larsen & Toubro 4.08
+Ceat -0.06
+Fine Organic Industries Ltd. 1.29
+Chola Inv Fin 2.47
+NIIT Tech 3.21
 -------
-Stock@17c68925
-Stock@7a0ac6e3
-Stock@71be98f5
-Stock@6fadae5d
-Stock@17f6480
+Ceat -0.06
+Nalwa Sons Invst -0.06
+Endurance Technologies Ltd. 1.1
+Vinati Organics 3.03
+Jubilant Food 4.08
 -------
-Stock@2d6e8792
-Stock@2812cbfa
-Stock@2acf57e3
-Stock@506e6d5e
-Stock@96532d6
+Larsen & Toubro 1.11
+Ceat 0.23
+Fine Organic Industries Ltd. 3.29
+Chola Inv Fin 4.47
+NIIT Tech 0.21
 -------
-Stock@2812cbfa
-Stock@3796751b
-Stock@67b64c45
-Stock@4411d970
-Stock@6442b0a6
+Ceat 0.23
+Nalwa Sons Invst -0.06
+Endurance Technologies Ltd. 1.1
+Vinati Organics 4.03
+Jubilant Food 4.08
 -------
-Stock@60f82f98
-Stock@35f983a6
-Stock@7f690630
-Stock@edf4efb
-Stock@2f7a2457
+Larsen & Toubro -4.11
+Ceat 1.23
+Fine Organic Industries Ltd. 3.29
+Chola Inv Fin 3.47
+NIIT Tech 0.34
 -------
-Stock@35f983a6
-Stock@566776ad
-Stock@6108b2d7
-Stock@1554909b
-Stock@6bf256fa
+Ceat 1.23
+Nalwa Sons Invst -0.1
+Endurance Technologies Ltd. -0.1
+Vinati Organics 1.03
+Jubilant Food 0.08
 -------
-Stock@6cd8737
-Stock@22f71333
-Stock@13969fbe
-Stock@6aaa5eb0
-Stock@3498ed
+Larsen & Toubro 3.11
+Ceat 1.23
+Fine Organic Industries Ltd. 0.29
+Chola Inv Fin 0.47
+NIIT Tech 1.21
 -------
-Stock@22f71333
-Stock@1a407d53
-Stock@3d8c7aca
-Stock@5ebec15
-Stock@21bcffb5
+Ceat 1.23
+Nalwa Sons Invst -2.06
+Endurance Technologies Ltd. 1.1
+Vinati Organics 1.03
+Jubilant Food 2.08
 -------
-Stock@380fb434
-Stock@668bc3d5
-Stock@3cda1055
-Stock@7a5d012c
-Stock@3fb6a447
+Larsen & Toubro 5.11
+Ceat -1.23
+Fine Organic Industries Ltd. 0.29
+Chola Inv Fin 1.47
+NIIT Tech 0.21
 -------
-Stock@668bc3d5
-Stock@79b4d0f
-Stock@6b2fad11
-Stock@79698539
-Stock@73f792cf
+Ceat -1.23
+Nalwa Sons Invst 4.06
+Endurance Technologies Ltd. 4.1
+Vinati Organics 1.03
+Jubilant Food 5.08
 -------
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -371,77 +371,77 @@ WABCO India 0.33
 1
 3
 Your Output: 
-Stock@3f3afe78
-Stock@7f63425a
-Stock@36d64342
-Stock@39ba5a14
-Stock@511baa65
+MRF 0.48
+Merck Ltd 4.83
+ICRA 2.84
+Oracle Fin 0.52
+HEG Ltd 1.61
 -------
-Stock@7f63425a
-Stock@340f438e
-Stock@30c7da1e
-Stock@5b464ce8
-Stock@57829d67
+Merck Ltd 4.83
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
+TTK Prestige 2.15
+Eicher Motors 1.6
 -------
-Stock@19dfb72a
-Stock@17c68925
-Stock@7e0ea639
-Stock@3d24753a
-Stock@59a6e353
+MRF 3.48
+Merck Ltd 5.83
+ICRA 4.84
+Oracle Fin 1.52
+HEG Ltd 2.61
 -------
-Stock@17c68925
-Stock@7a0ac6e3
-Stock@71be98f5
-Stock@6fadae5d
-Stock@17f6480
+Merck Ltd 5.83
+Bajaj Finserv 5.64
+Lakshmi Machine 1.7
+TTK Prestige 0.15
+Eicher Motors 0.6
 -------
-Stock@2d6e8792
-Stock@2812cbfa
-Stock@2acf57e3
-Stock@506e6d5e
-Stock@96532d6
+MRF 1.48
+Merck Ltd 1.83
+ICRA 3.84
+Oracle Fin 0.52
+HEG Ltd 1.61
 -------
-Stock@2812cbfa
-Stock@3796751b
-Stock@67b64c45
-Stock@4411d970
-Stock@6442b0a6
+Merck Ltd 1.83
+Bajaj Finserv 4.64
+Lakshmi Machine 3.7
+TTK Prestige 2.15
+Eicher Motors 1.6
 -------
-Stock@60f82f98
-Stock@35f983a6
-Stock@7f690630
-Stock@edf4efb
-Stock@2f7a2457
+MRF 3.48
+Merck Ltd 4.83
+ICRA -2.84
+Oracle Fin -0.52
+HEG Ltd -1.61
 -------
-Stock@35f983a6
-Stock@566776ad
-Stock@6108b2d7
-Stock@1554909b
-Stock@6bf256fa
+Merck Ltd 4.83
+Bajaj Finserv -0.64
+Lakshmi Machine -0.7
+TTK Prestige -2.15
+Eicher Motors -1.6
 -------
-Stock@6cd8737
-Stock@22f71333
-Stock@13969fbe
-Stock@6aaa5eb0
-Stock@3498ed
+MRF 0.48
+Merck Ltd 4.83
+ICRA 2.84
+Oracle Fin 0.52
+HEG Ltd 1.61
 -------
-Stock@22f71333
-Stock@1a407d53
-Stock@3d8c7aca
-Stock@5ebec15
-Stock@21bcffb5
+Merck Ltd 4.83
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
+TTK Prestige 2.15
+Eicher Motors 1.6
 -------
-Stock@380fb434
-Stock@668bc3d5
-Stock@3cda1055
-Stock@7a5d012c
-Stock@3fb6a447
+MRF 1.48
+Merck Ltd 3.83
+ICRA 5.84
+Oracle Fin 1.52
+HEG Ltd 1.61
 -------
-Stock@668bc3d5
-Stock@79b4d0f
-Stock@6b2fad11
-Stock@79698539
-Stock@73f792cf
+Merck Ltd 3.83
+Bajaj Finserv 3.64
+Lakshmi Machine 4.7
+TTK Prestige 3.15
+Eicher Motors -1.6
 -------
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -523,77 +523,77 @@ Chola Inv Fin 1.47
 4
 0
 Your Output: 
-Stock@3f3afe78
-Stock@7f63425a
-Stock@36d64342
-Stock@39ba5a14
-Stock@511baa65
+Larsen & Toubro 4.11
+Ceat 0.23
+Fine Organic Industries Ltd. 2.29
+Chola Inv Fin 1.47
+NIIT Tech 0.21
 -------
-Stock@7f63425a
-Stock@340f438e
-Stock@30c7da1e
-Stock@5b464ce8
-Stock@57829d67
+Ceat 0.23
+Nalwa Sons Invst -0.06
+Endurance Technologies Ltd. 0.1
+Vinati Organics 4.03
+Jubilant Food 0.08
 -------
-Stock@19dfb72a
-Stock@17c68925
-Stock@7e0ea639
-Stock@3d24753a
-Stock@59a6e353
+Larsen & Toubro 4.08
+Ceat -0.06
+Fine Organic Industries Ltd. 1.29
+Chola Inv Fin 2.47
+NIIT Tech 3.21
 -------
-Stock@17c68925
-Stock@7a0ac6e3
-Stock@71be98f5
-Stock@6fadae5d
-Stock@17f6480
+Ceat -0.06
+Nalwa Sons Invst -0.06
+Endurance Technologies Ltd. 1.1
+Vinati Organics 3.03
+Jubilant Food 4.08
 -------
-Stock@2d6e8792
-Stock@2812cbfa
-Stock@2acf57e3
-Stock@506e6d5e
-Stock@96532d6
+Larsen & Toubro 1.11
+Ceat 0.23
+Fine Organic Industries Ltd. 3.29
+Chola Inv Fin 4.47
+NIIT Tech 0.21
 -------
-Stock@2812cbfa
-Stock@3796751b
-Stock@67b64c45
-Stock@4411d970
-Stock@6442b0a6
+Ceat 0.23
+Nalwa Sons Invst -0.06
+Endurance Technologies Ltd. 1.1
+Vinati Organics 4.03
+Jubilant Food 4.08
 -------
-Stock@60f82f98
-Stock@35f983a6
-Stock@7f690630
-Stock@edf4efb
-Stock@2f7a2457
+Larsen & Toubro -4.11
+Ceat 1.23
+Fine Organic Industries Ltd. 3.29
+Chola Inv Fin 3.47
+NIIT Tech 0.34
 -------
-Stock@35f983a6
-Stock@566776ad
-Stock@6108b2d7
-Stock@1554909b
-Stock@6bf256fa
+Ceat 1.23
+Nalwa Sons Invst -0.1
+Endurance Technologies Ltd. -0.1
+Vinati Organics 1.03
+Jubilant Food 0.08
 -------
-Stock@6cd8737
-Stock@22f71333
-Stock@13969fbe
-Stock@6aaa5eb0
-Stock@3498ed
+Larsen & Toubro 3.11
+Ceat 1.23
+Fine Organic Industries Ltd. 0.29
+Chola Inv Fin 0.47
+NIIT Tech 1.21
 -------
-Stock@22f71333
-Stock@1a407d53
-Stock@3d8c7aca
-Stock@5ebec15
-Stock@21bcffb5
+Ceat 1.23
+Nalwa Sons Invst -2.06
+Endurance Technologies Ltd. 1.1
+Vinati Organics 1.03
+Jubilant Food 2.08
 -------
-Stock@380fb434
-Stock@668bc3d5
-Stock@3cda1055
-Stock@7a5d012c
-Stock@3fb6a447
+Larsen & Toubro 5.11
+Ceat -1.23
+Fine Organic Industries Ltd. 0.29
+Chola Inv Fin 1.47
+NIIT Tech 0.21
 -------
-Stock@668bc3d5
-Stock@79b4d0f
-Stock@6b2fad11
-Stock@79698539
-Stock@73f792cf
+Ceat -1.23
+Nalwa Sons Invst 4.06
+Endurance Technologies Ltd. 4.1
+Vinati Organics 1.03
+Jubilant Food 5.08
 -------
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -690,76 +690,76 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
-Stock@3f3afe78
-Stock@7f63425a
-Stock@36d64342
-Stock@39ba5a14
-Stock@511baa65
+MRF 0.48
+Merck Ltd 4.83
+ICRA 2.15
+Oracle Fin 0.52
+HEG Ltd 1.61
 -------
-Stock@7f63425a
-Stock@340f438e
-Stock@30c7da1e
-Stock@5b464ce8
-Stock@57829d67
+Merck Ltd 4.83
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
+TTK Prestige 2.15
+Eicher Motors 1.6
 -------
-Stock@19dfb72a
-Stock@17c68925
-Stock@7e0ea639
-Stock@3d24753a
-Stock@59a6e353
+MRF 3.48
+Merck Ltd -5.83
+ICRA 4.0
+Oracle Fin 1.52
+HEG Ltd 2.61
 -------
-Stock@17c68925
-Stock@7a0ac6e3
-Stock@71be98f5
-Stock@6fadae5d
-Stock@17f6480
+Merck Ltd -5.83
+Bajaj Finserv 5.64
+Lakshmi Machine 1.75
+TTK Prestige 0.0
+Eicher Motors 0.0
 -------
-Stock@2d6e8792
-Stock@2812cbfa
-Stock@2acf57e3
-Stock@506e6d5e
-Stock@96532d6
+MRF 1.48
+Merck Ltd -1.61
+ICRA 3.84
+Oracle Fin -1.61
+HEG Ltd -1.61
 -------
-Stock@2812cbfa
-Stock@3796751b
-Stock@67b64c45
-Stock@4411d970
-Stock@6442b0a6
+Merck Ltd -1.61
+Bajaj Finserv -4.64
+Lakshmi Machine 3.7
+TTK Prestige 2.15
+Eicher Motors -1.6
 -------
-Stock@60f82f98
-Stock@35f983a6
-Stock@7f690630
-Stock@edf4efb
-Stock@2f7a2457
+MRF 3.48
+Merck Ltd 4.83
+ICRA -2.84
+Oracle Fin -0.52
+HEG Ltd -1.61
 -------
-Stock@35f983a6
-Stock@566776ad
-Stock@6108b2d7
-Stock@1554909b
-Stock@6bf256fa
+Merck Ltd 4.83
+Bajaj Finserv -0.64
+Lakshmi Machine -0.7
+TTK Prestige -2.15
+Eicher Motors -1.6
 -------
-Stock@6cd8737
-Stock@22f71333
-Stock@13969fbe
-Stock@6aaa5eb0
-Stock@3498ed
+MRF 0.48
+Merck Ltd 4.83
+ICRA 2.84
+Oracle Fin 0.52
+HEG Ltd 1.61
 -------
-Stock@22f71333
-Stock@1a407d53
-Stock@3d8c7aca
-Stock@5ebec15
-Stock@21bcffb5
+Merck Ltd 4.83
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
+TTK Prestige 2.15
+Eicher Motors 1.6
 -------
-Stock@380fb434
-Stock@668bc3d5
-Stock@3cda1055
-Stock@7a5d012c
-Stock@3fb6a447
+MRF 1.48
+Merck Ltd 3.83
+ICRA 5.84
+Oracle Fin 1.52
+HEG Ltd 1.61
 -------
-Stock@668bc3d5
-Stock@79b4d0f
-Stock@6b2fad11
-Stock@79698539
-Stock@73f792cf
+Merck Ltd 3.83
+Bajaj Finserv 3.64
+Lakshmi Machine 4.7
+TTK Prestige 3.15
+Eicher Motors -1.6
 -------
 ----------------------------------------
