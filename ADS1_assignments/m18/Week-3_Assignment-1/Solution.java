@@ -481,10 +481,24 @@ class MinPQ<Key> implements Iterable<Key> {
         }
     }
 
+    // public int compareTo(Key one, Key two){
+    //     String[] first = one.split(",");
+    //     String[] second = two.split(",");
+    //     if(Integer.parseInt(first[1]) > Integer.parseInt(second[1])){
+    //         return 1;
+    //     }
+    //     else if (Integer.parseInt(first[1]) < Integer.parseInt(second[1])){
+    //         return -1;
+    //     }
+    //     return 0;
+
+
+    // }
+
 
 }
 /**
- *====================================================================================================================================================
+ *==============================================================================================================
  *====================================================================================================================================================
  * ====================================================================================================================================================
  */
@@ -542,7 +556,7 @@ public final class Solution {
     }
 }
 
-class Stock{
+class Stock implements Comparable<Stock>{
 
     private String stockname;
     private Double changevalue;
@@ -558,6 +572,11 @@ class Stock{
     }
     public Double getvalue(){
         return changevalue;
+    }
+
+    public int compareTo(Stock data){
+        return 1;
+
     } 
 }
 

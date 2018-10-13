@@ -72,11 +72,78 @@ Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(Solution.java:180)
-	at MaxPQ.swim(Solution.java:159)
-	at MaxPQ.insert(Solution.java:132)
-	at Solution.main(Solution.java:521)
+Stock@3f3afe78
+Stock@7f63425a
+Stock@36d64342
+Stock@39ba5a14
+Stock@511baa65
+-------
+Stock@7f63425a
+Stock@340f438e
+Stock@30c7da1e
+Stock@5b464ce8
+Stock@57829d67
+-------
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+Stock@3d24753a
+Stock@59a6e353
+-------
+Stock@17c68925
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
+Stock@17f6480
+-------
+Stock@2d6e8792
+Stock@2812cbfa
+Stock@2acf57e3
+Stock@506e6d5e
+Stock@96532d6
+-------
+Stock@2812cbfa
+Stock@3796751b
+Stock@67b64c45
+Stock@4411d970
+Stock@6442b0a6
+-------
+Stock@60f82f98
+Stock@35f983a6
+Stock@7f690630
+Stock@edf4efb
+Stock@2f7a2457
+-------
+Stock@35f983a6
+Stock@566776ad
+Stock@6108b2d7
+Stock@1554909b
+Stock@6bf256fa
+-------
+Stock@6cd8737
+Stock@22f71333
+Stock@13969fbe
+Stock@6aaa5eb0
+Stock@3498ed
+-------
+Stock@22f71333
+Stock@1a407d53
+Stock@3d8c7aca
+Stock@5ebec15
+Stock@21bcffb5
+-------
+Stock@380fb434
+Stock@668bc3d5
+Stock@3cda1055
+Stock@7a5d012c
+Stock@3fb6a447
+-------
+Stock@668bc3d5
+Stock@79b4d0f
+Stock@6b2fad11
+Stock@79698539
+Stock@73f792cf
+-------
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -152,11 +219,78 @@ Fine Organic Industries Ltd. 0.29
 Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(Solution.java:180)
-	at MaxPQ.swim(Solution.java:159)
-	at MaxPQ.insert(Solution.java:132)
-	at Solution.main(Solution.java:521)
+Stock@3f3afe78
+Stock@7f63425a
+Stock@36d64342
+Stock@39ba5a14
+Stock@511baa65
+-------
+Stock@7f63425a
+Stock@340f438e
+Stock@30c7da1e
+Stock@5b464ce8
+Stock@57829d67
+-------
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+Stock@3d24753a
+Stock@59a6e353
+-------
+Stock@17c68925
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
+Stock@17f6480
+-------
+Stock@2d6e8792
+Stock@2812cbfa
+Stock@2acf57e3
+Stock@506e6d5e
+Stock@96532d6
+-------
+Stock@2812cbfa
+Stock@3796751b
+Stock@67b64c45
+Stock@4411d970
+Stock@6442b0a6
+-------
+Stock@60f82f98
+Stock@35f983a6
+Stock@7f690630
+Stock@edf4efb
+Stock@2f7a2457
+-------
+Stock@35f983a6
+Stock@566776ad
+Stock@6108b2d7
+Stock@1554909b
+Stock@6bf256fa
+-------
+Stock@6cd8737
+Stock@22f71333
+Stock@13969fbe
+Stock@6aaa5eb0
+Stock@3498ed
+-------
+Stock@22f71333
+Stock@1a407d53
+Stock@3d8c7aca
+Stock@5ebec15
+Stock@21bcffb5
+-------
+Stock@380fb434
+Stock@668bc3d5
+Stock@3cda1055
+Stock@7a5d012c
+Stock@3fb6a447
+-------
+Stock@668bc3d5
+Stock@79b4d0f
+Stock@6b2fad11
+Stock@79698539
+Stock@73f792cf
+-------
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -237,11 +371,78 @@ WABCO India 0.33
 1
 3
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(Solution.java:180)
-	at MaxPQ.swim(Solution.java:159)
-	at MaxPQ.insert(Solution.java:132)
-	at Solution.main(Solution.java:521)
+Stock@3f3afe78
+Stock@7f63425a
+Stock@36d64342
+Stock@39ba5a14
+Stock@511baa65
+-------
+Stock@7f63425a
+Stock@340f438e
+Stock@30c7da1e
+Stock@5b464ce8
+Stock@57829d67
+-------
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+Stock@3d24753a
+Stock@59a6e353
+-------
+Stock@17c68925
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
+Stock@17f6480
+-------
+Stock@2d6e8792
+Stock@2812cbfa
+Stock@2acf57e3
+Stock@506e6d5e
+Stock@96532d6
+-------
+Stock@2812cbfa
+Stock@3796751b
+Stock@67b64c45
+Stock@4411d970
+Stock@6442b0a6
+-------
+Stock@60f82f98
+Stock@35f983a6
+Stock@7f690630
+Stock@edf4efb
+Stock@2f7a2457
+-------
+Stock@35f983a6
+Stock@566776ad
+Stock@6108b2d7
+Stock@1554909b
+Stock@6bf256fa
+-------
+Stock@6cd8737
+Stock@22f71333
+Stock@13969fbe
+Stock@6aaa5eb0
+Stock@3498ed
+-------
+Stock@22f71333
+Stock@1a407d53
+Stock@3d8c7aca
+Stock@5ebec15
+Stock@21bcffb5
+-------
+Stock@380fb434
+Stock@668bc3d5
+Stock@3cda1055
+Stock@7a5d012c
+Stock@3fb6a447
+-------
+Stock@668bc3d5
+Stock@79b4d0f
+Stock@6b2fad11
+Stock@79698539
+Stock@73f792cf
+-------
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -322,11 +523,78 @@ Chola Inv Fin 1.47
 4
 0
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(Solution.java:180)
-	at MaxPQ.swim(Solution.java:159)
-	at MaxPQ.insert(Solution.java:132)
-	at Solution.main(Solution.java:521)
+Stock@3f3afe78
+Stock@7f63425a
+Stock@36d64342
+Stock@39ba5a14
+Stock@511baa65
+-------
+Stock@7f63425a
+Stock@340f438e
+Stock@30c7da1e
+Stock@5b464ce8
+Stock@57829d67
+-------
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+Stock@3d24753a
+Stock@59a6e353
+-------
+Stock@17c68925
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
+Stock@17f6480
+-------
+Stock@2d6e8792
+Stock@2812cbfa
+Stock@2acf57e3
+Stock@506e6d5e
+Stock@96532d6
+-------
+Stock@2812cbfa
+Stock@3796751b
+Stock@67b64c45
+Stock@4411d970
+Stock@6442b0a6
+-------
+Stock@60f82f98
+Stock@35f983a6
+Stock@7f690630
+Stock@edf4efb
+Stock@2f7a2457
+-------
+Stock@35f983a6
+Stock@566776ad
+Stock@6108b2d7
+Stock@1554909b
+Stock@6bf256fa
+-------
+Stock@6cd8737
+Stock@22f71333
+Stock@13969fbe
+Stock@6aaa5eb0
+Stock@3498ed
+-------
+Stock@22f71333
+Stock@1a407d53
+Stock@3d8c7aca
+Stock@5ebec15
+Stock@21bcffb5
+-------
+Stock@380fb434
+Stock@668bc3d5
+Stock@3cda1055
+Stock@7a5d012c
+Stock@3fb6a447
+-------
+Stock@668bc3d5
+Stock@79b4d0f
+Stock@6b2fad11
+Stock@79698539
+Stock@73f792cf
+-------
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -422,9 +690,76 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: Stock cannot be cast to java.base/java.lang.Comparable
-	at MaxPQ.less(Solution.java:180)
-	at MaxPQ.swim(Solution.java:159)
-	at MaxPQ.insert(Solution.java:132)
-	at Solution.main(Solution.java:521)
+Stock@3f3afe78
+Stock@7f63425a
+Stock@36d64342
+Stock@39ba5a14
+Stock@511baa65
+-------
+Stock@7f63425a
+Stock@340f438e
+Stock@30c7da1e
+Stock@5b464ce8
+Stock@57829d67
+-------
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+Stock@3d24753a
+Stock@59a6e353
+-------
+Stock@17c68925
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
+Stock@17f6480
+-------
+Stock@2d6e8792
+Stock@2812cbfa
+Stock@2acf57e3
+Stock@506e6d5e
+Stock@96532d6
+-------
+Stock@2812cbfa
+Stock@3796751b
+Stock@67b64c45
+Stock@4411d970
+Stock@6442b0a6
+-------
+Stock@60f82f98
+Stock@35f983a6
+Stock@7f690630
+Stock@edf4efb
+Stock@2f7a2457
+-------
+Stock@35f983a6
+Stock@566776ad
+Stock@6108b2d7
+Stock@1554909b
+Stock@6bf256fa
+-------
+Stock@6cd8737
+Stock@22f71333
+Stock@13969fbe
+Stock@6aaa5eb0
+Stock@3498ed
+-------
+Stock@22f71333
+Stock@1a407d53
+Stock@3d8c7aca
+Stock@5ebec15
+Stock@21bcffb5
+-------
+Stock@380fb434
+Stock@668bc3d5
+Stock@3cda1055
+Stock@7a5d012c
+Stock@3fb6a447
+-------
+Stock@668bc3d5
+Stock@79b4d0f
+Stock@6b2fad11
+Stock@79698539
+Stock@73f792cf
+-------
 ----------------------------------------
