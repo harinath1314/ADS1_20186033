@@ -72,45 +72,78 @@ Sanofi India 0.21
 Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
-Tasty Bite Eat,2.23
+WABCO India,1.33
 Tasty Bite Eat,1.23
-Sanofi India,2.21
+TTK Prestige,2.15
+Schaeffler India,2.57
 Sanofi India,1.21
-MRF,3.48
 -------
 3M India,1.56
-3M India,2.56
 Abbott India,0.46
-Abbott India,1.46
 Bajaj Finserv,0.64
+Bharat Rasayan,2
+Bosch,0.3
 -------
+WABCO India,0.33
+Tasty Bite Eat,2.23
+TTK Prestige,0.15
+Schaeffler India,4.59
+Sanofi India,2.21
+-------
+3M India,2.56
+Abbott India,1.46
+Bajaj Finserv,5.64
+Bharat Rasayan,2
+Bosch,1.3
+-------
+WABCO India,-1.33
 Tasty Bite Eat,5.23
-Tasty Bite Eat,-1.23
+TTK Prestige,2.15
+Schaeffler India,2.57
 Sanofi India,-1.21
-Sanofi India,-1.21
-MRF,3.48
 -------
 3M India,1.56
+Abbott India,0.46
+Bajaj Finserv,4.64
+Bharat Rasayan,2
+Bosch,2.3
+-------
+WABCO India,-1.33
+Tasty Bite Eat,-1.23
+TTK Prestige,-2.15
+Schaeffler India,-2.57
+Sanofi India,-1.21
+-------
 3M India,2.56
 Abbott India,-0.46
-Abbott India,0.46
 Bajaj Finserv,-0.64
+Bharat Rasayan,-2
+Bosch,-0.3
 -------
+WABCO India,1.33
 Tasty Bite Eat,1.23
-Tasty Bite Eat,0.23
+TTK Prestige,2.15
+Schaeffler India,2.57
 Sanofi India,1.21
-Sanofi India,0.21
-MRF,1.48
 -------
-3M India,1.56
 3M India,1.56
 Abbott India,0.46
-Abbott India,1.46
 Bajaj Finserv,0.64
+Bharat Rasayan,2
+Bosch,0.3
 -------
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:520)
+WABCO India,0.33
+Tasty Bite Eat,0.23
+TTK Prestige,3.15
+Schaeffler India,1.57
+Sanofi India,0.21
+-------
+3M India,1.56
+Abbott India,1.46
+Bajaj Finserv,3.64
+Bharat Rasayan,2
+Bosch,0.34
+-------
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -187,44 +220,77 @@ Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
 Vinati Organics,4.03
-Vinati Organics,3.03
-NIIT Tech,3.21
+Nalwa Sons Invst,-0.06
 NIIT Tech,0.21
 Larsen & Toubro,4.11
+Jubilant Food,0.08
 -------
-APL Apollo Tube,2.18
 APL Apollo Tube,3.18
-Ceat,-0.06
 Ceat,0.23
 Chola Inv Fin,1.47
+Endurance Technologies Ltd.,0.1
+Fine Organic Industries Ltd.,2.29
+-------
+Vinati Organics,3.03
+Nalwa Sons Invst,-0.06
+NIIT Tech,3.21
+Larsen & Toubro,4.08
+Jubilant Food,4.08
+-------
+APL Apollo Tube,2.18
+Ceat,-0.06
+Chola Inv Fin,2.47
+Endurance Technologies Ltd.,1.1
+Fine Organic Industries Ltd.,1.29
 -------
 Vinati Organics,4.03
-Vinati Organics,1.03
-NIIT Tech,0.34
+Nalwa Sons Invst,-0.06
 NIIT Tech,0.21
 Larsen & Toubro,1.11
+Jubilant Food,4.08
 -------
 APL Apollo Tube,0.18
-APL Apollo Tube,2.18
 Ceat,0.23
+Chola Inv Fin,4.47
+Endurance Technologies Ltd.,1.1
+Fine Organic Industries Ltd.,3.29
+-------
+Vinati Organics,1.03
+Nalwa Sons Invst,-0.1
+NIIT Tech,0.34
+Larsen & Toubro,-4.11
+Jubilant Food,0.08
+-------
+APL Apollo Tube,2.18
 Ceat,1.23
 Chola Inv Fin,3.47
+Endurance Technologies Ltd.,-0.1
+Fine Organic Industries Ltd.,3.29
 -------
 Vinati Organics,1.03
-Vinati Organics,1.03
+Nalwa Sons Invst,-2.06
 NIIT Tech,1.21
-NIIT Tech,0.21
-Larsen & Toubro,5.11
+Larsen & Toubro,3.11
+Jubilant Food,2.08
 -------
 APL Apollo Tube,2.18
-APL Apollo Tube,2.18
-Ceat,-1.23
 Ceat,1.23
 Chola Inv Fin,0.47
+Endurance Technologies Ltd.,1.1
+Fine Organic Industries Ltd.,0.29
 -------
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:520)
+Vinati Organics,1.03
+Nalwa Sons Invst,4.06
+NIIT Tech,0.21
+Larsen & Toubro,5.11
+Jubilant Food,5.08
+-------
+APL Apollo Tube,2.18
+Ceat,-1.23
+Chola Inv Fin,1.47
+Endurance Technologies Ltd.,4.1
+Fine Organic Industries Ltd.,0.29
+-------
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -305,45 +371,78 @@ WABCO India 0.33
 1
 3
 Your Output: 
-Tasty Bite Eat,2.23
+WABCO India,1.33
 Tasty Bite Eat,1.23
-Sanofi India,2.21
+TTK Prestige,2.15
+Schaeffler India,2.57
 Sanofi India,1.21
-MRF,3.48
 -------
 3M India,1.56
-3M India,2.56
 Abbott India,0.46
-Abbott India,1.46
 Bajaj Finserv,0.64
+Bharat Rasayan,2
+Bosch,0.3
 -------
+WABCO India,0.33
+Tasty Bite Eat,2.23
+TTK Prestige,0.15
+Schaeffler India,4.59
+Sanofi India,2.21
+-------
+3M India,2.56
+Abbott India,1.46
+Bajaj Finserv,5.64
+Bharat Rasayan,2
+Bosch,1.3
+-------
+WABCO India,-1.33
 Tasty Bite Eat,5.23
-Tasty Bite Eat,-1.23
+TTK Prestige,2.15
+Schaeffler India,2.57
 Sanofi India,-1.21
-Sanofi India,-1.21
-MRF,3.48
 -------
 3M India,1.56
+Abbott India,0.46
+Bajaj Finserv,4.64
+Bharat Rasayan,2
+Bosch,2.3
+-------
+WABCO India,-1.33
+Tasty Bite Eat,-1.23
+TTK Prestige,-2.15
+Schaeffler India,-2.57
+Sanofi India,-1.21
+-------
 3M India,2.56
 Abbott India,-0.46
-Abbott India,0.46
 Bajaj Finserv,-0.64
+Bharat Rasayan,-2
+Bosch,-0.3
 -------
+WABCO India,1.33
 Tasty Bite Eat,1.23
-Tasty Bite Eat,0.23
+TTK Prestige,2.15
+Schaeffler India,2.57
 Sanofi India,1.21
-Sanofi India,0.21
-MRF,1.48
 -------
-3M India,1.56
 3M India,1.56
 Abbott India,0.46
-Abbott India,1.46
 Bajaj Finserv,0.64
+Bharat Rasayan,2
+Bosch,0.3
 -------
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:520)
+WABCO India,0.33
+Tasty Bite Eat,0.23
+TTK Prestige,3.15
+Schaeffler India,1.57
+Sanofi India,0.21
+-------
+3M India,1.56
+Abbott India,1.46
+Bajaj Finserv,3.64
+Bharat Rasayan,2
+Bosch,0.34
+-------
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -425,44 +524,77 @@ Chola Inv Fin 1.47
 0
 Your Output: 
 Vinati Organics,4.03
-Vinati Organics,3.03
-NIIT Tech,3.21
+Nalwa Sons Invst,-0.06
 NIIT Tech,0.21
 Larsen & Toubro,4.11
+Jubilant Food,0.08
 -------
-APL Apollo Tube,2.18
 APL Apollo Tube,3.18
-Ceat,-0.06
 Ceat,0.23
 Chola Inv Fin,1.47
+Endurance Technologies Ltd.,0.1
+Fine Organic Industries Ltd.,2.29
+-------
+Vinati Organics,3.03
+Nalwa Sons Invst,-0.06
+NIIT Tech,3.21
+Larsen & Toubro,4.08
+Jubilant Food,4.08
+-------
+APL Apollo Tube,2.18
+Ceat,-0.06
+Chola Inv Fin,2.47
+Endurance Technologies Ltd.,1.1
+Fine Organic Industries Ltd.,1.29
 -------
 Vinati Organics,4.03
-Vinati Organics,1.03
-NIIT Tech,0.34
+Nalwa Sons Invst,-0.06
 NIIT Tech,0.21
 Larsen & Toubro,1.11
+Jubilant Food,4.08
 -------
 APL Apollo Tube,0.18
-APL Apollo Tube,2.18
 Ceat,0.23
+Chola Inv Fin,4.47
+Endurance Technologies Ltd.,1.1
+Fine Organic Industries Ltd.,3.29
+-------
+Vinati Organics,1.03
+Nalwa Sons Invst,-0.1
+NIIT Tech,0.34
+Larsen & Toubro,-4.11
+Jubilant Food,0.08
+-------
+APL Apollo Tube,2.18
 Ceat,1.23
 Chola Inv Fin,3.47
+Endurance Technologies Ltd.,-0.1
+Fine Organic Industries Ltd.,3.29
 -------
 Vinati Organics,1.03
-Vinati Organics,1.03
+Nalwa Sons Invst,-2.06
 NIIT Tech,1.21
-NIIT Tech,0.21
-Larsen & Toubro,5.11
+Larsen & Toubro,3.11
+Jubilant Food,2.08
 -------
 APL Apollo Tube,2.18
-APL Apollo Tube,2.18
-Ceat,-1.23
 Ceat,1.23
 Chola Inv Fin,0.47
+Endurance Technologies Ltd.,1.1
+Fine Organic Industries Ltd.,0.29
 -------
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:520)
+Vinati Organics,1.03
+Nalwa Sons Invst,4.06
+NIIT Tech,0.21
+Larsen & Toubro,5.11
+Jubilant Food,5.08
+-------
+APL Apollo Tube,2.18
+Ceat,-1.23
+Chola Inv Fin,1.47
+Endurance Technologies Ltd.,4.1
+Fine Organic Industries Ltd.,0.29
+-------
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -558,43 +690,76 @@ Schaeffler India
 TTK Prestige
 Tasty Bite Eat
 Your Output: 
-Tasty Bite Eat,2.23
+WABCO India,1.33
 Tasty Bite Eat,1.23
-Sanofi India,4
+TTK Prestige,2.15
+Schaeffler India,2.57
 Sanofi India,1.21
-MRF,3.48
 -------
 3M India,1.56
-3M India,2.56
-Abbott India,0
 Abbott India,0.48
 Bajaj Finserv,0.64
+Bharat Rasayan,2
+Bosch,0.3
 -------
+WABCO India,0.33
+Tasty Bite Eat,2.23
+TTK Prestige,0
+Schaeffler India,4.59
+Sanofi India,4
+-------
+3M India,2.56
+Abbott India,0
+Bajaj Finserv,5.64
+Bharat Rasayan,2
+Bosch,2.15
+-------
+WABCO India,-1.33
 Tasty Bite Eat,5.23
-Tasty Bite Eat,-1.23
+TTK Prestige,2.15
+Schaeffler India,-2.57
 Sanofi India,-1.21
-Sanofi India,-1.21
-MRF,3.48
 -------
 3M India,-1.56
+Abbott India,0.46
+Bajaj Finserv,-4.64
+Bharat Rasayan,-2
+Bosch,2.3
+-------
+WABCO India,-1.33
+Tasty Bite Eat,-1.23
+TTK Prestige,-2.15
+Schaeffler India,-2.57
+Sanofi India,-1.21
+-------
 3M India,2.56
 Abbott India,-0.46
-Abbott India,0.46
 Bajaj Finserv,-0.64
+Bharat Rasayan,-2
+Bosch,-0.3
 -------
+WABCO India,1.33
 Tasty Bite Eat,1.23
-Tasty Bite Eat,0.23
+TTK Prestige,2.15
+Schaeffler India,2.57
 Sanofi India,1.21
-Sanofi India,0.21
-MRF,1.48
 -------
-3M India,1.56
 3M India,1.56
 Abbott India,0.46
-Abbott India,1.46
 Bajaj Finserv,0.64
+Bharat Rasayan,2
+Bosch,0.3
 -------
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:519)
+WABCO India,0.33
+Tasty Bite Eat,0.23
+TTK Prestige,3.15
+Schaeffler India,1.57
+Sanofi India,0.21
+-------
+3M India,1.56
+Abbott India,1.46
+Bajaj Finserv,3.64
+Bharat Rasayan,2
+Bosch,0.34
+-------
 ----------------------------------------

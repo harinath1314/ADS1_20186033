@@ -515,9 +515,9 @@ public final class Solution {
             MaxPQ mapq = new MaxPQ();
             MinPQ  mipq = new MinPQ();
             while (j < noStocks) {
-
-                mapq.insert(input.nextLine());
-                mipq.insert(input.nextLine());
+                String stock = input.nextLine();
+                mapq.insert(stock);
+                mipq.insert(stock);
                 j++;
 
             }
