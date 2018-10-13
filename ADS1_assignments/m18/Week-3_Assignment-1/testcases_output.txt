@@ -78,7 +78,39 @@ Sanofi India,2.21
 Sanofi India,1.21
 MRF,3.48
 -------
+3M India,1.56
+3M India,2.56
+Abbott India,0.46
+Abbott India,1.46
+Bajaj Finserv,0.64
 -------
+Tasty Bite Eat,5.23
+Tasty Bite Eat,-1.23
+Sanofi India,-1.21
+Sanofi India,-1.21
+MRF,3.48
+-------
+3M India,1.56
+3M India,2.56
+Abbott India,-0.46
+Abbott India,0.46
+Bajaj Finserv,-0.64
+-------
+Tasty Bite Eat,1.23
+Tasty Bite Eat,0.23
+Sanofi India,1.21
+Sanofi India,0.21
+MRF,1.48
+-------
+3M India,1.56
+3M India,1.56
+Abbott India,0.46
+Abbott India,1.46
+Bajaj Finserv,0.64
+-------
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:520)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -160,7 +192,39 @@ NIIT Tech,3.21
 NIIT Tech,0.21
 Larsen & Toubro,4.11
 -------
+APL Apollo Tube,2.18
+APL Apollo Tube,3.18
+Ceat,-0.06
+Ceat,0.23
+Chola Inv Fin,1.47
 -------
+Vinati Organics,4.03
+Vinati Organics,1.03
+NIIT Tech,0.34
+NIIT Tech,0.21
+Larsen & Toubro,1.11
+-------
+APL Apollo Tube,0.18
+APL Apollo Tube,2.18
+Ceat,0.23
+Ceat,1.23
+Chola Inv Fin,3.47
+-------
+Vinati Organics,1.03
+Vinati Organics,1.03
+NIIT Tech,1.21
+NIIT Tech,0.21
+Larsen & Toubro,5.11
+-------
+APL Apollo Tube,2.18
+APL Apollo Tube,2.18
+Ceat,-1.23
+Ceat,1.23
+Chola Inv Fin,0.47
+-------
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:520)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -247,7 +311,39 @@ Sanofi India,2.21
 Sanofi India,1.21
 MRF,3.48
 -------
+3M India,1.56
+3M India,2.56
+Abbott India,0.46
+Abbott India,1.46
+Bajaj Finserv,0.64
 -------
+Tasty Bite Eat,5.23
+Tasty Bite Eat,-1.23
+Sanofi India,-1.21
+Sanofi India,-1.21
+MRF,3.48
+-------
+3M India,1.56
+3M India,2.56
+Abbott India,-0.46
+Abbott India,0.46
+Bajaj Finserv,-0.64
+-------
+Tasty Bite Eat,1.23
+Tasty Bite Eat,0.23
+Sanofi India,1.21
+Sanofi India,0.21
+MRF,1.48
+-------
+3M India,1.56
+3M India,1.56
+Abbott India,0.46
+Abbott India,1.46
+Bajaj Finserv,0.64
+-------
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:520)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -334,7 +430,39 @@ NIIT Tech,3.21
 NIIT Tech,0.21
 Larsen & Toubro,4.11
 -------
+APL Apollo Tube,2.18
+APL Apollo Tube,3.18
+Ceat,-0.06
+Ceat,0.23
+Chola Inv Fin,1.47
 -------
+Vinati Organics,4.03
+Vinati Organics,1.03
+NIIT Tech,0.34
+NIIT Tech,0.21
+Larsen & Toubro,1.11
+-------
+APL Apollo Tube,0.18
+APL Apollo Tube,2.18
+Ceat,0.23
+Ceat,1.23
+Chola Inv Fin,3.47
+-------
+Vinati Organics,1.03
+Vinati Organics,1.03
+NIIT Tech,1.21
+NIIT Tech,0.21
+Larsen & Toubro,5.11
+-------
+APL Apollo Tube,2.18
+APL Apollo Tube,2.18
+Ceat,-1.23
+Ceat,1.23
+Chola Inv Fin,0.47
+-------
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:520)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -436,5 +564,37 @@ Sanofi India,4
 Sanofi India,1.21
 MRF,3.48
 -------
+3M India,1.56
+3M India,2.56
+Abbott India,0
+Abbott India,0.48
+Bajaj Finserv,0.64
 -------
+Tasty Bite Eat,5.23
+Tasty Bite Eat,-1.23
+Sanofi India,-1.21
+Sanofi India,-1.21
+MRF,3.48
+-------
+3M India,-1.56
+3M India,2.56
+Abbott India,-0.46
+Abbott India,0.46
+Bajaj Finserv,-0.64
+-------
+Tasty Bite Eat,1.23
+Tasty Bite Eat,0.23
+Sanofi India,1.21
+Sanofi India,0.21
+MRF,1.48
+-------
+3M India,1.56
+3M India,1.56
+Abbott India,0.46
+Abbott India,1.46
+Bajaj Finserv,0.64
+-------
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:519)
 ----------------------------------------
