@@ -242,6 +242,10 @@ class MaxPQ<Key> implements Iterable<Key> {
             return copy.delMax();
         }
     }
+    // public String toString(){
+    //     return delMax();
+    // }
+
 
 
 }
@@ -481,6 +485,10 @@ class MinPQ<Key> implements Iterable<Key> {
         }
     }
 
+    // public String toString(){
+    //     return min;
+    // }
+
     // public int compareTo(Key one, Key two){
     //     String[] first = one.split(",");
     //     String[] second = two.split(",");
@@ -538,13 +546,15 @@ public final class Solution {
 
             }
             for (int x =0 ; x < 5; x++) {
-            System.out.println(mapq.delMax());
+                Stock s = mapq.delMax();
+            System.out.println(s);
                 
             }
             System.out.println("-------");
 
             for (int y =0 ; y < 5; y++) {
-            System.out.println(mipq.delMin());
+                Stock p = mipq.delMin();
+            System.out.println(p);
                 
             }
             System.out.println("-------");
