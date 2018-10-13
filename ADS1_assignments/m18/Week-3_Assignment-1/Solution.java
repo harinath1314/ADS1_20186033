@@ -518,6 +518,7 @@ public final class Solution {
 
                 mapq.insert(input.nextLine());
                 mipq.insert(input.nextLine());
+                j++;
 
             }
             for (int x =0 ; i < 5; i++) {
