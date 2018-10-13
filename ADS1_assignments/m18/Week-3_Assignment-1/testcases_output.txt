@@ -77,6 +77,8 @@ Tasty Bite Eat,1.23
 Sanofi India,2.21
 Sanofi India,1.21
 MRF,3.48
+-------
+-------
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -157,6 +159,8 @@ Vinati Organics,3.03
 NIIT Tech,3.21
 NIIT Tech,0.21
 Larsen & Toubro,4.11
+-------
+-------
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -242,6 +246,8 @@ Tasty Bite Eat,1.23
 Sanofi India,2.21
 Sanofi India,1.21
 MRF,3.48
+-------
+-------
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -327,6 +333,8 @@ Vinati Organics,3.03
 NIIT Tech,3.21
 NIIT Tech,0.21
 Larsen & Toubro,4.11
+-------
+-------
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -427,4 +435,6 @@ Tasty Bite Eat,1.23
 Sanofi India,4
 Sanofi India,1.21
 MRF,3.48
+-------
+-------
 ----------------------------------------

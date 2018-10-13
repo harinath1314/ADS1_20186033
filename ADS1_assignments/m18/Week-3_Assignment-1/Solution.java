@@ -525,13 +525,13 @@ public final class Solution {
             System.out.println(mapq.delMax());
                 
             }
-            System.out.println();
+            System.out.println("-------");
 
             for (int y =0 ; i < 5; i++) {
             System.out.println(mipq.delMin());
                 
             }
-            System.out.println();
+            System.out.println("-------");
 
 
 
