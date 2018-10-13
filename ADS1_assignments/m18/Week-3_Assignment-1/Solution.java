@@ -547,14 +547,14 @@ public final class Solution {
             }
             for (int x =0 ; x < 5; x++) {
                 Stock s = mapq.delMax();
-            System.out.println(s);
+            System.out.println(s.toString());
                 
             }
             System.out.println("-------");
 
             for (int y =0 ; y < 5; y++) {
                 Stock p = mipq.delMin();
-            System.out.println(p);
+            System.out.println(p.toString());
                 
             }
             System.out.println("-------");
