@@ -588,6 +588,9 @@ class Stock implements Comparable<Stock>{
         return 1;
 
     } 
+    public String toString(Stock details){
+        return details.getname() + " "+ details.getvalue();
+    }
 }
 
 

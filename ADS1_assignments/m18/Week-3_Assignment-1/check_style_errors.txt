@@ -160,5 +160,9 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m18/Week-3_Assignment-1/Solution.java:587:26: Parameter data should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m18/Week-3_Assignment-1/Solution.java:587:37: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m18/Week-3_Assignment-1/Solution.java:590: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m18/Week-3_Assignment-1/Solution.java:591:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m18/Week-3_Assignment-1/Solution.java:591:28: Parameter details should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m18/Week-3_Assignment-1/Solution.java:591:42: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m18/Week-3_Assignment-1/Solution.java:592:39: '+' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 161 errors.
+Checkstyle ends with 165 errors.
