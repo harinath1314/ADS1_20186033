@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.1 Dynamic Median Finding/Solution.java:454:55: ')' is preceded with whitespace. [ParenPad]
 Audit done.
-Checkstyle ends with 1 errors.

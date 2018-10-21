@@ -451,7 +451,7 @@ class MaxPQ<Key> implements Iterable<Key> {
         exch(1, n--);
         sink(1);
         pq[n + 1] = null;   // to avoid loiteingp with garbage collection
-        if ((n > 0) && (n == (pq.length - 1) / (2 + 2) )) {
+        if ((n > 0) && (n == (pq.length - 1) / (2 + 2))) {
             resize(pq.length / 2);
         }
         assert isMaxHeap();
