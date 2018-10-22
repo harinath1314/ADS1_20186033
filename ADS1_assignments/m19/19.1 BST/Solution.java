@@ -377,6 +377,8 @@ class Bst {
      *        <em>n</em>–1
      */
     public Book select(final int k) {
+        System.out.println(size());
+        System.out.println("asdfghjklkjhgfdsdfghjklkjhgfd");
         if (k < 0 || k >= size()) {
             throw new IllegalArgumentException("argument  is invalid: " + k);
         }
