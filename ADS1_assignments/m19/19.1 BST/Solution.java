@@ -139,6 +139,14 @@ class Book {
 			}
 		}
 	}
+	/**
+     * tostring method.
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public String tostring(Book x) {
+        return x.getname() + "," + x.getauthor() + "," + x.getprice();
+    }
 	
 
 
