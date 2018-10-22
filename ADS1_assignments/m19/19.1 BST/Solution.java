@@ -139,15 +139,7 @@ class Book {
 			}
 		}
 	}
-	/**
-     * tostring method.
-     *
-     * @return     { description_of_the_return_value }
-     */
-    public String tostring() {
-        return this.getname() + "," + this.getauthor() + "," + this.getprice();
-    }
-
+	
 
 
 }
@@ -339,4 +331,13 @@ class Bst {
 		return max(x.right);
 
 	}
+	/**
+     * tostring method.
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public String tostring(Book x) {
+        return x.getname() + "," + x.getauthor() + "," + x.getprice();
+    }
+
 }
