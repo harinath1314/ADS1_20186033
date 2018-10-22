@@ -12,11 +12,9 @@ Your Output:
 Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
-3
-asdfghjklkjhgfdsdfghjklkjhgfd
-Hello, Ajay, 200.0
-Algorithms, Bob Sedgewick, 6000.0
-Python, eric, 5000.0
+Exception in thread "main" java.lang.IllegalArgumentException: argument  is invalid: 1
+	at Bst.select(Solution.java:384)
+	at Solution.main(Solution.java:47)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -39,10 +37,9 @@ Street, Kiran, 800.0
 Harry, JK, 600.0
 7
 Street, Kiran, 800.0
-3
-asdfghjklkjhgfdsdfghjklkjhgfd
-IT, Viswas, 400.0
-2
+Exception in thread "main" java.lang.IllegalArgumentException: argument  is invalid: 2
+	at Bst.select(Solution.java:384)
+	at Solution.main(Solution.java:47)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -61,9 +58,7 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
-2
-asdfghjklkjhgfdsdfghjklkjhgfd
 Exception in thread "main" java.lang.IllegalArgumentException: argument  is invalid: 3
-	at Bst.select(Solution.java:383)
+	at Bst.select(Solution.java:384)
 	at Solution.main(Solution.java:47)
 ----------------------------------------

@@ -252,6 +252,8 @@ class Bst {
      */
     public void put(final Book book, final Integer volume) {
         root = helpingnature(root, book, volume);
+        root.count = 1 + size(root.left) + size(root.right);
+
 
     }
     /**
@@ -279,7 +281,6 @@ class Bst {
         } else {
             x.val = volume;
         }
-        x.count = 1 + size(x.left) + size(x.right);
         return x;
 
     }
@@ -377,8 +378,8 @@ class Bst {
      *        <em>n</em>–1
      */
     public Book select(final int k) {
-        System.out.println(size());
-        System.out.println("asdfghjklkjhgfdsdfghjklkjhgfd");
+        // System.out.println(size());
+        // System.out.println("asdfghjklkjhgfdsdfghjklkjhgfd");
         if (k < 0 || k >= size()) {
             throw new IllegalArgumentException("argument  is invalid: " + k);
         }
