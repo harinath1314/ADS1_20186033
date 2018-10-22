@@ -237,8 +237,10 @@ class Bst {
     public int size(final Node x) {
         if (x == null) {
             return 0;
-        }
+        }else {
         return x.count;
+
+        }
     }
     /**
      * put method.
@@ -411,7 +413,7 @@ class Bst {
      * @throws NoSuchElementException if there is no such key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public Book floor(Book key) {
+    public Book floor(final Book key) {
         if (key == null) {
             throw new IllegalArgumentException("argument to floor() is null");
         }
@@ -456,7 +458,7 @@ class Bst {
      * @throws NoSuchElementException if there is no such key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public Book ceiling(Book key) {
+    public Book ceiling(final Book key) {
         if (key == null) {
             throw new IllegalArgumentException("argument is null");
         }

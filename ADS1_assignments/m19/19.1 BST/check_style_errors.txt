@@ -1,5 +1,5 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:414:23: Parameter key should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:459:25: Parameter key should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:240:10: 'else' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:240:10: '}' is not followed by whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 2 errors.
