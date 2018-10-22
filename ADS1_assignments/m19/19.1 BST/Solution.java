@@ -63,7 +63,8 @@ public final class Solution {
 
     }
 
-}/**
+}
+/**
  * Class for book.
  */
 class Book {
@@ -153,7 +154,7 @@ class Book {
      * @return     { description_of_the_return_value }
      */
     public String toString() {
-        return this.getname() + ", " + this.getauthor() + ", " + this.getprice();
+    return this.getname() + ", " + this.getauthor() + ", " + this.getprice();
     }
 
 
@@ -373,7 +374,7 @@ class Bst {
      * @throws IllegalArgumentException unless {@code k} is between 0 and
      *        <em>n</em>–1
      */
-    public Book select(int k) {
+    public Book select(final int k) {
         if (k < 0 || k >= size()) {
             throw new IllegalArgumentException("argument  is invalid: " + k);
         }
@@ -389,7 +390,7 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node select(Node x, int k) {
+    private Node select(final Node x, final int k) {
         if (x == null) {
             return null;
         }
@@ -417,7 +418,9 @@ class Bst {
         Node x = floor(root, key);
         if (x == null) {
             return null;
-        } else return x.key;
+        } else {
+            return x.key;
+        }
     }
     /**
      * floor function.
@@ -427,7 +430,7 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node floor(Node x, Book key) {
+    private Node floor(final Node x, final Book key) {
         if (x == null) {
             return null;
         }
@@ -441,7 +444,9 @@ class Bst {
         Node t = floor(x.right, key);
         if (t != null) {
             return t;
-        } else return x;
+        } else {
+            return x;
+        }
     }
     /**
      * Returns the smallest key in the symbol table greater than or equal.
@@ -470,7 +475,7 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node ceiling(Node x, Book key) {
+    private Node ceiling(final Node x, final Book key) {
         if (x == null) {
             return null;
         }

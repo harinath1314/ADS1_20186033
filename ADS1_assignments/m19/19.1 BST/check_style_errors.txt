@@ -1,16 +1,5 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:66:2: '}' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:156: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:376:24: Parameter k should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:392:25: Parameter x should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:392:33: Parameter k should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:413:23: Parameter key should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:420: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:430:24: Parameter x should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:430:32: Parameter key should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:444: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:454:25: Parameter key should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:473:26: Parameter x should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:473:34: Parameter key should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:414:23: Parameter key should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:459:25: Parameter key should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 2 errors.
