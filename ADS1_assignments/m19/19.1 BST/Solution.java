@@ -196,11 +196,12 @@ class Bst {
          * @param      book   The book
          * @param      value  The value
          */
-        Node(final Book book, final Integer value) {
+        Node(final Book book, final Integer value, final int size) {
             this.key = book;
             this.val = value;
             this.left = null;
             this.right = null;
+            this.count = size;
 
 
 
@@ -528,7 +529,7 @@ class Bst {
      * @return     { description_of_the_return_value }
      */
     private Node put(Node x, Book key, Integer val) {
-        if (x == null) return new Node(key, val);
+        if (x == null) return new Node(key, val, 1);
         int cmp = key.compareTo(x.key);
         if      (cmp < 0) {
             x.left  = put(x.left,  key, val);

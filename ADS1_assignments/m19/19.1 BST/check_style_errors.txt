@@ -1,9 +1,10 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:510:21: Parameter key should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:510:31: Parameter val should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:530:22: Parameter x should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:530:30: Parameter key should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:530:40: Parameter val should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:531: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:199:62: Expected @param tag for 'size'. [JavadocMethod]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:511:21: Parameter key should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:511:31: Parameter val should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:531:22: Parameter x should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:531:30: Parameter key should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:531:40: Parameter val should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:532: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 7 errors.
