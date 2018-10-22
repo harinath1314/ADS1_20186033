@@ -195,6 +195,7 @@ class Bst {
          *
          * @param      book   The book
          * @param      value  The value
+         * @param      size   The size
          */
         Node(final Book book, final Integer value, final int size) {
             this.key = book;
@@ -238,7 +239,7 @@ class Bst {
     public int size(final Node x) {
         if (x == null) {
             return 0;
-        }else {
+        } else {
         return x.count;
 
         }
