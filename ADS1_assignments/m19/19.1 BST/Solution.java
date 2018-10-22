@@ -35,7 +35,7 @@ public final class Solution {
 				break;
 			case"get":
 				System.out.println(bst.get((new Book(tokens[1],
-                    tokens[2], Double.parseDouble(tokens[2 + 1])))));
+				                                     tokens[2], Double.parseDouble(tokens[2 + 1])))));
 				break;
 			case"min":
 				System.out.println(bst.min());
@@ -48,7 +48,12 @@ public final class Solution {
 				break;
 			case"floor":
 				System.out.println(bst.floor(new Book(tokens[1], tokens[2],
-				                 Double.parseDouble(tokens[2 + 1]))));
+				            Double.parseDouble(tokens[2 + 1]))));
+				break;
+			case"ceiling":
+				System.out.println(bst.ceiling(new Book(tokens[1], tokens[2],
+				            Double.parseDouble(tokens[2 + 1]))));
+				break;
 			default:
 				break;
 			}
@@ -380,54 +385,79 @@ class Bst {
 
 
 	/**
-     * Return the key in the symbol table whose rank is {@code k}.
-     * This is the (k+1)st smallest key in the symbol table.
-     *
-     * @param  k the order statistic
-     * @return the key in the symbol table of rank {@code k}
-     * @throws IllegalArgumentException unless {@code k} is between 0 and
-     *        <em>n</em>–1
-     */
-    public Book select(int k) {
-        if (k < 0 || k >= size()) {
-            throw new IllegalArgumentException("argument to select() is invalid: " + k);
-        }
-        Node x = select(root, k);
-        return x.key;
-    }
+	 * Return the key in the symbol table whose rank is {@code k}.
+	 * This is the (k+1)st smallest key in the symbol table.
+	 *
+	 * @param  k the order statistic
+	 * @return the key in the symbol table of rank {@code k}
+	 * @throws IllegalArgumentException unless {@code k} is between 0 and
+	 *        <em>n</em>–1
+	 */
+	public Book select(int k) {
+		if (k < 0 || k >= size()) {
+			throw new IllegalArgumentException("argument to select() is invalid: " + k);
+		}
+		Node x = select(root, k);
+		return x.key;
+	}
 
-    // Return key of rank k. 
-    private Node select(Node x, int k) {
-        if (x == null) return null; 
-        int t = size(x.left); 
-        if      (t > k) return select(x.left,  k); 
-        else if (t < k) return select(x.right, k-t-1); 
-        else            return x; 
-    }
-    /**
-     * Returns the largest key in the symbol table less than or equal to {@code key}.
-     *
-     * @param  key the key
-     * @return the largest key in the symbol table less than or equal to {@code key}
-     * @throws NoSuchElementException if there is no such key
-     * @throws IllegalArgumentException if {@code key} is {@code null}
-     */
-    public Book floor(Book key) {
-        if (key == null) throw new IllegalArgumentException("argument to floor() is null");
-        // if (isEmpty()) throw new NoSuchElementException("calls floor() with empty symbol table");
-        Node x = floor(root, key);
-        if (x == null) return null;
-        else return x.key;
-    } 
+	// Return key of rank k.
+	private Node select(Node x, int k) {
+		if (x == null) return null;
+		int t = size(x.left);
+		if      (t > k) return select(x.left,  k);
+		else if (t < k) return select(x.right, k - t - 1);
+		else            return x;
+	}
+	/**
+	 * Returns the largest key in the symbol table less than or .
+	 *
+	 * @param  key the key
+	 * @return the largest key in the symbol table less than
+	 * @throws NoSuchElementException if there is no such key
+	 * @throws IllegalArgumentException if {@code key} is {@code null}
+	 */
+	public Book floor(Book key) {
+		if (key == null) throw new IllegalArgumentException("argument to floor() is null");
+		Node x = floor(root, key);
+		if (x == null) return null;
+		else return x.key;
+	}
 
-    private Node floor(Node x, Book key) {
-        if (x == null) return null;
-        int cmp = key.compareTo(x.key);
-        if (cmp == 0) return x;
-        if (cmp <  0) return floor(x.left, key);
-        Node t = floor(x.right, key); 
-        if (t != null) return t;
-        else return x; 
-    }
+	private Node floor(Node x, Book key) {
+		if (x == null) return null;
+		int cmp = key.compareTo(x.key);
+		if (cmp == 0) return x;
+		if (cmp <  0) return floor(x.left, key);
+		Node t = floor(x.right, key);
+		if (t != null) return t;
+		else return x;
+	}
+	/**
+	 * Returns the smallest key in the symbol table greater than or equal.
+	 *
+	 * @param  key the key
+	 * @return the smallest key in the symbol table greater than or equal.
+	 * @throws NoSuchElementException if there is no such key
+	 * @throws IllegalArgumentException if {@code key} is {@code null}
+	 */
+	public Book ceiling(Book key) {
+		if (key == null) throw new IllegalArgumentException("argument to ceiling() is null");
+		Node x = ceiling(root, key);
+		if (x == null) return null;
+		else return x.key;
+	}
+
+	private Node ceiling(Node x, Book key) {
+		if (x == null) return null;
+		int cmp = key.compareTo(x.key);
+		if (cmp == 0) return x;
+		if (cmp < 0) {
+			Node t = ceiling(x.left, key);
+			if (t != null) return t;
+			else return x;
+		}
+		return ceiling(x.right, key);
+	}
 
 }
