@@ -28,19 +28,14 @@ public final class Solution {
             String[] tokens = input.nextLine().split(",");
 
             switch (tokens[0]) {
-            // case"put":
-            //     bst.put(new Book(tokens[1], tokens[2],
-            //                      Double.parseDouble(tokens[2 + 1])),
-            //             Integer.parseInt(tokens[2 + 2]));
-            //     break;
-            case "put":
-                Book deobj = new Book(tokens[1],
-                    tokens[2], Float.parseFloat(tokens[2 + 1]));
-                bst.put(deobj, Integer.parseInt(tokens[2 + 2]));
+            case"put":
+                bst.put(new Book(tokens[1], tokens[2],
+                                 Double.parseDouble(tokens[2 + 1])),
+                        Integer.parseInt(tokens[2 + 2]));
                 break;
             case"get":
                 System.out.println(bst.get((new Book(tokens[1],
-                        tokens[2], Double.parseDouble(tokens[2 + 1])))));
+                                                     tokens[2], Double.parseDouble(tokens[2 + 1])))));
                 break;
             case"min":
                 System.out.println(bst.min());
@@ -53,7 +48,7 @@ public final class Solution {
                 break;
             case"floor":
                 System.out.println(bst.floor(new Book(tokens[1], tokens[2],
-                    Double.parseDouble(tokens[2 + 1]))));
+                        Double.parseDouble(tokens[2 + 1]))));
                 break;
             case"ceiling":
                 System.out.println(bst.ceiling(new Book(tokens[1], tokens[2],
@@ -201,12 +196,11 @@ class Bst {
          * @param      book   The book
          * @param      value  The value
          */
-        Node(final Book book, final Integer value, final int size) {
+        Node(final Book book, final Integer value) {
             this.key = book;
             this.val = value;
             this.left = null;
             this.right = null;
-            this.count = size;
 
 
 
@@ -503,81 +497,49 @@ class Bst {
     }
 
 
-    // /**
-    //  * Inserts the specified key-value pair iable, overwriting the old
-    //  * value with the new value if the symbol tabl specified key.
-    //  * Deletes the specified key (and its associsymbol table
-    //  * if the specified value is {@code null}.
-    //  *
-    //  * @param  key the key
-    //  * @param  val the value
-    //  * @throws IllegalArgumentException if {@code key} is {@code null}
-    //  */
-    // public void put(Book key, Integer val) {
-    //     if (key == null) {
-    //         throw new IllegalArgumentException("calls put() with a null key");
-    //     }
-    //     // if (val == null) {
-    //     //     delete(key);
-    //     //     return;
-    //     // }
-    //     root = put(root, key, val);
-    //     // assert check();
-    // }
-    // /**
-    //  * put method.
-    //  *
-    //  * @param      x     { parameter_description }
-    //  * @param      key   The key
-    //  * @param      val   The value
-    //  *
-    //  * @return     { description_of_the_return_value }
-    //  */
-    // private Node put(Node x, Book key, Integer val) {
-    //     if (x == null) return new Node(key, val, 1);
-    //     int cmp = key.compareTo(x.key);
-    //     if      (cmp < 0) {
-    //         x.left  = put(x.left,  key, val);
-    //     } else if (cmp > 0) {
-    //         x.right = put(x.right, key, val);
-    //     } else {
-    //         x.val   = val;
-    //         x.count = 1 + size(x.left) + size(x.right);
-    //     }
-    //     return x;
-
-    // }
     /**
-     * put method to insert the key, value.
-     *time complexity is O(1)
-     * @param      key   The key
-     * @param      val   The value
+     * Inserts the specified key-value pair iable, overwriting the old
+     * value with the new value if the symbol tabl specified key.
+     * Deletes the specified key (and its associsymbol table
+     * if the specified value is {@code null}.
+     *
+     * @param  key the key
+     * @param  val the value
+     * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void put(final Book key, final int val) {
+    public void put(Book key, Integer val) {
+        if (key == null) {
+            throw new IllegalArgumentException("calls put() with a null key");
+        }
+        // if (val == null) {
+        //     delete(key);
+        //     return;
+        // }
         root = put(root, key, val);
+        // assert check();
     }
     /**
-     * overloaded constructor.
-     * time complexity is O(logN)
-     * @param      x   root node.
+     * put method.
+     *
+     * @param      x     { parameter_description }
      * @param      key   The key
      * @param      val   The value
      *
-     * @return root
+     * @return     { description_of_the_return_value }
      */
-    private Node put(final Node x, final Book key, final int val) {
-        if (x == null) {
-            return new Node(key, val, 1);
-        }
+    private Node put(Node x, Book key, Integer val) {
+        if (x == null) return new Node(key, val);
         int cmp = key.compareTo(x.key);
-        if (cmp < 0) {
-            x.left = put(x.left, key, val);
+        if      (cmp < 0) {
+            x.left  = put(x.left,  key, val);
         } else if (cmp > 0) {
             x.right = put(x.right, key, val);
-        } else if (cmp == 0) {
-            x.val = val;
+        } else {
+            x.val   = val;
+            x.count = 1 + size(x.left) + size(x.right);
         }
         return x;
+
     }
 
 }
