@@ -144,7 +144,7 @@ class Book {
      *
      * @return     { description_of_the_return_value }
      */
-    public String tostring(Book x) {
+    public String toString(Book x) {
         return x.getname() + "," + x.getauthor() + "," + x.getprice();
     }
 	
@@ -344,7 +344,7 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    public String tostring(Book x) {
+    public String toString(Book x) {
         return x.getname() + "," + x.getauthor() + "," + x.getprice();
     }
 
