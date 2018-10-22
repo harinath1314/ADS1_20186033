@@ -57,8 +57,7 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
-Exception in thread "main" java.lang.NullPointerException
-	at Bst$Node.access$100(Solution.java:171)
-	at Bst.select(Solution.java:381)
+Exception in thread "main" java.lang.IllegalArgumentException: argument  is invalid: 3
+	at Bst.select(Solution.java:378)
 	at Solution.main(Solution.java:47)
 ----------------------------------------
