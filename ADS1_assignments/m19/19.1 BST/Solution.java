@@ -271,6 +271,7 @@ class Bst {
 		} else {
 			x.val = volume;
 		}
+		x.count = 1 + size(x.left) + size(x.right);
 		return x;
 
 	}
