@@ -40,7 +40,7 @@ Street, Kiran, 800.0
 IT, Viswas, 400.0
 2
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Harry, JK, 600.0
 Harry, JK, 600.0
@@ -57,7 +57,8 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
-Exception in thread "main" java.lang.IllegalArgumentException: argument  is invalid: 3
-	at Bst.select(Solution.java:381)
-	at Solution.main(Solution.java:47)
+Street, Kiran, 800.0
+Harry, JK, 600.0
+Street, Kiran, 800.0
+7
 ----------------------------------------

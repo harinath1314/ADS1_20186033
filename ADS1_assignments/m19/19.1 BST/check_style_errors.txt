@@ -1,5 +1,6 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:240:10: 'else' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:240:10: '}' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:199:62: Expected @param tag for 'size'. [JavadocMethod]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:241:10: 'else' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m19/19.1 BST/Solution.java:241:10: '}' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 3 errors.
