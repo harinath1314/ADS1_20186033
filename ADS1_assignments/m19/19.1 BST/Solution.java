@@ -144,8 +144,8 @@ class Book {
      *
      * @return     { description_of_the_return_value }
      */
-    public String toString(Book x) {
-        return x.getname() + "," + x.getauthor() + "," + x.getprice();
+    public String toString() {
+        return this.getname() + "," + this.getauthor() + "," + this.getprice();
     }
 	
 
@@ -339,13 +339,13 @@ class Bst {
 		return max(x.right);
 
 	}
-	/**
-     * tostring method.
-     *
-     * @return     { description_of_the_return_value }
-     */
-    public String toString(Book x) {
-        return x.getname() + "," + x.getauthor() + "," + x.getprice();
-    }
+	// /**
+ //     * tostring method.
+ //     *
+ //     * @return     { description_of_the_return_value }
+ //     */
+ //    public String toString() {
+ //        return this.getname() + "," + this.getauthor() + "," + this.getprice();
+ //    }
 
 }
