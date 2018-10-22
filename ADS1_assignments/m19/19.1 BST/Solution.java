@@ -35,7 +35,7 @@ public final class Solution {
                 break;
             case"get":
                 System.out.println(bst.get((new Book(tokens[1],
-                                                     tokens[2], Double.parseDouble(tokens[2 + 1])))));
+                      tokens[2], Double.parseDouble(tokens[2 + 1])))));
                 break;
             case"min":
                 System.out.println(bst.min());
@@ -48,11 +48,11 @@ public final class Solution {
                 break;
             case"floor":
                 System.out.println(bst.floor(new Book(tokens[1], tokens[2],
-                        Double.parseDouble(tokens[2 + 1]))));
+                    Double.parseDouble(tokens[2 + 1]))));
                 break;
             case"ceiling":
                 System.out.println(bst.ceiling(new Book(tokens[1], tokens[2],
-                    Double.parseDouble(tokens[2 + 1]))));
+                     Double.parseDouble(tokens[2 + 1]))));
                 break;
             default:
                 break;
@@ -237,52 +237,52 @@ class Bst {
     public int size(final Node x) {
         if (x == null) {
             return 0;
-        } else {
-            return x.count;
+        }else {
+        return x.count;
 
         }
     }
-    // /**
-    //  * put method.
-    //  * complexity of put method in average is log N
-    //  * complexity of put method in worst case is N.
-    //  *
-    //  * @param      book    The book
-    //  * @param      volume  The volume
-    //  */
-    // public void put(final Book book, final Integer volume) {
-    //     root = helpingnature(root, book, volume);
+    /**
+     * put method.
+     * complexity of put method in average is log N
+     * complexity of put method in worst case is N.
+     *
+     * @param      book    The book
+     * @param      volume  The volume
+     */
+    public void put(final Book book, final Integer volume) {
+        root = helpingnature(root, book, volume);
 
-    // }
-    // /**
-    //  * helper function.
-    //  *
-    //  * @param      x       { parameter_description }
-    //  * @param      book    The book
-    //  * @param      volume  The volume
-    //  *
-    //  * @return     { description_of_the_return_value }
-    //  */
-    // private Node helpingnature(final Node x, final Book book,
-    //                            final Integer volume) {
+    }
+    /**
+     * helper function.
+     *
+     * @param      x       { parameter_description }
+     * @param      book    The book
+     * @param      volume  The volume
+     *
+     * @return     { description_of_the_return_value }
+     */
+    private Node helpingnature(final Node x, final Book book,
+                               final Integer volume) {
 
-    //     if (x == null) {
-    //         return new Node(book, volume);
-    //     }
-    //     int cmp = book.compareTo(x.key);
-    //     if (cmp < 0) {
-    //         x.left = helpingnature(x.left, book, volume);
+        if (x == null) {
+            return new Node(book, volume);
+        }
+        int cmp = book.compareTo(x.key);
+        if (cmp < 0) {
+            x.left = helpingnature(x.left, book, volume);
 
-    //     } else if (cmp > 0) {
-    //         x.right = helpingnature(x.right, book, volume);
+        } else if (cmp > 0) {
+            x.right = helpingnature(x.right, book, volume);
 
-    //     } else {
-    //         x.val = volume;
-    //     }
-    //     x.count = 1 + size(x.left) + size(x.right);
-    //     return x;
+        } else {
+            x.val = volume;
+        }
+        x.count = 1 + size(x.left) + size(x.right);
+        return x;
 
-    // }
+    }
     /**
      * get method.
      * complexity of get method in average is log N
@@ -494,52 +494,6 @@ class Bst {
             }
         }
         return ceiling(x.right, key);
-    }
-
-
-    /**
-     * Inserts the specified key-value pair iable, overwriting the old
-     * value with the new value if the symbol tabl specified key.
-     * Deletes the specified key (and its associsymbol table
-     * if the specified value is {@code null}.
-     *
-     * @param  key the key
-     * @param  val the value
-     * @throws IllegalArgumentException if {@code key} is {@code null}
-     */
-    public void put(Book key, Integer val) {
-        if (key == null) {
-            throw new IllegalArgumentException("calls put() with a null key");
-        }
-        // if (val == null) {
-        //     delete(key);
-        //     return;
-        // }
-        root = put(root, key, val);
-        // assert check();
-    }
-    /**
-     * put method.
-     *
-     * @param      x     { parameter_description }
-     * @param      key   The key
-     * @param      val   The value
-     *
-     * @return     { description_of_the_return_value }
-     */
-    private Node put(Node x, Book key, Integer val) {
-        if (x == null) return new Node(key, val);
-        int cmp = key.compareTo(x.key);
-        if      (cmp < 0) {
-            x.left  = put(x.left,  key, val);
-        } else if (cmp > 0) {
-            x.right = put(x.right, key, val);
-        } else {
-            x.val   = val;
-            x.count = 1 + size(x.left) + size(x.right);
-        }
-        return x;
-
     }
 
 }
