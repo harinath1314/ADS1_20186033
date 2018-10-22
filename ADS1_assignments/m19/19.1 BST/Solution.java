@@ -364,26 +364,6 @@ class Bst {
 
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	/**
 	 * Return the key in the symbol table whose rank is {@code k}.
 	 * This is the (k+1)st smallest key in the symbol table.
@@ -394,9 +374,9 @@ class Bst {
 	 *        <em>n</em>–1
 	 */
 	public Book select(int k) {
-		if (k < 0 || k >= size()) {
-			throw new IllegalArgumentException("argument to select() is invalid: " + k);
-		}
+		// if (k < 0 || k >= size()) {
+		// 	throw new IllegalArgumentException("argument to select() is invalid: " + k);
+		// }
 		Node x = select(root, k);
 		return x.key;
 	}
