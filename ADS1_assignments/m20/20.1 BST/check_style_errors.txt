@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m20/20.1 BST/Solution.java:582:8: Unused @param tag for 'x'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m20/20.1 BST/Solution.java:587:36: Expected @param tag for 'y'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.

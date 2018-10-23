@@ -579,7 +579,7 @@ class Bst {
     /**
      * delete functin.
      *
-     * @param      x     { parameter_description }
+     * @param      y     { parameter_description }
      * @param      key   The key
      *
      * @return     { description_of_the_return_value }
