@@ -1,7 +1,7 @@
 /**
- * file name :API using search tree.
+ * file name :balanced search tree.
  * author : harinatha reddy
- * date : 22-10-18.
+ * date : 23-10-18.
  */
 
 
@@ -35,7 +35,7 @@ public final class Solution {
                 break;
             case"get":
                 System.out.println(bst.get((new Book(tokens[1],
-                      tokens[2], Double.parseDouble(tokens[2 + 1])))));
+                             tokens[2], Double.parseDouble(tokens[2 + 1])))));
                 break;
             case"min":
                 System.out.println(bst.min());
@@ -48,21 +48,21 @@ public final class Solution {
                 break;
             case"floor":
                 System.out.println(bst.floor(new Book(tokens[1], tokens[2],
-                    Double.parseDouble(tokens[2 + 1]))));
+                              Double.parseDouble(tokens[2 + 1]))));
                 break;
             case"ceiling":
                 System.out.println(bst.ceiling(new Book(tokens[1], tokens[2],
-                     Double.parseDouble(tokens[2 + 1]))));
+                        Double.parseDouble(tokens[2 + 1]))));
                 break;
             case"deleteMin":
-            bst.deleteMin();
+                bst.deleteMin();
                 break;
             case"deleteMax":
-            bst.deleteMax();
+                bst.deleteMax();
                 break;
             case"delete":
-            bst.delete(new Book(tokens[1], tokens[2],
-                    Double.parseDouble(tokens[2 + 1])));
+                bst.delete(new Book(tokens[1], tokens[2],
+                                    Double.parseDouble(tokens[2 + 1])));
                 break;
             default:
                 break;
@@ -250,7 +250,7 @@ class Bst {
         if (x == null) {
             return 0;
         } else {
-        return x.count;
+            return x.count;
 
         }
     }
@@ -516,13 +516,15 @@ class Bst {
      * @throws NoSuchElementException if the symbol table is empty
      */
     public void deleteMin() {
-        // if (isEmpty()) throw new NoSuchElementException("Symbol table underflow");
+        // if (isEmpty()) throw new NoSuchEl("Symbol table underflow");
         root = deleteMin(root);
         // assert check();
     }
 
     private Node deleteMin(Node x) {
-        if (x.left == null) return x.right;
+        if (x.left == null) {
+            return x.right;
+        }
         x.left = deleteMin(x.left);
         x.count = size(x.left) + size(x.right) + 1;
         return x;
@@ -534,45 +536,68 @@ class Bst {
      * @throws NoSuchElementException if the symbol table is empty
      */
     public void deleteMax() {
-        // if (isEmpty()) throw new NoSuchElementException("Symbol table underflow");
+        // if (isEmpty()) throw new NoSuchEleption("Symbol table underflow");
         root = deleteMax(root);
         // assert check();
     }
-
+    /**
+     * deletemax function.
+     *
+     * @param      x     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     private Node deleteMax(Node x) {
-        if (x.right == null) return x.left;
+        if (x.right == null) {
+            return x.left;
+        }
         x.right = deleteMax(x.right);
         x.count = size(x.left) + size(x.right) + 1;
         return x;
     }
 
     /**
-     * Removes the specified key and its associated value from this symbol table     
-     * (if the key is in this symbol table).    
+     * Removes the specified key and its assd value from this symbol table
+     * (if the key is in this symbol table).
      *
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public void delete(Book key) {
-        if (key == null) throw new IllegalArgumentException("calls delete() with a null key");
+        if (key == null) {
+            throw new IllegalArgumentException("calls dte() with a null key");
+        }
         root = delete(root, key);
         // assert check();
     }
-
+    /**
+     * delete functin.
+     *
+     * @param      x     { parameter_description }
+     * @param      key   The key
+     *
+     * @return     { description_of_the_return_value }
+     */
     private Node delete(Node x, Book key) {
         if (x == null) return null;
 
         int cmp = key.compareTo(x.key);
-        if      (cmp < 0) x.left  = delete(x.left,  key);
-        else if (cmp > 0) x.right = delete(x.right, key);
-        else { 
-            if (x.right == null) return x.left;
-            if (x.left  == null) return x.right;
+        if      (cmp < 0) {
+            x.left  = delete(x.left,  key);
+        } else if (cmp > 0) {
+            x.right = delete(x.right, key);
+        } else {
+            if (x.right == null) {
+                return x.left;
+            }
+            if (x.left  == null) {
+                return x.right;
+            }
             Node t = x;
             x = min(t.right);
             x.right = deleteMin(t.right);
             x.left = t.left;
-        } 
+        }
         x.count = size(x.left) + size(x.right) + 1;
         return x;
     }
