@@ -584,7 +584,8 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node delete(Node x, final Book key) {
+    private Node delete(final Node y, final Book key) {
+        Node x = y;
         if (x == null) {
             return null;
         }
