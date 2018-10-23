@@ -520,8 +520,14 @@ class Bst {
         root = deleteMin(root);
         // assert check();
     }
-
-    private Node deleteMin(Node x) {
+    /**
+     * dedleme min function.
+     *
+     * @param      x     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    private Node deleteMin(final Node x) {
         if (x.left == null) {
             return x.right;
         }
@@ -547,7 +553,7 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node deleteMax(Node x) {
+    private Node deleteMax(final Node x) {
         if (x.right == null) {
             return x.left;
         }
@@ -563,7 +569,7 @@ class Bst {
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void delete(Book key) {
+    public void delete(final Book key) {
         if (key == null) {
             throw new IllegalArgumentException("calls dte() with a null key");
         }
@@ -578,8 +584,10 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node delete(Node x, Book key) {
-        if (x == null) return null;
+    private Node delete(Node x, final Book key) {
+        if (x == null) {
+            return null;
+        }
 
         int cmp = key.compareTo(x.key);
         if      (cmp < 0) {
