@@ -54,6 +54,16 @@ public final class Solution {
                 System.out.println(bst.ceiling(new Book(tokens[1], tokens[2],
                      Double.parseDouble(tokens[2 + 1]))));
                 break;
+            case"deleteMin":
+            bst.deleteMin();
+                break;
+            case"deleteMax":
+            bst.deleteMax();
+                break;
+            case"delete":
+            bst.delete(new Book(tokens[1], tokens[2],
+                    Double.parseDouble(tokens[2 + 1])));
+                break;
             default:
                 break;
             }
@@ -496,6 +506,75 @@ class Bst {
             }
         }
         return ceiling(x.right, key);
+    }
+
+
+
+    /**
+     * Removes the smallest key and associated value from the symbol table.
+     *
+     * @throws NoSuchElementException if the symbol table is empty
+     */
+    public void deleteMin() {
+        // if (isEmpty()) throw new NoSuchElementException("Symbol table underflow");
+        root = deleteMin(root);
+        // assert check();
+    }
+
+    private Node deleteMin(Node x) {
+        if (x.left == null) return x.right;
+        x.left = deleteMin(x.left);
+        x.count = size(x.left) + size(x.right) + 1;
+        return x;
+    }
+
+    /**
+     * Removes the largest key and associated value from the symbol table.
+     *
+     * @throws NoSuchElementException if the symbol table is empty
+     */
+    public void deleteMax() {
+        // if (isEmpty()) throw new NoSuchElementException("Symbol table underflow");
+        root = deleteMax(root);
+        // assert check();
+    }
+
+    private Node deleteMax(Node x) {
+        if (x.right == null) return x.left;
+        x.right = deleteMax(x.right);
+        x.count = size(x.left) + size(x.right) + 1;
+        return x;
+    }
+
+    /**
+     * Removes the specified key and its associated value from this symbol table     
+     * (if the key is in this symbol table).    
+     *
+     * @param  key the key
+     * @throws IllegalArgumentException if {@code key} is {@code null}
+     */
+    public void delete(Book key) {
+        if (key == null) throw new IllegalArgumentException("calls delete() with a null key");
+        root = delete(root, key);
+        // assert check();
+    }
+
+    private Node delete(Node x, Book key) {
+        if (x == null) return null;
+
+        int cmp = key.compareTo(x.key);
+        if      (cmp < 0) x.left  = delete(x.left,  key);
+        else if (cmp > 0) x.right = delete(x.right, key);
+        else { 
+            if (x.right == null) return x.left;
+            if (x.left  == null) return x.right;
+            Node t = x;
+            x = min(t.right);
+            x.right = deleteMin(t.right);
+            x.left = t.left;
+        } 
+        x.count = size(x.left) + size(x.right) + 1;
+        return x;
     }
 
 }
