@@ -146,7 +146,7 @@ final class Solution {
     /**
      * for checkstyle error.
      */
-    Solution(){
+    private Solution() {
 
     }
     /**
