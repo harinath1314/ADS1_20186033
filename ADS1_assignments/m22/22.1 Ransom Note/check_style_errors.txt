@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m22/22.1 Ransom Note/Solution.java:91:32: '0x7fffffff' is a magic number. [MagicNumber]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m22/22.1 Ransom Note/Solution.java:144:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+Audit done.
+Checkstyle ends with 2 errors.
