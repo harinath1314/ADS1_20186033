@@ -88,7 +88,8 @@ class HashTable {
      * @return     { description_of_the_return_value }
      */
     int hash(final String k) {
-        return (k.hashCode() & 0x7fffffff) % s;
+        final int i = 0x7fffffff;
+        return (k.hashCode() & i) % s;
     }
     /**
      * resizes.
@@ -142,6 +143,12 @@ class HashTable {
  * Solution class.
  */
 final class Solution {
+    /**
+     * for checkstyle error.
+     */
+    Solution(){
+
+    }
     /**
      * main.
      *
