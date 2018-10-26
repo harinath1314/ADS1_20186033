@@ -1,0 +1,1320 @@
+ob1 = MRF-0.48
+ob2 = MRF-0.48
+ob1 = 3M India-1.56
+ *********** 
+hello babuMRF-0.48
+ob2 = 3M India-1.56
+ob1 = Eicher Motors-1.6
+ *********** 
+hello babu3M India-1.56
+ob2 = Eicher Motors-1.6
+ob1 = Honeywell Auto-1.08
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuEicher Motors-1.6
+ob2 = Honeywell Auto-1.08
+ob1 = Bosch-0.3
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuHoneywell Auto-1.08
+ob2 = Bosch-0.3
+ob1 = Nestle India-1.57
+ *********** 
+hello babu3M India-1.56
+ *********** 
+hello babuBosch-0.3
+ob2 = Nestle India-1.57
+ob1 = Tasty Bite Eat-1.23
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuNestle India-1.57
+ob2 = Tasty Bite Eat-1.23
+ob1 = Abbott India-0.46
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuTasty Bite Eat-1.23
+ob2 = Abbott India-0.46
+ob1 = GSK Cons Health-0.84
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuAbbott India-0.46
+ob2 = GSK Cons Health-0.84
+ob1 = WABCO India-1.33
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuAbbott India-0.46
+ *********** 
+hello babuGSK Cons Health-0.84
+ob2 = WABCO India-1.33
+ob1 = Sanofi India-1.21
+ *********** 
+hello babuAbbott India-0.46
+ *********** 
+hello babuGSK Cons Health-0.84
+ *********** 
+hello babuWABCO India-1.33
+ob2 = Sanofi India-1.21
+ob1 = TTK Prestige-2.15
+ *********** 
+hello babu3M India-1.56
+ *********** 
+hello babuNestle India-1.57
+ *********** 
+hello babuSanofi India-1.21
+ob2 = TTK Prestige-2.15
+ob1 = Lakshmi Machine-0.7
+ *********** 
+hello babuNestle India-1.57
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuTTK Prestige-2.15
+ob2 = Lakshmi Machine-0.7
+ob1 = Bajaj Finserv-0.64
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuTTK Prestige-2.15
+ *********** 
+hello babuLakshmi Machine-0.7
+ob2 = Bajaj Finserv-0.64
+ob1 = Bharat Rasayan-2.0
+ *********** 
+hello babuTTK Prestige-2.15
+ *********** 
+hello babuLakshmi Machine-0.7
+ *********** 
+hello babuBajaj Finserv-0.64
+ob2 = Bharat Rasayan-2.0
+ob1 = Schaeffler India-2.57
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuWABCO India-1.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ob2 = Schaeffler India-2.57
+ob1 = HEG Ltd-1.61
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuWABCO India-1.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ob2 = HEG Ltd-1.61
+ob1 = Oracle Fin-0.52
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ *********** 
+hello babuHEG Ltd-1.61
+ob2 = Oracle Fin-0.52
+ob1 = ICRA-2.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ *********** 
+hello babuHEG Ltd-1.61
+ *********** 
+hello babuOracle Fin-0.52
+ob2 = ICRA-2.84
+ob1 = Merck Ltd-4.83
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuGSK Cons Health-0.84
+ *********** 
+hello babuOracle Fin-0.52
+ *********** 
+hello babuICRA-2.84
+ob2 = Merck Ltd-4.83
+MRF-0.48
+Merck Ltd-4.83
+ICRA-2.84
+Oracle Fin-0.52
+HEG Ltd-1.61
+
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuEicher Motors-1.6
+Merck Ltd-4.83
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuBharat Rasayan-2.0
+Bajaj Finserv-0.64
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuHoneywell Auto-1.08
+Lakshmi Machine-0.7
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuTasty Bite Eat-1.23
+TTK Prestige-2.15
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuMRF-0.48
+Eicher Motors-1.6
+
+ob1 = MRF-3.48
+ob2 = MRF-3.48
+ob1 = 3M India-2.56
+ *********** 
+hello babuMRF-3.48
+ob2 = 3M India-2.56
+ob1 = Eicher Motors-0.6
+ *********** 
+hello babu3M India-2.56
+ob2 = Eicher Motors-0.6
+ob1 = Honeywell Auto--1.08
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuEicher Motors-0.6
+ob2 = Honeywell Auto--1.08
+ob1 = Bosch-1.3
+ *********** 
+hello babuEicher Motors-0.6
+ *********** 
+hello babuHoneywell Auto--1.08
+ob2 = Bosch-1.3
+ob1 = Nestle India-4.57
+ *********** 
+hello babu3M India-2.56
+ *********** 
+hello babuBosch-1.3
+ob2 = Nestle India-4.57
+ob1 = Tasty Bite Eat-2.23
+ *********** 
+hello babuBosch-1.3
+ *********** 
+hello babuNestle India-4.57
+ob2 = Tasty Bite Eat-2.23
+ob1 = Abbott India-1.46
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuTasty Bite Eat-2.23
+ob2 = Abbott India-1.46
+ob1 = GSK Cons Health-0.84
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuTasty Bite Eat-2.23
+ *********** 
+hello babuAbbott India-1.46
+ob2 = GSK Cons Health-0.84
+ob1 = WABCO India-0.33
+ *********** 
+hello babuEicher Motors-0.6
+ *********** 
+hello babuAbbott India-1.46
+ *********** 
+hello babuGSK Cons Health-0.84
+ob2 = WABCO India-0.33
+ob1 = Sanofi India-2.21
+ *********** 
+hello babuAbbott India-1.46
+ *********** 
+hello babuGSK Cons Health-0.84
+ *********** 
+hello babuWABCO India-0.33
+ob2 = Sanofi India-2.21
+ob1 = TTK Prestige-0.15
+ *********** 
+hello babu3M India-2.56
+ *********** 
+hello babuNestle India-4.57
+ *********** 
+hello babuSanofi India-2.21
+ob2 = TTK Prestige-0.15
+ob1 = Lakshmi Machine-1.7
+ *********** 
+hello babuNestle India-4.57
+ *********** 
+hello babuSanofi India-2.21
+ *********** 
+hello babuTTK Prestige-0.15
+ob2 = Lakshmi Machine-1.7
+ob1 = Bajaj Finserv-5.64
+ *********** 
+hello babuBosch-1.3
+ *********** 
+hello babuTTK Prestige-0.15
+ *********** 
+hello babuLakshmi Machine-1.7
+ob2 = Bajaj Finserv-5.64
+ob1 = Bharat Rasayan-2.0
+ *********** 
+hello babuTTK Prestige-0.15
+ *********** 
+hello babuLakshmi Machine-1.7
+ *********** 
+hello babuBajaj Finserv-5.64
+ob2 = Bharat Rasayan-2.0
+ob1 = Schaeffler India-4.59
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuTasty Bite Eat-2.23
+ *********** 
+hello babuWABCO India-0.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ob2 = Schaeffler India-4.59
+ob1 = HEG Ltd-2.61
+ *********** 
+hello babuTasty Bite Eat-2.23
+ *********** 
+hello babuWABCO India-0.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-4.59
+ob2 = HEG Ltd-2.61
+ob1 = Oracle Fin-1.52
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-4.59
+ *********** 
+hello babuHEG Ltd-2.61
+ob2 = Oracle Fin-1.52
+ob1 = ICRA-4.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-4.59
+ *********** 
+hello babuHEG Ltd-2.61
+ *********** 
+hello babuOracle Fin-1.52
+ob2 = ICRA-4.84
+ob1 = Merck Ltd-5.83
+ *********** 
+hello babuEicher Motors-0.6
+ *********** 
+hello babuGSK Cons Health-0.84
+ *********** 
+hello babuOracle Fin-1.52
+ *********** 
+hello babuICRA-4.84
+ob2 = Merck Ltd-5.83
+MRF-3.48
+Merck Ltd-5.83
+ICRA-4.84
+Oracle Fin-1.52
+HEG Ltd-2.61
+
+ *********** 
+hello babuICRA-4.84
+ *********** 
+hello babuEicher Motors-0.6
+ *********** 
+hello babuSanofi India-2.21
+ *********** 
+hello babuEicher Motors-0.6
+ *********** 
+hello babuBosch-1.3
+ *********** 
+hello babuEicher Motors-0.6
+Merck Ltd-5.83
+ *********** 
+hello babuICRA-4.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSanofi India-2.21
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuBosch-1.3
+ *********** 
+hello babuBharat Rasayan-2.0
+Bajaj Finserv-5.64
+ *********** 
+hello babuICRA-4.84
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuSanofi India-2.21
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuBosch-1.3
+ *********** 
+hello babuHoneywell Auto--1.08
+Lakshmi Machine-1.7
+ *********** 
+hello babuICRA-4.84
+ *********** 
+hello babuTasty Bite Eat-2.23
+ *********** 
+hello babuSanofi India-2.21
+ *********** 
+hello babuTasty Bite Eat-2.23
+ *********** 
+hello babuBosch-1.3
+ *********** 
+hello babuTasty Bite Eat-2.23
+TTK Prestige-0.15
+ *********** 
+hello babuICRA-4.84
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuSanofi India-2.21
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuBosch-1.3
+ *********** 
+hello babuMRF-3.48
+Eicher Motors-0.6
+
+ob1 = MRF-1.48
+ob2 = MRF-1.48
+ob1 = 3M India-1.56
+ *********** 
+hello babuMRF-1.48
+ob2 = 3M India-1.56
+ob1 = Eicher Motors-1.6
+ *********** 
+hello babu3M India-1.56
+ob2 = Eicher Motors-1.6
+ob1 = Honeywell Auto-1.08
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuEicher Motors-1.6
+ob2 = Honeywell Auto-1.08
+ob1 = Bosch-2.3
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuHoneywell Auto-1.08
+ob2 = Bosch-2.3
+ob1 = Nestle India-4.57
+ *********** 
+hello babu3M India-1.56
+ *********** 
+hello babuBosch-2.3
+ob2 = Nestle India-4.57
+ob1 = Tasty Bite Eat-5.23
+ *********** 
+hello babuBosch-2.3
+ *********** 
+hello babuNestle India-4.57
+ob2 = Tasty Bite Eat-5.23
+ob1 = Abbott India-0.46
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuTasty Bite Eat-5.23
+ob2 = Abbott India-0.46
+ob1 = GSK Cons Health--0.84
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuTasty Bite Eat-5.23
+ *********** 
+hello babuAbbott India-0.46
+ob2 = GSK Cons Health--0.84
+ob1 = WABCO India--1.33
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuAbbott India-0.46
+ *********** 
+hello babuGSK Cons Health--0.84
+ob2 = WABCO India--1.33
+ob1 = Sanofi India--1.21
+ *********** 
+hello babuAbbott India-0.46
+ *********** 
+hello babuGSK Cons Health--0.84
+ *********** 
+hello babuWABCO India--1.33
+ob2 = Sanofi India--1.21
+ob1 = TTK Prestige-2.15
+ *********** 
+hello babu3M India-1.56
+ *********** 
+hello babuNestle India-4.57
+ *********** 
+hello babuSanofi India--1.21
+ob2 = TTK Prestige-2.15
+ob1 = Lakshmi Machine-3.7
+ *********** 
+hello babuNestle India-4.57
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuTTK Prestige-2.15
+ob2 = Lakshmi Machine-3.7
+ob1 = Bajaj Finserv-4.64
+ *********** 
+hello babuBosch-2.3
+ *********** 
+hello babuTTK Prestige-2.15
+ *********** 
+hello babuLakshmi Machine-3.7
+ob2 = Bajaj Finserv-4.64
+ob1 = Bharat Rasayan-2.0
+ *********** 
+hello babuTTK Prestige-2.15
+ *********** 
+hello babuLakshmi Machine-3.7
+ *********** 
+hello babuBajaj Finserv-4.64
+ob2 = Bharat Rasayan-2.0
+ob1 = Schaeffler India-2.57
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuTasty Bite Eat-5.23
+ *********** 
+hello babuWABCO India--1.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ob2 = Schaeffler India-2.57
+ob1 = HEG Ltd-1.61
+ *********** 
+hello babuTasty Bite Eat-5.23
+ *********** 
+hello babuWABCO India--1.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ob2 = HEG Ltd-1.61
+ob1 = Oracle Fin-0.52
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ *********** 
+hello babuHEG Ltd-1.61
+ob2 = Oracle Fin-0.52
+ob1 = ICRA-3.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ *********** 
+hello babuHEG Ltd-1.61
+ *********** 
+hello babuOracle Fin-0.52
+ob2 = ICRA-3.84
+ob1 = Merck Ltd-1.83
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuGSK Cons Health--0.84
+ *********** 
+hello babuOracle Fin-0.52
+ *********** 
+hello babuICRA-3.84
+ob2 = Merck Ltd-1.83
+MRF-1.48
+Merck Ltd-1.83
+ICRA-3.84
+Oracle Fin-0.52
+HEG Ltd-1.61
+
+ *********** 
+hello babuICRA-3.84
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuBosch-2.3
+ *********** 
+hello babuEicher Motors-1.6
+Merck Ltd-1.83
+ *********** 
+hello babuICRA-3.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuBosch-2.3
+ *********** 
+hello babuBharat Rasayan-2.0
+Bajaj Finserv-4.64
+ *********** 
+hello babuICRA-3.84
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuBosch-2.3
+ *********** 
+hello babuHoneywell Auto-1.08
+Lakshmi Machine-3.7
+ *********** 
+hello babuICRA-3.84
+ *********** 
+hello babuTasty Bite Eat-5.23
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuTasty Bite Eat-5.23
+ *********** 
+hello babuBosch-2.3
+ *********** 
+hello babuTasty Bite Eat-5.23
+TTK Prestige-2.15
+ *********** 
+hello babuICRA-3.84
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuBosch-2.3
+ *********** 
+hello babuMRF-1.48
+Eicher Motors-1.6
+
+ob1 = MRF-3.48
+ob2 = MRF-3.48
+ob1 = 3M India-2.56
+ *********** 
+hello babuMRF-3.48
+ob2 = 3M India-2.56
+ob1 = Eicher Motors--1.6
+ *********** 
+hello babu3M India-2.56
+ob2 = Eicher Motors--1.6
+ob1 = Honeywell Auto--1.08
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuEicher Motors--1.6
+ob2 = Honeywell Auto--1.08
+ob1 = Bosch--0.3
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuHoneywell Auto--1.08
+ob2 = Bosch--0.3
+ob1 = Nestle India--1.57
+ *********** 
+hello babu3M India-2.56
+ *********** 
+hello babuBosch--0.3
+ob2 = Nestle India--1.57
+ob1 = Tasty Bite Eat--1.23
+ *********** 
+hello babuBosch--0.3
+ *********** 
+hello babuNestle India--1.57
+ob2 = Tasty Bite Eat--1.23
+ob1 = Abbott India--0.46
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuTasty Bite Eat--1.23
+ob2 = Abbott India--0.46
+ob1 = GSK Cons Health--0.84
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuTasty Bite Eat--1.23
+ *********** 
+hello babuAbbott India--0.46
+ob2 = GSK Cons Health--0.84
+ob1 = WABCO India--1.33
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuAbbott India--0.46
+ *********** 
+hello babuGSK Cons Health--0.84
+ob2 = WABCO India--1.33
+ob1 = Sanofi India--1.21
+ *********** 
+hello babuAbbott India--0.46
+ *********** 
+hello babuGSK Cons Health--0.84
+ *********** 
+hello babuWABCO India--1.33
+ob2 = Sanofi India--1.21
+ob1 = TTK Prestige--2.15
+ *********** 
+hello babu3M India-2.56
+ *********** 
+hello babuNestle India--1.57
+ *********** 
+hello babuSanofi India--1.21
+ob2 = TTK Prestige--2.15
+ob1 = Lakshmi Machine--0.7
+ *********** 
+hello babuNestle India--1.57
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuTTK Prestige--2.15
+ob2 = Lakshmi Machine--0.7
+ob1 = Bajaj Finserv--0.64
+ *********** 
+hello babuBosch--0.3
+ *********** 
+hello babuTTK Prestige--2.15
+ *********** 
+hello babuLakshmi Machine--0.7
+ob2 = Bajaj Finserv--0.64
+ob1 = Bharat Rasayan--2.0
+ *********** 
+hello babuTTK Prestige--2.15
+ *********** 
+hello babuLakshmi Machine--0.7
+ *********** 
+hello babuBajaj Finserv--0.64
+ob2 = Bharat Rasayan--2.0
+ob1 = Schaeffler India--2.57
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuTasty Bite Eat--1.23
+ *********** 
+hello babuWABCO India--1.33
+ *********** 
+hello babuBharat Rasayan--2.0
+ob2 = Schaeffler India--2.57
+ob1 = HEG Ltd--1.61
+ *********** 
+hello babuTasty Bite Eat--1.23
+ *********** 
+hello babuWABCO India--1.33
+ *********** 
+hello babuBharat Rasayan--2.0
+ *********** 
+hello babuSchaeffler India--2.57
+ob2 = HEG Ltd--1.61
+ob1 = Oracle Fin--0.52
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuBharat Rasayan--2.0
+ *********** 
+hello babuSchaeffler India--2.57
+ *********** 
+hello babuHEG Ltd--1.61
+ob2 = Oracle Fin--0.52
+ob1 = ICRA--2.84
+ *********** 
+hello babuBharat Rasayan--2.0
+ *********** 
+hello babuSchaeffler India--2.57
+ *********** 
+hello babuHEG Ltd--1.61
+ *********** 
+hello babuOracle Fin--0.52
+ob2 = ICRA--2.84
+ob1 = Merck Ltd-4.83
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuGSK Cons Health--0.84
+ *********** 
+hello babuOracle Fin--0.52
+ *********** 
+hello babuICRA--2.84
+ob2 = Merck Ltd-4.83
+MRF-3.48
+Merck Ltd-4.83
+ICRA--2.84
+Oracle Fin--0.52
+HEG Ltd--1.61
+
+ *********** 
+hello babuICRA--2.84
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuBosch--0.3
+ *********** 
+hello babuEicher Motors--1.6
+Merck Ltd-4.83
+ *********** 
+hello babuICRA--2.84
+ *********** 
+hello babuBharat Rasayan--2.0
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuBharat Rasayan--2.0
+ *********** 
+hello babuBosch--0.3
+ *********** 
+hello babuBharat Rasayan--2.0
+Bajaj Finserv--0.64
+ *********** 
+hello babuICRA--2.84
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuBosch--0.3
+ *********** 
+hello babuHoneywell Auto--1.08
+Lakshmi Machine--0.7
+ *********** 
+hello babuICRA--2.84
+ *********** 
+hello babuTasty Bite Eat--1.23
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuTasty Bite Eat--1.23
+ *********** 
+hello babuBosch--0.3
+ *********** 
+hello babuTasty Bite Eat--1.23
+TTK Prestige--2.15
+ *********** 
+hello babuICRA--2.84
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuSanofi India--1.21
+ *********** 
+hello babuMRF-3.48
+ *********** 
+hello babuBosch--0.3
+ *********** 
+hello babuMRF-3.48
+Eicher Motors--1.6
+
+ob1 = MRF-0.48
+ob2 = MRF-0.48
+ob1 = 3M India-1.56
+ *********** 
+hello babuMRF-0.48
+ob2 = 3M India-1.56
+ob1 = Eicher Motors-1.6
+ *********** 
+hello babu3M India-1.56
+ob2 = Eicher Motors-1.6
+ob1 = Honeywell Auto-1.08
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuEicher Motors-1.6
+ob2 = Honeywell Auto-1.08
+ob1 = Bosch-0.3
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuHoneywell Auto-1.08
+ob2 = Bosch-0.3
+ob1 = Nestle India-1.57
+ *********** 
+hello babu3M India-1.56
+ *********** 
+hello babuBosch-0.3
+ob2 = Nestle India-1.57
+ob1 = Tasty Bite Eat-1.23
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuNestle India-1.57
+ob2 = Tasty Bite Eat-1.23
+ob1 = Abbott India-0.46
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuTasty Bite Eat-1.23
+ob2 = Abbott India-0.46
+ob1 = GSK Cons Health-0.84
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuAbbott India-0.46
+ob2 = GSK Cons Health-0.84
+ob1 = WABCO India-1.33
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuAbbott India-0.46
+ *********** 
+hello babuGSK Cons Health-0.84
+ob2 = WABCO India-1.33
+ob1 = Sanofi India-1.21
+ *********** 
+hello babuAbbott India-0.46
+ *********** 
+hello babuGSK Cons Health-0.84
+ *********** 
+hello babuWABCO India-1.33
+ob2 = Sanofi India-1.21
+ob1 = TTK Prestige-2.15
+ *********** 
+hello babu3M India-1.56
+ *********** 
+hello babuNestle India-1.57
+ *********** 
+hello babuSanofi India-1.21
+ob2 = TTK Prestige-2.15
+ob1 = Lakshmi Machine-0.7
+ *********** 
+hello babuNestle India-1.57
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuTTK Prestige-2.15
+ob2 = Lakshmi Machine-0.7
+ob1 = Bajaj Finserv-0.64
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuTTK Prestige-2.15
+ *********** 
+hello babuLakshmi Machine-0.7
+ob2 = Bajaj Finserv-0.64
+ob1 = Bharat Rasayan-2.0
+ *********** 
+hello babuTTK Prestige-2.15
+ *********** 
+hello babuLakshmi Machine-0.7
+ *********** 
+hello babuBajaj Finserv-0.64
+ob2 = Bharat Rasayan-2.0
+ob1 = Schaeffler India-2.57
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuWABCO India-1.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ob2 = Schaeffler India-2.57
+ob1 = HEG Ltd-1.61
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuWABCO India-1.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ob2 = HEG Ltd-1.61
+ob1 = Oracle Fin-0.52
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ *********** 
+hello babuHEG Ltd-1.61
+ob2 = Oracle Fin-0.52
+ob1 = ICRA-2.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-2.57
+ *********** 
+hello babuHEG Ltd-1.61
+ *********** 
+hello babuOracle Fin-0.52
+ob2 = ICRA-2.84
+ob1 = Merck Ltd-4.83
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuGSK Cons Health-0.84
+ *********** 
+hello babuOracle Fin-0.52
+ *********** 
+hello babuICRA-2.84
+ob2 = Merck Ltd-4.83
+MRF-0.48
+Merck Ltd-4.83
+ICRA-2.84
+Oracle Fin-0.52
+HEG Ltd-1.61
+
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuEicher Motors-1.6
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuEicher Motors-1.6
+Merck Ltd-4.83
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuBharat Rasayan-2.0
+Bajaj Finserv-0.64
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuHoneywell Auto-1.08
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuHoneywell Auto-1.08
+Lakshmi Machine-0.7
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuTasty Bite Eat-1.23
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuTasty Bite Eat-1.23
+TTK Prestige-2.15
+ *********** 
+hello babuICRA-2.84
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuSanofi India-1.21
+ *********** 
+hello babuMRF-0.48
+ *********** 
+hello babuBosch-0.3
+ *********** 
+hello babuMRF-0.48
+Eicher Motors-1.6
+
+ob1 = MRF-1.48
+ob2 = MRF-1.48
+ob1 = 3M India-1.56
+ *********** 
+hello babuMRF-1.48
+ob2 = 3M India-1.56
+ob1 = Eicher Motors--1.6
+ *********** 
+hello babu3M India-1.56
+ob2 = Eicher Motors--1.6
+ob1 = Honeywell Auto--1.08
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuEicher Motors--1.6
+ob2 = Honeywell Auto--1.08
+ob1 = Bosch-0.34
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuHoneywell Auto--1.08
+ob2 = Bosch-0.34
+ob1 = Nestle India-1.57
+ *********** 
+hello babu3M India-1.56
+ *********** 
+hello babuBosch-0.34
+ob2 = Nestle India-1.57
+ob1 = Tasty Bite Eat-0.23
+ *********** 
+hello babuBosch-0.34
+ *********** 
+hello babuNestle India-1.57
+ob2 = Tasty Bite Eat-0.23
+ob1 = Abbott India-1.46
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuTasty Bite Eat-0.23
+ob2 = Abbott India-1.46
+ob1 = GSK Cons Health-1.84
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuTasty Bite Eat-0.23
+ *********** 
+hello babuAbbott India-1.46
+ob2 = GSK Cons Health-1.84
+ob1 = WABCO India-0.33
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuAbbott India-1.46
+ *********** 
+hello babuGSK Cons Health-1.84
+ob2 = WABCO India-0.33
+ob1 = Sanofi India-0.21
+ *********** 
+hello babuAbbott India-1.46
+ *********** 
+hello babuGSK Cons Health-1.84
+ *********** 
+hello babuWABCO India-0.33
+ob2 = Sanofi India-0.21
+ob1 = TTK Prestige-3.15
+ *********** 
+hello babu3M India-1.56
+ *********** 
+hello babuNestle India-1.57
+ *********** 
+hello babuSanofi India-0.21
+ob2 = TTK Prestige-3.15
+ob1 = Lakshmi Machine-4.7
+ *********** 
+hello babuNestle India-1.57
+ *********** 
+hello babuSanofi India-0.21
+ *********** 
+hello babuTTK Prestige-3.15
+ob2 = Lakshmi Machine-4.7
+ob1 = Bajaj Finserv-3.64
+ *********** 
+hello babuBosch-0.34
+ *********** 
+hello babuTTK Prestige-3.15
+ *********** 
+hello babuLakshmi Machine-4.7
+ob2 = Bajaj Finserv-3.64
+ob1 = Bharat Rasayan-2.0
+ *********** 
+hello babuTTK Prestige-3.15
+ *********** 
+hello babuLakshmi Machine-4.7
+ *********** 
+hello babuBajaj Finserv-3.64
+ob2 = Bharat Rasayan-2.0
+ob1 = Schaeffler India-1.57
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuTasty Bite Eat-0.23
+ *********** 
+hello babuWABCO India-0.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ob2 = Schaeffler India-1.57
+ob1 = HEG Ltd-1.61
+ *********** 
+hello babuTasty Bite Eat-0.23
+ *********** 
+hello babuWABCO India-0.33
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-1.57
+ob2 = HEG Ltd-1.61
+ob1 = Oracle Fin-1.52
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-1.57
+ *********** 
+hello babuHEG Ltd-1.61
+ob2 = Oracle Fin-1.52
+ob1 = ICRA-5.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSchaeffler India-1.57
+ *********** 
+hello babuHEG Ltd-1.61
+ *********** 
+hello babuOracle Fin-1.52
+ob2 = ICRA-5.84
+ob1 = Merck Ltd-3.83
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuGSK Cons Health-1.84
+ *********** 
+hello babuOracle Fin-1.52
+ *********** 
+hello babuICRA-5.84
+ob2 = Merck Ltd-3.83
+MRF-1.48
+Merck Ltd-3.83
+ICRA-5.84
+Oracle Fin-1.52
+HEG Ltd-1.61
+
+ *********** 
+hello babuICRA-5.84
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuSanofi India-0.21
+ *********** 
+hello babuEicher Motors--1.6
+ *********** 
+hello babuBosch-0.34
+ *********** 
+hello babuEicher Motors--1.6
+Merck Ltd-3.83
+ *********** 
+hello babuICRA-5.84
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuSanofi India-0.21
+ *********** 
+hello babuBharat Rasayan-2.0
+ *********** 
+hello babuBosch-0.34
+ *********** 
+hello babuBharat Rasayan-2.0
+Bajaj Finserv-3.64
+ *********** 
+hello babuICRA-5.84
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuSanofi India-0.21
+ *********** 
+hello babuHoneywell Auto--1.08
+ *********** 
+hello babuBosch-0.34
+ *********** 
+hello babuHoneywell Auto--1.08
+Lakshmi Machine-4.7
+ *********** 
+hello babuICRA-5.84
+ *********** 
+hello babuTasty Bite Eat-0.23
+ *********** 
+hello babuSanofi India-0.21
+ *********** 
+hello babuTasty Bite Eat-0.23
+ *********** 
+hello babuBosch-0.34
+ *********** 
+hello babuTasty Bite Eat-0.23
+TTK Prestige-3.15
+ *********** 
+hello babuICRA-5.84
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuSanofi India-0.21
+ *********** 
+hello babuMRF-1.48
+ *********** 
+hello babuBosch-0.34
+ *********** 
+hello babuMRF-1.48
+Eicher Motors--1.6
+
