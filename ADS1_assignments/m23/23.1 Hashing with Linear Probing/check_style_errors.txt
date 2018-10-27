@@ -1,18 +1,2 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:24: Missing a Javadoc comment. [JavadocType]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:80:25: Parameter item should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:93: First sentence should end with a period. [JavadocStyle]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:126: First sentence should end with a period. [JavadocStyle]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:141: First sentence should end with a period. [JavadocStyle]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:150:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:150:29: Parameter first should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:150:40: 'first' hides a field. [HiddenField]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:158: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:158:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:159: First sentence should end with a period. [JavadocStyle]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:162: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:162:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m23/23.1 Hashing with Linear Probing/Queue.java:163: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 15 errors.

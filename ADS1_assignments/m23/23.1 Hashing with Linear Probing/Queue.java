@@ -20,7 +20,11 @@ public class Queue<Item> implements Iterable<Item> {
      */// end of queue
     private int n;               // number of elements on queue
 
-    // helper linked list class
+    /**
+     * Class for node.
+     *
+     * @param      <Item>  The item
+     */
     private static class Node<Item> {
         /**
          * .
@@ -77,7 +81,7 @@ public class Queue<Item> implements Iterable<Item> {
      *
      * @param  item the item to add
      */
-    public void enqueue(Item item) {
+    public void enqueue(final Item item) {
         Node<Item> oldlast = last;
         last = new Node<Item>();
         last.item = item;
@@ -91,7 +95,7 @@ public class Queue<Item> implements Iterable<Item> {
     }
 
     /**
-     * Removes and returns the item on this queue that was lea
+     * Removes and returns the item on this queue that was lea.
      *
      * @return the item on this queue that was least recently added
      * @throws NoSuchElementException if this queue is empty
@@ -124,7 +128,7 @@ public class Queue<Item> implements Iterable<Item> {
     }
 
     /**
-     * Returns an iterator that iterates over the items in this que
+     * Returns an iterator that iterates over the items in this que.
      *
      * @return an iterator that iterates over the items in this queu
      */
@@ -139,29 +143,33 @@ public class Queue<Item> implements Iterable<Item> {
      */
     private class ListIterator<Item> implements Iterator<Item> {
         /**
-         * { var_description }
+         * { var_description }.
          */
         private Node<Item> current;
         /**
          * Constructs the object.
          *
-         * @param      first  The first
+         * @param      firs  The first
          */
-        public ListIterator(Node<Item> first) {
-            current = first;
+        ListIterator(final Node<Item> firs) {
+            current = firs;
         }
         /**
          * Determines if it has next.
          *
          * @return     True if has next, False otherwise.
          */
-        public boolean hasNext()  { return current != null;                     }
+        public boolean hasNext()  {
+            return current != null;
+        }
         /**
-         * { function_description }
+         * { function_description }.
          */
-        public void remove()      { throw new UnsupportedOperationException();  }
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
         /**
-         * { function_description }
+         * { function_description }.
          *
          * @return     { description_of_the_return_value }
          */
