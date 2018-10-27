@@ -27,7 +27,7 @@ public class Solution {
 		}
 		int input2 = Integer.parseInt(sc.nextLine());
 		for (int j = 0; j < input2; j++) {
-			String[] query = sc.nextLine().split(",");
+			String[] query = sc.nextLine().split(" ");
 
 			switch (query[2]) {
 				case"1":
