@@ -20,7 +20,7 @@ public class Solution {
 		LinearProbingHashST<String, Student> lphs = new LinearProbingHashST<String, Student>();
 		for (int i = 0; i < input; i++) {
 			String data = sc.nextLine();
-			String[] stud = data.split(", ");
+			String[] stud = data.split(",");
 			lphs.put(stud[0], new Student(stud[1], Double.parseDouble(stud[2])));
 
 
@@ -28,7 +28,7 @@ public class Solution {
 		}
 		int input2 = Integer.parseInt(sc.nextLine());
 		for (int j = 0; j < input2; j++) {
-			String[] query = sc.nextLine().split(", ");
+			String[] query = sc.nextLine().split(",");
 
 			switch (query[2]) {
 				case"1":
