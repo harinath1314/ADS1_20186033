@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m24/1/Solution.java:10:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m24/1/Solution.java:14:15: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m24/1/Solution.java:10: Class Solution should be declared as final. [FinalClass]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
