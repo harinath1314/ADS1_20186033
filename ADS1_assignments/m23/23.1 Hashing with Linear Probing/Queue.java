@@ -25,13 +25,28 @@ import java.util.NoSuchElementException;
  *  @param <Item> the generic type of an item in this queue
  */
 public class Queue<Item> implements Iterable<Item> {
-    private Node<Item> first;    // beginning of queue
-    private Node<Item> last;     // end of queue
+    /**
+     * .
+     */
+    private Node<Item> first;
+    /**
+     * .
+     */// beginning of queue
+    private Node<Item> last;
+    /**
+     * .
+     */// end of queue
     private int n;               // number of elements on queue
 
     // helper linked list class
     private static class Node<Item> {
+        /**
+         * .
+         */
         private Item item;
+        /**
+         * .
+         */
         private Node<Item> next;
     }
 
@@ -69,7 +84,9 @@ public class Queue<Item> implements Iterable<Item> {
      * @throws NoSuchElementException if this queue is empty
      */
     public Item peek() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        if (isEmpty()) {
+            throw new NoSuchElementException("Queue underflow");
+        }
         return first.item;
     }
 
@@ -83,8 +100,11 @@ public class Queue<Item> implements Iterable<Item> {
         last = new Node<Item>();
         last.item = item;
         last.next = null;
-        if (isEmpty()) first = last;
-        else           oldlast.next = last;
+        if (isEmpty()) {
+            first = last;
+        } else {
+            oldlast.next = last;
+        }
         n++;
     }
 
@@ -95,11 +115,15 @@ public class Queue<Item> implements Iterable<Item> {
      * @throws NoSuchElementException if this queue is empty
      */
     public Item dequeue() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
+        if (isEmpty()) {
+            throw new NoSuchElementException("Queue underflow");
+        }
         Item item = first.item;
         first = first.next;
         n--;
-        if (isEmpty()) last = null;   // to avoid loitering
+        if (isEmpty()) {
+            last = null;
+        }  // to avoid loitering
         return item;
     }
 
@@ -115,7 +139,7 @@ public class Queue<Item> implements Iterable<Item> {
             s.append(' ');
         }
         return s.toString();
-    } 
+    }
 
     /**
      * Returns an iterator that iterates over the items in this queue in FIFO order.
@@ -123,7 +147,7 @@ public class Queue<Item> implements Iterable<Item> {
      * @return an iterator that iterates over the items in this queue in FIFO order
      */
     public Iterator<Item> iterator()  {
-        return new ListIterator<Item>(first);  
+        return new ListIterator<Item>(first);
     }
 
     // an iterator, doesn't implement remove() since it's optional
@@ -138,9 +162,11 @@ public class Queue<Item> implements Iterable<Item> {
         public void remove()      { throw new UnsupportedOperationException();  }
 
         public Item next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }
