@@ -16,11 +16,13 @@ public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int input = Integer.parseInt(sc.nextLine());
-        LinearProbingHashST<String, Student> lphs = new LinearProbingHashST<String, Student>();
+        LinearProbingHashST<String, Student> lphs = new
+        LinearProbingHashST<String, Student>();
         for (int i = 0; i < input; i++) {
             String data = sc.nextLine();
             String[] stud = data.split(",");
-            lphs.put(stud[0], new Student(stud[1], Double.parseDouble(stud[2])));
+            lphs.put(stud[0], new
+                     Student(stud[1], Double.parseDouble(stud[2])));
 
 
 
@@ -103,14 +105,33 @@ class Student {
         return marks;
     }
 }
-
+/**
+ * Class for linear probing hash st.
+ *
+ * @param      <Key>    The key
+ * @param      <Value>  The value
+ */
 class LinearProbingHashST<Key, Value> {
+    /**
+     * init capacity to resize.
+     */
     private static final int INIT_CAPACITY = 4;
-
-    private int n;           // number of key-value pairs in the symbol table
-    private int m;           // size of linear probing table
-    private Key[] keys;      // the keys
-    private Value[] vals;    // the values
+    /**
+     * n no of  values.
+     */
+    private int n;
+    /**
+     * m is keys.
+     */
+    private int m;
+    /**
+     * keys array.
+     */
+    private Key[] keys;
+    /**
+     * values array.
+     */
+    private Value[] vals;
 
 
     /**
@@ -160,7 +181,10 @@ class LinearProbingHashST<Key, Value> {
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public boolean contains(Key key) {
-        if (key == null) throw new IllegalArgumentException("argument to contains() is null");
+        if (key == null) {
+            throw new IllegalArgumentException(
+                "argument to contains() is null");
+        }
         return get(key) != null;
     }
 
@@ -169,9 +193,10 @@ class LinearProbingHashST<Key, Value> {
         return (key.hashCode() & 0x7fffffff) % m;
     }
 
-    // resizes the hash table to the given capacity by re-hashing all of the keys
+    // resizes the hash table to given capacity by re-hashing all of the keys
     private void resize(int capacity) {
-        LinearProbingHashST<Key, Value> temp = new LinearProbingHashST<Key, Value>(capacity);
+        LinearProbingHashST<Key, Value> temp = new
+        LinearProbingHashST<Key, Value>(capacity);
         for (int i = 0; i < m; i++) {
             if (keys[i] != null) {
                 temp.put(keys[i], vals[i]);
@@ -183,9 +208,9 @@ class LinearProbingHashST<Key, Value> {
     }
 
     /**
-     * Inserts the specified key-value pair into the symbol table, overwriting the old
-     * value with the new value if the symbol table already contains the specified key.
-     * Deletes the specified key (and its associated value) from this symbol table
+     * Inserts the specified key-value  symbol table, overwriting the old
+     * value with the new value if the symbol  contains the specified key.
+     * Deletes the specified key (and its associated value)  this symbol table
      * if the specified value is {@code null}.
      *
      * @param  key the key
@@ -193,7 +218,10 @@ class LinearProbingHashST<Key, Value> {
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public void put(Key key, Value val) {
-        if (key == null) throw new IllegalArgumentException("first argument to put() is null");
+        if (key == null) {
+            throw new IllegalArgumentException(
+                "first argument to put() is null");
+        }
 
         if (val == null) {
             delete(key);
@@ -201,7 +229,9 @@ class LinearProbingHashST<Key, Value> {
         }
 
         // double table size if 50% full
-        if (n >= m / 2) resize(2 * m);
+        if (n >= m / 2) {
+            resize(2 * m);
+        }
 
         int i;
         for (i = hash(key); keys[i] != null; i = (i + 1) % m) {
@@ -223,23 +253,31 @@ class LinearProbingHashST<Key, Value> {
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public Value get(Key key) {
-        if (key == null) throw new IllegalArgumentException("argument to get() is null");
-        for (int i = hash(key); keys[i] != null; i = (i + 1) % m)
-            if (keys[i].equals(key))
+        if (key == null) {
+            throw new IllegalArgumentException(" get() is null");
+        }
+        for (int i = hash(key); keys[i] != null; i = (i + 1) % m) {
+            if (keys[i].equals(key)) {
                 return vals[i];
+            }
+        }
         return null;
     }
 
     /**
-     * Removes the specified key and its associated value from this symbol table
+     * Removes the specified key and its associated  this symbol table.
      * (if the key is in this symbol table).
      *
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public void delete(Key key) {
-        if (key == null) throw new IllegalArgumentException("argument to delete() is null");
-        if (!contains(key)) return;
+        if (key == null) {
+            throw new IllegalArgumentException("delte() s null");
+        }
+        if (!contains(key)) {
+            return;
+        }
 
         // find position i of key
         int i = hash(key);
@@ -267,36 +305,23 @@ class LinearProbingHashST<Key, Value> {
         n--;
 
         // halves size of array if it's 12.5% full or less
-        if (n > 0 && n <= m / 8) resize(m / 2);
+        if (n > 0 && n <= m / 8) {
+            resize(m / 2);
+        }
 
         assert check();
     }
-
     /**
-     * Returns all keys in this symbol table as an {@code Iterable}.
-     * To iterate over all of the keys in the symbol table named {@code st},
-     * use the foreach notation: {@code for (Key key : st.keys())}.
+     * check function.
      *
-     * @return all keys in this symbol table
+     * @return     { description_of_the_return_value }
      */
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // public Iterable<Key> keys() {
-    //  Queue<Key> queue = new Queue<Key>();
-    //  for (int i = 0; i < m; i++)
-    //      if (keys[i] != null) queue.enqueue(keys[i]);
-    //  return queue;
-    // }
-
-    // integrity check - don't check after each put() because
-    // integrity not maintained during a delete()
-    // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private boolean check() {
 
         // check that hash table is at most 50% full
         if (m < 2 * n) {
-            System.err.println("Hash table size m = " + m + "; array size n = " + n);
+            System.err.println("Hash table size m = "
+                               + m + "; array size n = " + n);
             return false;
         }
 
@@ -304,7 +329,8 @@ class LinearProbingHashST<Key, Value> {
         for (int i = 0; i < m; i++) {
             if (keys[i] == null) continue;
             else if (get(keys[i]) != vals[i]) {
-                System.err.println("get[" + keys[i] + "] = " + get(keys[i]) + "; vals[i] = " + vals[i]);
+                System.err.println("get[" + keys[i] + "] = "
+                                   + get(keys[i]) + "; vals[i] = " + vals[i]);
                 return false;
             }
         }
@@ -312,5 +338,3 @@ class LinearProbingHashST<Key, Value> {
     }
 
 }
-
-
