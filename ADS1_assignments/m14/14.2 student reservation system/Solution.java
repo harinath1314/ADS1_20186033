@@ -1,6 +1,6 @@
 /**
  * module 14.
- * assigmnet 14.2... 
+ * assigmnet 14.2...
  * author harinatha reddy
  * date : 10-10-18
  */
@@ -340,10 +340,10 @@ final class Solution {
         for (int i = 0; i < n; i++) {
             String[] input = scan.nextLine().split(",");
             students[i] = new Details(input[0], input[1],
-            Integer.parseInt(input[2]),
-                    Integer.parseInt(input[2 + 1]),
-                    Integer.parseInt(input[2 + 2]),
-                    Integer.parseInt(input[2 + 2 + 1]), input[2 + 2 + 2]);
+                                      Integer.parseInt(input[2]),
+                                      Integer.parseInt(input[2 + 1]),
+                                      Integer.parseInt(input[2 + 2]),
+                                      Integer.parseInt(input[2 + 2 + 1]), input[2 + 2 + 2]);
         }
         Heapsort heap = new Heapsort(students, n);
         students = heap.sort();

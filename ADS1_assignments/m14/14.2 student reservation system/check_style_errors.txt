@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.2 student reservation system/Solution.java:3: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.2 student reservation system/Solution.java:44:8: Unused @param tag for 'n'. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.2 student reservation system/Solution.java:45:8: Unused @param tag for 'd'. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.2 student reservation system/Solution.java:46:8: Unused @param tag for 's1'. [JavadocMethod]
@@ -15,5 +14,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.2 student reservation system/Solution.java:53:38: Expected @param tag for 'sb3'. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.2 student reservation system/Solution.java:53:53: Expected @param tag for 'tot'. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.2 student reservation system/Solution.java:53:71: Expected @param tag for 'reservation'. [JavadocMethod]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS1_20186033/ADS1_20186033/ADS1_assignments/m14/14.2 student reservation system/Solution.java:346: Line is longer than 80 characters (found 92). [LineLength]
 Audit done.
 Checkstyle ends with 16 errors.
