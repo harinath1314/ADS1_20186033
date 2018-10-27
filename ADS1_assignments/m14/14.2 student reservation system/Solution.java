@@ -358,7 +358,7 @@ final class Solution {
         int[] indices = new int[bc + sc + st];
         int i = 0;
         for (int k = open; k < n; k++) {
-            if (students[k].getcategory().equals("SC") && bc > 0) {
+            if (students[k].getcategory().equals("BC") && bc > 0) {
                 indices[i++] = k;
                 bc--;
             } else if (students[k].getcategory().
