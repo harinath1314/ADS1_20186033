@@ -395,7 +395,7 @@ public final class Solution {
         }
         int nOqueries = Integer.parseInt(sc.nextLine());
         for (int j = 0; j < nOqueries; j++) {
-            String[] query = sc.nextLine().split(",");
+            String[] query = sc.nextLine().split(" ");
 
             switch (query[0]) {
             case"BE":
