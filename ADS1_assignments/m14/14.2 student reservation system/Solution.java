@@ -157,7 +157,7 @@ class Details {
      * @return     { description_of_the_return_value }
      */
     public int compareTo(final Details that) {
-        if (this.gettotal() < that.gettotal()) {
+        if (this.gettotal() > that.gettotal()) {
             return 1;
         } else if (this.gettotal() < that.gettotal()) {
             return -1;
