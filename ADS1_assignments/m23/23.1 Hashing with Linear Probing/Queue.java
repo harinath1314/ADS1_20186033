@@ -2,27 +2,9 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- *  The {@code Queue} class represents a first-in-first-out (FIFO)
- *  queue of generic items.
- *  It supports the usual <em>enqueue</em> and <em>dequeue</em>
- *  operations, along with methods for peeking at the first item,
- *  testing if the queue is empty, and iterating through
- *  the items in FIFO order.
- *  <p>
- *  This implementation uses a singly linked list with a static nested class for
- *  linked-list nodes. See {@link LinkedQueue} for the version from the
- *  textbook that uses a non-static nested class.
- *  See {@link ResizingArrayQueue} for a version that uses a resizing array.
- *  The <em>enqueue</em>, <em>dequeue</em>, <em>peek</em>, <em>size</em>, and <em>is-empty</em>
- *  operations all take constant time in the worst case.
- *  <p>
- *  For additional documentation, see <a href="https://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
+ * List of .
  *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
- *
- *  @param <Item> the generic type of an item in this queue
+ * @param      <Item>  The item
  */
 public class Queue<Item> implements Iterable<Item> {
     /**
@@ -109,7 +91,7 @@ public class Queue<Item> implements Iterable<Item> {
     }
 
     /**
-     * Removes and returns the item on this queue that was least recently added.
+     * Removes and returns the item on this queue that was lea
      *
      * @return the item on this queue that was least recently added
      * @throws NoSuchElementException if this queue is empty
@@ -142,25 +124,47 @@ public class Queue<Item> implements Iterable<Item> {
     }
 
     /**
-     * Returns an iterator that iterates over the items in this queue in FIFO order.
+     * Returns an iterator that iterates over the items in this que
      *
-     * @return an iterator that iterates over the items in this queue in FIFO order
+     * @return an iterator that iterates over the items in this queu
      */
     public Iterator<Item> iterator()  {
         return new ListIterator<Item>(first);
     }
 
-    // an iterator, doesn't implement remove() since it's optional
+    /**
+     * Class for list iterator.
+     *
+     * @param      <Item>  The item
+     */
     private class ListIterator<Item> implements Iterator<Item> {
+        /**
+         * { var_description }
+         */
         private Node<Item> current;
-
+        /**
+         * Constructs the object.
+         *
+         * @param      first  The first
+         */
         public ListIterator(Node<Item> first) {
             current = first;
         }
-
+        /**
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext()  { return current != null;                     }
+        /**
+         * { function_description }
+         */
         public void remove()      { throw new UnsupportedOperationException();  }
-
+        /**
+         * { function_description }
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Item next() {
             if (!hasNext()) {
                 throw new NoSuchElementException();
