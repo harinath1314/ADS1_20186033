@@ -41,16 +41,17 @@ class Details {
     /**
      * Constructs the object.
      *
-     * @param      n     { parameter_description }
-     * @param      d     { parameter_description }
-     * @param      s1    The s 1
-     * @param      s2    The s 2
-     * @param      s3    The s 3
-     * @param      t     { parameter_description }
-     * @param      rc    The rectangle
+     * @param      nam     { parameter_description }
+     * @param      date     { parameter_description }
+     * @param      sb1    The s 1
+     * @param      sb2    The s 2
+     * @param      sb3    The s 3
+     * @param      tot     { parameter_description }
+     * @param      reservation    The rectangle
      */
     Details(final String nam, final String date, final int sb1,
-            final int sb2, final int sb3, final int tot, final String reservation) {
+            final int sb2, final int sb3,
+            final int tot, final String reservation) {
         this.name = nam;
         this.dob = date;
         this.sub1 = sb1;
@@ -343,7 +344,7 @@ final class Solution {
                                       Integer.parseInt(input[2]),
                                       Integer.parseInt(input[2 + 1]),
                                       Integer.parseInt(input[2 + 2]),
-                                      Integer.parseInt(input[2 + 2 + 1]), input[2 + 2 + 2]);
+                Integer.parseInt(input[2 + 2 + 1]), input[2 + 2 + 2]);
         }
         Heapsort heap = new Heapsort(students, n);
         students = heap.sort();
