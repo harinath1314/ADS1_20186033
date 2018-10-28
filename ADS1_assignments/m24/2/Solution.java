@@ -400,11 +400,12 @@ public final class Solution {
             switch (query[0]) {
             case"BE":
             for (Student s : rbbst.vals) {
+            	System.out.println(s);
                 
             
-                    if(s.getmarks() >= Double.parseDouble(query[1]) && s.getmarks() <= Double.parseDouble(query[2])) {
-                        System.out.println(s.getname());
-                    }
+                    // if(s.getmarks() >= Double.parseDouble(query[1]) && s.getmarks() <= Double.parseDouble(query[2])) {
+                    //     System.out.println(s.getname());
+                    // }
                     
                 }
 
@@ -414,9 +415,9 @@ public final class Solution {
             for (Student s : rbbst.vals) {
                 
             
-                    if(s.getmarks() <= Double.parseDouble(query[1])) {
-                        System.out.println(s.getname());
-                    }
+                    // if(s.getmarks() <= Double.parseDouble(query[1])) {
+                    //     System.out.println(s.getname());
+                    // }
                     
                 }
                 break;
@@ -424,9 +425,9 @@ public final class Solution {
             for (Student s : rbbst.vals) {
                 
             
-                    if(s.getmarks() >= Double.parseDouble(query[1])) {
-                        System.out.println(s.getname());
-                    }
+                    // if(s.getmarks() >= Double.parseDouble(query[1])) {
+                    //     System.out.println(s.getname());
+                    // }
                     
                 }
                 break;
